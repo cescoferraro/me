@@ -78,6 +78,22 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/blog/br/</loc>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/blog/br/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/blog/br/blog/</loc>
     <lastmod>2017-05-29T03:51:34-03:00</lastmod>
     <priority>0</priority>
@@ -121,22 +137,6 @@
                 rel="alternate"
                 hreflang="br"
                 href="https://cescoferraro.github.io/blog/br/fixed/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/blog/br/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/blog/br/"
                 />
   </url>
   

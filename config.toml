@@ -81,14 +81,12 @@ help  = "Help"
 
 [Languages]
 [Languages.en]
-title = "My blog"
 weight = 1
 [Languages.en.params]
 linkedin = "english-link"
 
 [Languages.br]
 copyright = "Tout est à moi"
-title = "Mon blog"
 weight = 2
 [Languages.br.params]
 linkedin = "lien-francais"
