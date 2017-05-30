@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on My blog</title>
+    <link>https://you.github.io/blog/</link>
+    <description>Recent content in Blog on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Mon, 29 May 2017 04:00:50 -0300</lastBuildDate>
+    
+	<atom:link href="https://you.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>websockets</title>
+      <link>https://you.github.io/blog/websockets/</link>
+      <pubDate>Mon, 29 May 2017 04:00:50 -0300</pubDate>
+      
+      <guid>https://you.github.io/blog/websockets/</guid>
+      <description>Yeah ❤️, I got hooked. Everytime I think about coding any server side code, I immediatly think about that little gopher running around. My brain works in Go, I cant help it. So as my first code post I thought it would be a good idea to show you guys how I deal with websockets, since its the main reason I left Python(Flask/Django), Its lack of official support, leave the job to heros like Miguel Grinberg</description>
+    </item>
+    
+    <item>
+      <title>Teto Absoluto </title>
+      <link>https://you.github.io/blog/teto-absoluto/</link>
+      <pubDate>Mon, 29 May 2017 03:51:34 -0300</pubDate>
+      
+      <guid>https://you.github.io/blog/teto-absoluto/</guid>
+      <description>var cesco string = &amp;quot;cesccesco&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>Software Developer Carrer </title>
+      <link>https://you.github.io/blog/software-developer-carrer/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://you.github.io/blog/software-developer-carrer/</guid>
+      <description>I have been coding a lot for the past two years. And by crazy I mean at least a lil bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+    </item>
+    
+  </channel>
+</rss>

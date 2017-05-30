@@ -1,0 +1,31 @@
+#+TITLE: websockets
+#+DATE: 2017-05-29T04:00:50-03:00
+#+PUBLISHDATE: 2017-05-29T04:00:50-03:00
+#+DRAFT: nil
+#+TAGS: nil, nil
+#+DESCRIPTION: Short description
+
+
+
+Yeah :heart:, I got hooked. Everytime I think about coding any server side code,
+I immediatly think about that little gopher running around.
+My brain works in Go, I cant help it. 
+So as my first code post I thought it would be a good idea to show you guys how I deal with websockets,
+since its the main reason I left Python(Flask/Django), 
+Its lack of official support, leave the job to heros like [[http://blog.grinberg.com][Miguel Grinberg]] 
+#+BEGIN_SRC go 
+func main() {
+	flag.Parse()
+	hub := newHub()
+	go hub.run()
+	http.HandleFunc("/", serveHome)
+	http.HandleFunc("/ws", func(w http.ResponseWriter, r *http.Request) {
+		serveWs(hub, w, r)
+	})
+	err := http.ListenAndServe(*addr, nil)
+	if err != nil {
+		log.Fatal("ListenAndServe: ", err)
+	}
+}
+#+END_SRC
+

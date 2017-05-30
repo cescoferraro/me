@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on Mon blog</title>
+    <link>https://you.github.io/br/fixed/</link>
+    <description>Recent content in Fixed on Mon blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Tout est à moi</copyright>
+    <lastBuildDate>Mon, 29 May 2017 23:58:32 -0300</lastBuildDate>
+    
+	<atom:link href="https://you.github.io/br/fixed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>software</title>
+      <link>https://you.github.io/br/software/</link>
+      <pubDate>Mon, 29 May 2017 23:58:32 -0300</pubDate>
+      
+      <guid>https://you.github.io/br/software/</guid>
+      <description>sdjnasnjdf</description>
+    </item>
+    
+    <item>
+      <title>civil</title>
+      <link>https://you.github.io/br/civil/</link>
+      <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
+      
+      <guid>https://you.github.io/br/civil/</guid>
+      <description>Francesco Antonello Ferraro
+Civil Engineer - UFRGS
+OBJETIVO:
+  Carreira desenvolvida na área de Engenharia Civil, com experiência no acompanhamento, porém com ênfase no planejamento e controle de obras. Especialista em software específicos (BIM) visando uma melhor precisão dos dados levantados a fim de diminuir custos, reduzir o retrabalho no intuito de cumprir acordos com os custose prazos estabelecidos pela organização.  RESUMO DAS QUALIFICAÇÕES:
+06/2014 a 06/2016
+Cassano Administradora de Bens Ltda.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://you.github.io/br/about/</link>
+      <pubDate>Sun, 28 May 2017 19:06:17 -0300</pubDate>
+      
+      <guid>https://you.github.io/br/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

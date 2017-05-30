@@ -1,0 +1,10 @@
+#+TITLE: teto
+#+DATE: 2017-05-29T03:51:34-03:00
+#+PUBLISHDATE: 2017-05-29T03:51:34-03:00
+#+DRAFT: nil
+#+TAGS: nil, nil
+#+DESCRIPTION: Short description
+
+#+BEGIN_SRC go 
+  var cesco string = "brazil"
+#+END_SRC
