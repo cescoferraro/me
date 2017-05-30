@@ -1,5 +1,5 @@
 baseurl             = "https://cescoferraro.github.io/blog/"
-builddrafts         = false
+builddrafts         = true 
 canonifyurls        = true
 contentdir          = "content"
 languageCode        = "en-US"
