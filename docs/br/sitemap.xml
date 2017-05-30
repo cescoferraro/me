@@ -48,21 +48,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/blog/br/about/</loc>
-    <lastmod>2017-05-28T19:06:17-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/blog/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/blog/br/about/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/blog/br/blog/software-developer-carrer/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
