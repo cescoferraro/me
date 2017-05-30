@@ -1,4 +1,4 @@
-baseurl             = "https://cescoferraro.github.io/blog/"
+baseurl             = "https://cescoferraro.github.io/me/"
 builddrafts         = true 
 canonifyurls        = true
 relativeURLs	    = true 

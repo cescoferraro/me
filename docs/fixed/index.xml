@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fixed on @cescoferraro</title>
-    <link>https://cescoferraro.github.io/blog/fixed/</link>
+    <link>https://cescoferraro.github.io/me/fixed/</link>
     <description>Recent content in Fixed on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Everything is mine</copyright>
     <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/blog/fixed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/fixed/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>https://cescoferraro.github.io/blog/about/</link>
+      <link>https://cescoferraro.github.io/me/about/</link>
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/blog/about/</guid>
+      <guid>https://cescoferraro.github.io/me/about/</guid>
       <description>english about</description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://cescoferraro.github.io/blog/software/</link>
+      <link>https://cescoferraro.github.io/me/software/</link>
       <pubDate>Mon, 29 May 2017 23:58:32 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/blog/software/</guid>
+      <guid>https://cescoferraro.github.io/me/software/</guid>
       <description>sdjnasnjdf</description>
     </item>
     
     <item>
       <title>civil</title>
-      <link>https://cescoferraro.github.io/blog/civil/</link>
+      <link>https://cescoferraro.github.io/me/civil/</link>
       <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/blog/civil/</guid>
+      <guid>https://cescoferraro.github.io/me/civil/</guid>
       <description>Portuguese Version Only</description>
     </item>
     
     <item>
       <title>portifolio</title>
-      <link>https://cescoferraro.github.io/blog/portifolio/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/</link>
       <pubDate>Mon, 29 May 2017 23:22:06 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/blog/portifolio/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/</guid>
       <description>Francesco Antonello Ferraro
 Civil Engineer - UFRGS
 OBJETIVO:
@@ -55,10 +55,10 @@ Cassano Administradora de Bens Ltda.</description>
     
     <item>
       <title></title>
-      <link>https://cescoferraro.github.io/blog/</link>
+      <link>https://cescoferraro.github.io/me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cescoferraro.github.io/blog/</guid>
+      <guid>https://cescoferraro.github.io/me/</guid>
       <description>Francesco Antonello Ferraro
 Civil Engineer - UFRGS
 OBJETIVO:
