@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cescoferraro.github.io/blog/about/</loc>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/blog/br/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/blog/about/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/blog/software/</loc>
     <lastmod>2017-05-29T23:58:32-03:00</lastmod>
     <xhtml:link
@@ -58,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/blog/about/</loc>
-    <lastmod>2017-05-28T19:06:17-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/blog/blog/software-developer-carrer/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
@@ -114,7 +124,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/blog/fixed/</loc>
-    <lastmod>2017-05-29T23:58:32-03:00</lastmod>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -130,7 +140,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/blog/</loc>
-    <lastmod>2017-05-29T23:58:32-03:00</lastmod>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -146,7 +156,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/blog/tags/nil/</loc>
-    <lastmod>2017-05-29T23:58:32-03:00</lastmod>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -162,7 +172,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/blog/tags/</loc>
-    <lastmod>2017-05-29T23:58:32-03:00</lastmod>
+    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
