@@ -1,3 +1,3 @@
-FROM jojomi/hugo:latest
-COPY . /src
-CMD ./docker.sh 
+FROM kyma/docker-nginx
+COPY docs/ /var/www
+CMD 'nginx'

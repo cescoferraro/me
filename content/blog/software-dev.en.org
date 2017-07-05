@@ -24,3 +24,5 @@ I have been spending quite a long time learning Vim, Gulp, Golang, UNIX concepts
 
 *** Write better english 
 I have done a Contruction Managment Extension course at UCLA. And to be able to enroll I had to take a TOEFL test, which is a English proficiency test. I got A real high score, but my writing skill pulled my average down a bit. So I here wiling to write a bit more, to be a better developer.
+
+#  LocalWords:  description

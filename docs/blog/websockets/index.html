@@ -46,7 +46,32 @@
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atelier-estuary-dark.min.css">
+<link rel="stylesheet" async href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atelier-estuary-dark.min.css">
+<style>
+   
+  td.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px;
+
+  width: 34px;
+   
+  }
+
+   
+  td.hljs-ln-code {
+  padding-left: 10px;
+  }
+</style>
 
 
 
@@ -55,22 +80,22 @@
 
 
 
-    
-    <link rel="stylesheet" href="../../css/reset.css?t=2017-05-30%2002%3a43%3a21.459723654%20-0300%20-03">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2017-05-30%2002%3a43%3a21.459723654%20-0300%20-03">
-    <link rel="stylesheet" href="../../css/main.css?t=2017-05-30%2002%3a43%3a21.459723654%20-0300%20-03">
-    
-        <link rel="stylesheet" href="../../css/override.css?t=2017-05-30%2002%3a43%3a21.459723654%20-0300%20-03">
-    
+
+<link rel="stylesheet" href="../../css/reset.css?t=2017-07-05%2019%3a28%3a48.314676737%20-0300%20-03">
+<link rel="stylesheet" href="../../css/pygments.css?t=2017-07-05%2019%3a28%3a48.314676737%20-0300%20-03">
+<link rel="stylesheet" href="../../css/main.css?t=2017-07-05%2019%3a28%3a48.314676737%20-0300%20-03">
+
+<link rel="stylesheet" href="../../css/override.css?t=2017-07-05%2019%3a28%3a48.314676737%20-0300%20-03">
+
 
 
 
 
 <link rel="shortcut icon"
-
-    href="../../img/favicon.ico"
-
->
+      
+      href="../../img/favicon.ico"
+      
+      >
 
 
 
@@ -200,6 +225,22 @@ func main() {
 }
 </code></pre>
 
+<p>Presidenta honesta!</p>
+
+<pre><code class="language-java">
+public class HelloWorld {
+	public static void main(String[] args) {
+		int largura = 2;
+		int comprimento = 3;
+		int terrenoLargura = 30;
+		int terrenoComprimento = 10;
+		for(int i=1; i&lt;11; i++){
+			System.out.println(&quot;Count is: &quot; + i);
+		}
+	}
+}
+</code></pre>
+
                 <br>
 		<p><a href="../../blog/">Back to posts</a></p>
             </div>
@@ -236,16 +277,26 @@ ga('send', 'pageview');
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/java.min.js"></script>
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/java.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/clojure-repl.min.js"></script>
+    
 
-  <script type="text/javascript">
-    hljs.initHighlightingOnLoad();
-  </script>
+    <script type="text/javascript">
+     hljs.initHighlightingOnLoad();
+     if (window.outerWidth > 600){
+	hljs.initLineNumbersOnLoad();
+     }
+var y = document.querySelectorAll("pre code");
+for(var i = 0; i < y.length; i++) {
+  y[i].innerHTML = y[i].innerHTML.replace("\n", "");
+}
+    </script>
 
 
 

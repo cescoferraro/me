@@ -5,14 +5,13 @@
 #+TAGS: nil, nil
 #+DESCRIPTION: Short description
 
-
-
 Yeah :heart:, I got hooked. Everytime I think about coding any server side code,
 I immediatly think about that little gopher running around.
 My brain works in Go, I cant help it. 
 So as my first code post I thought it would be a good idea to show you guys how I deal with websockets,
 since its the main reason I left Python(Flask/Django), 
 Its lack of official support, leave the job to heros like [[http://blog.grinberg.com][Miguel Grinberg]] 
+
 #+BEGIN_SRC go 
 func main() {
 	flag.Parse()
@@ -28,4 +27,18 @@ func main() {
 	}
 }
 #+END_SRC
+Presidenta honesta!
 
+#+BEGIN_SRC java  
+public class HelloWorld {
+	public static void main(String[] args) {
+		int largura = 2;
+		int comprimento = 3;
+		int terrenoLargura = 30;
+		int terrenoComprimento = 10;
+		for(int i=1; i<11; i++){
+			System.out.println("Count is: " + i);
+		}
+	}
+}
+#+END_SRC

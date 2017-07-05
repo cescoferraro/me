@@ -1,54 +1,54 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  namespace: blog
-  name: blog-ingress
+  namespace: me
+  name: me-ingress
 spec:
   rules:
-  - host: blog.cescoferraro.xyz
+  - host: www.cescoferraro.xyz
     http:
       paths:
       - path: /
         backend:
-          serviceName: blog
-          servicePort: 1313
+          serviceName: me
+          servicePort: 80 
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: blog
-  name: blog
+  namespace: me
+  name: me
   labels:
-    name: blog
+    name: me
 spec:
   selector:
-    name: blog
+    name: me
   ports:
   - name: web
-    port: 1313
-    targetPort: 1313
+    port: 80 
+    targetPort: 80 
     protocol: TCP
 
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-  namespace: blog
-  name: blog
+  namespace: me
+  name: me
   labels:
-    name: blog
+    name: me
 spec:
   replicas: 1
   template:
     metadata:
-      namespace: blog
+      namespace: me
       labels:
-        name: blog
+        name: me
     spec:
       containers:
-        - image: cescoferraro/blog:latest
+        - image: cescoferraro/me:latest
           imagePullPolicy: Always
-          name: blog
+          name: me
           env:
           - name: KUBERNETES
             value: "true"

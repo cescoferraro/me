@@ -64,7 +64,7 @@ noshowreadtime         = false                         # if true, don't show "<x
 selfintro              = ""                            # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/cescoferraro"
 mastodon               = "//example.com/@cescoferraro"
-highlightjslanguages = ["go","java"]                        # additional languages not included in the "common" set
+highlightjslanguages = ["go","java","clojure-repl"]                        # additional languages not included in the "common" set
 highlightjsStyle     = "atelier-estuary-dark"
 
 avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)

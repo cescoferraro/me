@@ -2,18 +2,43 @@
 
 {{ if .Site.Params.forcehttps }}
 <script type="text/javascript">
-    var baseURL = '{{ .Site.BaseURL }}';
-    var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
-    if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
-        window.location.protocol = 'https:';
-    }
+  var baseURL = '{{ .Site.BaseURL }}';
+  var host = baseURL.substring(0, baseURL.length - 1).replace(/\//g, '');
+  if ((host === window.location.host) && (window.location.protocol !== 'https:')) {
+  window.location.protocol = 'https:';
+  }
 </script>
 {{ end }}
 
 <!-- CSS -->
 
 {{ if .Site.Params.highlightjs }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlightjsStyle | default "default" }}.min.css">
+<link rel="stylesheet" async href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlightjsStyle | default "default" }}.min.css">
+<style>
+  /* for block of numbers */
+  td.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  text-align: center;
+  color: #ccc;
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  padding-right: 5px;
+
+  width: 34px;
+  /* your custom style here */
+  }
+
+  /* for block of code */
+  td.hljs-ln-code {
+  padding-left: 10px;
+  }
+</style>
 {{ end }}
 
 <!-- Fonts and icon CSS -->
@@ -22,35 +47,35 @@
 
 {{ if .Site.Params.cachebuster }}
 
-    {{ $t := now }}
-    <link rel="stylesheet" href="/css/reset.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/main.css?t={{$t}}">
-    {{range .Site.Params.extracssfiles}}
-        <link rel="stylesheet" href="{{.}}?t={{$t}}">
-    {{ end }}
+{{ $t := now }}
+<link rel="stylesheet" href="/css/reset.css?t={{$t}}">
+<link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
+<link rel="stylesheet" href="/css/main.css?t={{$t}}">
+{{range .Site.Params.extracssfiles}}
+<link rel="stylesheet" href="{{.}}?t={{$t}}">
+{{ end }}
 
 {{ else }}
 
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/pygments.css">
-    <link rel="stylesheet" href="/css/main.css">
-    {{range .Site.Params.extracssfiles}}
-        <link rel="stylesheet" href="{{.}}">
-    {{end}}
+<link rel="stylesheet" async href="/css/reset.css">
+<link rel="stylesheet" async href="/css/pygments.css">
+<link rel="stylesheet" async href="/css/main.css">
+{{range .Site.Params.extracssfiles}}
+<link rel="stylesheet" href="{{.}}">
+{{end}}
 
 {{ end }}
 
 <!-- Icon -->
 <link rel="shortcut icon"
-{{ if .Site.Params.faviconfile }}
-    href="/{{ .Site.Params.faviconfile }}"
-{{ else }}
-    href="/img/favicon.ico"
-{{ end }}
->
+      {{ if .Site.Params.faviconfile }}
+      href="/{{ .Site.Params.faviconfile }}"
+      {{ else }}
+      href="/img/favicon.ico"
+      {{ end }}
+      >
 
 <!-- RSS -->
 {{ if .RSSLink }}
-  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}
