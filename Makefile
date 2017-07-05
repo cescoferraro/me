@@ -1,6 +1,7 @@
 gh:
 	hugo
 	git commit -am "Publish new verision to github"	
+	git push
 
 me:
 	hugo -b http://www.cescoferraro.xyz
