@@ -28,8 +28,15 @@ identifier             = "blog"
 url                    = "blog/"
 
 [[menu.main]]
-name                   = "About"
+name                   = "Portifolio"
 weight                 = -110
+identifier             = "portifolio"
+title = "portifolio"
+url                    = "portifolio/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -90
 identifier             = "about"
 url                    = "about/"
 

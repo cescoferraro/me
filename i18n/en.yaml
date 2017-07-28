@@ -3,7 +3,13 @@
   translation: "Latest Posts"
 
 - id: blogHeading
-  translation: "Blog"
+  translation: "Posts"
+
+- id: latestPortifolio
+  translation: "Latest Projects"
+
+- id: portifolioHeading 
+  translation: "Portifolio"
 
 - id: pageNotFound
   translation: "Sorry, this page does not exist."
@@ -15,6 +21,9 @@
   translation:
     one: "One minute read"
     other: "{{ .Count }} minutes read"
+
+- id: backToPortifolio
+  translation: "Back to portifolio"
 
 - id: backToPosts
   translation: "Back to posts"

@@ -7,7 +7,13 @@
                     {{ .Content }}
                 </div>
             {{ end }}
+	    {{ if eq .Title "Portifolio" }}
+	    <div class="page-heading">{{ i18n "portifolioHeading" }}</div>
+	    {{ end }}
+	    {{ if eq .Title "Blog" }}
 	    <div class="page-heading">{{ i18n "blogHeading" }}</div>
+	    {{ end }}
+	    <div class="page-heading">{{ i18n .Title}}</div>
             <ul>
                 {{ if eq .Site.Params.bloggroupby "month" }}
                     {{ $.Scratch.Set "datespec" "Jan, 2006" }}

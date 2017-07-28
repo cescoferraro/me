@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portifolio on @cescoferraro</title>
+    <link>https://cescoferraro.github.io/me/portifolio/</link>
+    <description>Recent content in Portifolio on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Everything is mine</copyright>
+    <lastBuildDate>Wed, 31 Aug 2016 03:55:41 -0300</lastBuildDate>
+    
+	<atom:link href="https://cescoferraro.github.io/me/portifolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>boil.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
+      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by OneSignal. Works 100% Offline.</description>
+    </item>
+    
+  </channel>
+</rss>

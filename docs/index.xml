@@ -18,7 +18,7 @@
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/about/</guid>
-      <description>english about</description>
+      <description>Resisdent Rap Dj of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&#39;s write tommorrow&#39;s web today.</description>
     </item>
     
     <item>
@@ -56,30 +56,21 @@ Cassano Administradora de Bens Ltda.</description>
     </item>
     
     <item>
-      <title>websockets</title>
-      <link>https://cescoferraro.github.io/me/blog/websockets/</link>
-      <pubDate>Mon, 29 May 2017 04:00:50 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/blog/websockets/</guid>
-      <description>Yeah ❤️, I got hooked. Everytime I think about coding any server side code, I immediatly think about that little gopher running around. My brain works in Go, I cant help it. So as my first code post I thought it would be a good idea to show you guys how I deal with websockets, since its the main reason I left Python(Flask/Django), Its lack of official support, leave the job to heros like Miguel Grinberg</description>
-    </item>
-    
-    <item>
-      <title>Cloujure </title>
-      <link>https://cescoferraro.github.io/me/blog/cloujure/</link>
-      <pubDate>Mon, 29 May 2017 03:51:34 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/blog/cloujure/</guid>
-      <description>(defn say-hello &amp;quot;Takes name argument and say hello to the name&amp;quot; [name] (println (str &amp;quot;Hello, &amp;quot; name)))  </description>
-    </item>
-    
-    <item>
-      <title>Software Developer Carrer </title>
-      <link>https://cescoferraro.github.io/me/blog/software-developer-carrer/</link>
+      <title>Software Developer Career </title>
+      <link>https://cescoferraro.github.io/me/blog/software-developer-career/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/blog/software-developer-carrer/</guid>
-      <description>I have been coding a lot for the past two years. And by crazy I mean at least a lil bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+      <guid>https://cescoferraro.github.io/me/blog/software-developer-career/</guid>
+      <description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+    </item>
+    
+    <item>
+      <title>boil.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
+      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by OneSignal. Works 100% Offline.</description>
     </item>
     
   </channel>
