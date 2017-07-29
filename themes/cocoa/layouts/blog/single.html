@@ -1,5 +1,4 @@
 {{ partial "header.html" . }}
-
 <section class="main post non-narrow zero-top-spacing">
     <div class="container">
         <div class="content">
@@ -10,12 +9,12 @@
                 </div>
                 <div class="meta">
                     {{ if and .Site.Params.dateformfull .Site.Params.dateform }}
-                    <div class="date" title='{{ .Date.Format .Site.Params.dateformfull }}'>{{ .Date.Format .Site.Params.dateform }}</div>
+			<div class="date" title='{{ .Date.Format .Site.Params.dateformfull }}'>{{ .Date.Format .Site.Params.dateform }}</div>
                     {{ else }}
-                    <div class="date" title='{{ .Date.Format "Mon Jan 2 2006 15:04:05 MST" }}'>{{ .Date.Format "Jan 2, 2006" }}</div>
+			<div class="date" title='{{ .Date.Format "Mon Jan 2 2006 15:04:05 MST" }}'>{{ .Date.Format "Jan 2, 2006" }}</div>
                     {{ end }}
                     {{ if not .Site.Params.noshowreadtime }}
-		    <div class="reading-time"><div class="middot"></div>{{ i18n "readingTime" .ReadingTime }}</div>
+			<div class="reading-time"><div class="middot"></div>{{ i18n "readingTime" .ReadingTime }}</div>
                     {{ end }}
                 </div>
             </div>

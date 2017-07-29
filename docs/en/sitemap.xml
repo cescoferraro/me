@@ -3,252 +3,247 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/boil/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/boil/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/boil/"
+                href="https://cescoferraro.github.io/me/br/portifolio/boil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/boil/"
+                href="https://cescoferraro.github.io/me/portifolio/boil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/about/</loc>
+    <loc>https://cescoferraro.github.io/me/about/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/about/"
+                href="https://cescoferraro.github.io/me/br/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/about/"
+                href="https://cescoferraro.github.io/me/about/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/civil/</loc>
+    <loc>https://cescoferraro.github.io/me/civil/</loc>
     <lastmod>2017-05-29T23:55:15-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/civil/"
+                href="https://cescoferraro.github.io/me/br/civil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/civil/"
+                href="https://cescoferraro.github.io/me/civil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/</loc>
     <lastmod>2017-05-29T23:22:06-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/spotify/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/spotify/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/spotify/"
+                href="https://cescoferraro.github.io/me/br/portifolio/spotify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/spotify/"
+                href="https://cescoferraro.github.io/me/portifolio/spotify/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/flag/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/flag/</loc>
     <lastmod>2017-01-24T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/flag/"
+                href="https://cescoferraro.github.io/me/br/portifolio/flag/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/flag/"
+                href="https://cescoferraro.github.io/me/portifolio/flag/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/blog/software-developer-career/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/www/</loc>
+    <lastmod>2017-01-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/www/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/www/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/blog/software-developer-career/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/blog/software-developer-career/"
+                href="https://cescoferraro.github.io/me/br/blog/software-developer-career/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/blog/software-developer-career/"
+                href="https://cescoferraro.github.io/me/blog/software-developer-career/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/</loc>
+    <loc>https://cescoferraro.github.io/me/tags/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="http://localhost:1313/me/br/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/me/tags/"
-                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/</loc>
+    <loc>https://cescoferraro.github.io/me/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/"
+                href="https://cescoferraro.github.io/me/br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/"
+                href="https://cescoferraro.github.io/me/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/blog/</loc>
+    <loc>https://cescoferraro.github.io/me/blog/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/blog/"
+                href="https://cescoferraro.github.io/me/br/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/blog/"
+                href="https://cescoferraro.github.io/me/blog/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/categories/</loc>
+    <loc>https://cescoferraro.github.io/me/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/categories/"
+                href="https://cescoferraro.github.io/me/br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/categories/"
+                href="https://cescoferraro.github.io/me/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/fixed/</loc>
+    <loc>https://cescoferraro.github.io/me/fixed/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/fixed/"
+                href="https://cescoferraro.github.io/me/br/fixed/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/fixed/"
+                href="https://cescoferraro.github.io/me/fixed/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/nil/</loc>
+    <loc>https://cescoferraro.github.io/me/tags/nil/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/tags/nil/"
+                href="https://cescoferraro.github.io/me/br/tags/nil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/tags/nil/"
+                href="https://cescoferraro.github.io/me/tags/nil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/</loc>
+    <loc>https://cescoferraro.github.io/me/portifolio/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/"
+                href="https://cescoferraro.github.io/me/br/portifolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/"
+                href="https://cescoferraro.github.io/me/portifolio/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/</loc>
+    <loc>https://cescoferraro.github.io/me/tags/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/tags/"
+                href="https://cescoferraro.github.io/me/br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/tags/"
+                href="https://cescoferraro.github.io/me/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/vitae/</loc>
+    <loc>https://cescoferraro.github.io/me/tags/vitae/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="http://localhost:1313/me/br/tags/vitae/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/me/tags/vitae/"
-                />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/software/</loc>
+    <loc>https://cescoferraro.github.io/me/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/software/"
+                href="https://cescoferraro.github.io/me/br/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/software/"
+                href="https://cescoferraro.github.io/me/software/"
                 />
   </url>
   

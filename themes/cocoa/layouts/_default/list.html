@@ -8,10 +8,10 @@
                 </div>
             {{ end }}
 	    {{ if eq .Title "Portifolio" }}
-	    <div class="page-heading">{{ i18n "portifolioHeading" }}</div>
+		<div class="page-heading">{{ i18n "portifolioHeading" }}</div>
 	    {{ end }}
 	    {{ if eq .Title "Blog" }}
-	    <div class="page-heading">{{ i18n "blogHeading" }}</div>
+		<div class="page-heading">{{ i18n "blogHeading" }}</div>
 	    {{ end }}
 	    <div class="page-heading">{{ i18n .Title}}</div>
             <ul>
@@ -22,7 +22,7 @@
                 {{ end }}
                 {{ if not ($.Scratch.Get "datespec") }}
                     {{ range .Data.Pages.ByPublishDate }}
-                    {{ partial "li.html" . }}
+			{{ partial "li.html" . }}
                     {{ end }}
                 {{ else }}
                     {{ range .Data.Pages.ByPublishDate.GroupByDate ($.Scratch.Get "datespec") "desc" }}

@@ -3,4 +3,4 @@
 #+DRAFT: nil
 #+TAGS: nil, nil
 
-[[../../portifolio/boil][English Version only, sun.]]
+[[../../../portifolio/boil][English Version only, sun.]]

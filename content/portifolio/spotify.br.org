@@ -3,4 +3,4 @@
 #+DRAFT: nil
 #+TAGS: nil, nil
 
-[[../../portifolio/spotify][English Version only, sun.]]
+[[../../../portifolio/spotify][English Version only, sun.]]

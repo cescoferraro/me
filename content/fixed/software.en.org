@@ -31,10 +31,10 @@ I grow up with the Internet, so that my primary focus as a developer. I really w
 | [[https://www.typescriptlang.org/][Typescript]]           | Iot                   |            |
 
 * Education 
-*** ➡ Bachelor's - Civil Engineer :2007-2013:
+*** ➡ Bachelor's - Civil Engineer :Graduated 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre
 
-*** ➡ Bachelor's - Software Enginee :~: :2017-2019  :
+*** ➡ Bachelor's - Software Enginee :~: :2017:
 Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
 
 * Courses 
