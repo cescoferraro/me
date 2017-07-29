@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cescoferraro.github.io/me/portifolio/boil/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/boil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/boil/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/about/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <xhtml:link
@@ -14,21 +29,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cescoferraro.github.io/me/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/software/</loc>
-    <lastmod>2017-05-29T23:58:32-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/software/"
                 />
   </url>
   
@@ -53,53 +53,8 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/blog/software-developer-career/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/blog/software-developer-carrer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/blog/software-developer-career/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/portifolio/boil/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/portifolio/boil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/portifolio/boil/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/portifolio/flag/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/portifolio/flag/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/portifolio/flag/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/portifolio/spotify/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
@@ -113,8 +68,43 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/portifolio/flag/</loc>
+    <lastmod>2017-01-24T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/flag/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/flag/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/blog/software-developer-career/</loc>
+    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/blog/software-developer-career/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/blog/software-developer-career/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -193,7 +183,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/portifolio/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -220,6 +210,25 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cescoferraro.github.io/me/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/tags/vitae/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/software/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/software/"
                 />
   </url>
   

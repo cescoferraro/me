@@ -14,4 +14,4 @@ kube:
 	kubectl -n nginx-ingress delete --all pods 
 
 dev:
-	hugo serve -v -w
+	hugo server --renderToDisk

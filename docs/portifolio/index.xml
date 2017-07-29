@@ -6,7 +6,7 @@
     <description>Recent content in Portifolio on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 31 Aug 2016 03:55:41 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cescoferraro.github.io/me/portifolio/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,34 +14,33 @@
     <item>
       <title>boil.cescoferraro.xyz </title>
       <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
-      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
       <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.
-You can check the source code here.
+   👀 react as the view   🔥 Redux store ready! All the cool tooling and extensions.   🔀 redux-first-router as the router.   🚄 express server.   🎛 Offilne first. Try going offline for a bit.   🔥 OneSignal gives us web push Notifications to keep in touch with our customers   🖌 ReduxStorage makes the app remember where the user was last time with ALL THE DATA!</description>
+    </item>
+    
+    <item>
+      <title>spotify.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
+      <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
+You can check the source code here
             </description>
     </item>
     
     <item>
       <title>flag.cescoferraro.xyz </title>
       <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
-      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
       <description>A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.
 You can check the source code here.
         </description>
-    </item>
-    
-    <item>
-      <title>spotify.cescoferraro.xyz </title>
-      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
-      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
-      <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
-You can check the source code here
-            </description>
     </item>
     
   </channel>

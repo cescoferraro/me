@@ -62,6 +62,11 @@
             <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener"><img class="icon" src="/img/facebook.svg" alt="facebook" /></a>
         {{ end }}
 
+        {{ if .Site.Params.stackoverflow }}
+            <a href="{{ .Site.Params.stackoverflow }}" target="_blank" rel="noopener"><img class="icon" src=" https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg " alt="soundcloud" /></a>
+        {{ end }}
+
+
         {{ if .Site.Params.soundcloud }}
             <a href="{{ .Site.Params.soundcloud }}" target="_blank" rel="noopener"><img class="icon" src="/img/soundcloud.svg" alt="soundcloud" /></a>
         {{ end }}

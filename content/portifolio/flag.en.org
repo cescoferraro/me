@@ -1,9 +1,6 @@
 #+TITLE: flag.cescoferraro.xyz 
-#+DATE: 2016-08-31T03:55:41-03:00
-#+PUBLISHDATE: 2016-08-31T03:55:41-03:00
+#+DATE: 2017-01-24T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: nil, nil
-#+DESCRIPTION: Short description
 
 A website that manipulates data from a Google Sheets table.  You can
 change data on the website and it will reflect on the actual table!  I

@@ -53,27 +53,26 @@ identifier             = "civil"
 url                    = "civil/"
 
 [params]
-latestpostscount       = 5                             # how many posts to display on the home page
-i18n_flags             = true # whether to display small country flags for available translations
+latestpostscount       = 5                             
+i18n_flags             = true 
 author                 = "Cesco Ferraro"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+cachebuster            = true                          
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
 email                  = "francescoaferraro@gmail.com"
-extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
-# faviconfile            = "img/leaf.ico"
+extracssfiles          = [ "/css/override.css" ]      
 github                 = "//github.com/cescoferraro"
+stackoverflow 	       = "//stackoverflow.com/users/3074508/cesco"
 highlightjs            = true
 lang                   = "en,br"
 linkedin               = "//linkedin.com/cescoferraro"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
+noshowreadtime         = false                       
+selfintro              = ""                         
 twitter                = "//twitter.com/cescoferraro"
-mastodon               = "//example.com/@cescoferraro"
-highlightjslanguages = ["go","java","clojure-repl"]                        # additional languages not included in the "common" set
-highlightjsStyle     = "atelier-estuary-dark"
-avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+highlightjslanguages   = ["go","java","clojure-repl"]                        
+highlightjsStyle       = "atelier-estuary-dark"
+avatar                 = "img/profile.png" 
 DefaultContentLanguage = "en"
 
 
