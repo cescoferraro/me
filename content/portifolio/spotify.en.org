@@ -4,7 +4,6 @@
 #+DRAFT: nil
 #+TAGS: nil, nil
 #+DESCRIPTION: Short description
-#+STARTUP: inlineimages
 
 A spotify client that allows the user to perform multiple actions to
 the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang
