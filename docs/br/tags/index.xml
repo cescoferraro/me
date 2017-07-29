@@ -2,22 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on @cescoferraro</title>
-    <link>https://cescoferraro.github.io/me/br/tags/</link>
+    <link>http://localhost:1313/me/br/tags/</link>
     <description>Recent content in Tags on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Tout est à moi</copyright>
     <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/me/br/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/me/br/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/me/br/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/me/br/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nil</title>
-      <link>https://cescoferraro.github.io/me/br/tags/nil/</link>
+      <link>http://localhost:1313/me/br/tags/nil/</link>
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/br/tags/nil/</guid>
+      <guid>http://localhost:1313/me/br/tags/nil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vitae</title>
+      <link>http://localhost:1313/me/br/tags/vitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/me/br/tags/vitae/</guid>
       <description></description>
     </item>
     
