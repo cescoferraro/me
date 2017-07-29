@@ -11,17 +11,15 @@ publishdir          = "docs"
 theme               = "cocoa"
 author              = "@cescoferraro"
 title               = "@cescoferraro"
-enableEmoji = true
+enableEmoji 	    = true
 pygmentsuseclasses  = true
-disqusshortname     = "blog-cescoferraro-xyz" # Comment out to disable Disqus.
+disqusshortname     = "blog-cescoferraro-xyz"
 pluralizelisttitles = false
 googleAnalytics     = "UA-123-45"
 
 [permalinks]
 fixed = ":title/"
 blog  = "blog/:slug/"
-
-
 
 [[menu.main]]
 name                   = "Blog"
@@ -75,29 +73,14 @@ twitter                = "//twitter.com/cescoferraro"
 mastodon               = "//example.com/@cescoferraro"
 highlightjslanguages = ["go","java","clojure-repl"]                        # additional languages not included in the "common" set
 highlightjsStyle     = "atelier-estuary-dark"
-
 avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # do not use in the same time as avatar
-
-# The following are DEPRECATED.
-gatracker              = "XYZ" # use googleAnalytics instead
-initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
 DefaultContentLanguage = "en"
-copyright = "Everything is mine"
 
-[params.navigation]
-help  = "Help"
 
 [Languages]
 [Languages.en]
 weight = 1
-[Languages.en.params]
-linkedin = "english-link"
 
 [Languages.br]
 copyright = "Tout est à moi"
 weight = 2
-[Languages.br.params]
-linkedin = "lien-francais"
-[Languages.br.navigation]
-help  = "Aide"
