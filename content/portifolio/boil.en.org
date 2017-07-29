@@ -5,7 +5,12 @@
 #+TAGS: nil, nil
 #+DESCRIPTION: Short description
 
- A cutting edge PWA React.js boilerplated hosted at
+ A cutting edge PWA React.js boilerplated hosted at 
 [[https://boil.cescoferraro.xyz][https://boil.cescoferraro.xyz]]. A server rendered website that loads in
-around 3s. Web push notification by [[https://onesignal.com][OneSignal]]. Works 100% Offline.
+around 3s. Web push notification by 📶 [[https://onesignal.com][OneSignal]]. Works 100% Offline.
 
+You can check the source code [[https://github.com/cescoferraro/react-boil][here.]]
+
+|-----------+-----------|
+| [[file:/img/boil1.png][boil1inho]] | [[file:/img/boil2.png][boil1inho]] |
+| [[file:/img/boil3.png][boil1inho]] | [[file:/img/boil4.png][boil1inho]] |

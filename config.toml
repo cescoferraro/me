@@ -1,5 +1,6 @@
 baseurl             = "https://cescoferraro.github.io/me/"
 builddrafts         = true 
+watch               = true 
 canonifyurls        = true
 relativeURLs	    = true 
 contentdir          = "content"
@@ -19,6 +20,7 @@ googleAnalytics     = "UA-123-45"
 [permalinks]
 fixed = ":title/"
 blog  = "blog/:slug/"
+
 
 
 [[menu.main]]

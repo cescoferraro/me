@@ -78,6 +78,36 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/br/portifolio/flag/</loc>
+    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/flag/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/flag/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/br/portifolio/spotify/</loc>
+    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/spotify/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/spotify/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/br/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>

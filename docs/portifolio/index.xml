@@ -18,7 +18,31 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
-      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by OneSignal. Works 100% Offline.</description>
+      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.
+You can check the source code here.
+            </description>
+    </item>
+    
+    <item>
+      <title>flag.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
+      <description>A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.
+You can check the source code here.
+        </description>
+    </item>
+    
+    <item>
+      <title>spotify.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
+      <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
+You can check the source code here.
+            </description>
     </item>
     
   </channel>
