@@ -1,0 +1,1000 @@
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+(No changes need to be saved) [2 times]
+Undo branch point!
+LINK: https://github.com/cescoferraro/spotify
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.en.org
+byte-code: Beginning of line [2 times]
+SPC b is undefined
+software-dev.br.org
+software-dev.en.org
+software-dev.br.org
+software-dev.en.org [2 times]
+software-dev.br.org
+software-dev.en.org
+software-dev.br.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+byte-code: Beginning of buffer
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+byte-code: Beginning of buffer
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org
+Do you want to create directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl/"? (y or n) y
+set-visited-file-name: Empty file name
+Rename successful. [2 times]
+byte-code: Beginning of buffer [10 times]
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+File ~/go/src/github.com/cescoferraro/me/docs/blog/index.html no longer exists!
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+user-error: No further undo information
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (spaceline-ml-main)) signaled (file-error "Setting current directory" "no such file or directory" "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/")
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (spaceline-ml-main)) signaled (file-error "Setting current directory" "no such file or directory" "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/")
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (spaceline-ml-main)) signaled (file-error "Setting current directory" "no such file or directory" "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/")
+Quit
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (spaceline-ml-main)) signaled (file-error "Setting current directory" "no such file or directory" "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/") [2 times]
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (spaceline-ml-main)) signaled (file-error "Setting current directory" "no such file or directory" "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/")
+Directory `/home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/' does not exist; create? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/docs/blog/index.html
+user-error: "world": pattern not found
+evil-change: Buffer is read-only: #<buffer  *NeoTree*>Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+software-developer-carrer
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil) [2 times]
+software-dev.en.org [2 times]
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/docs" is a directory, delete it recursively? (y or n) y
+kill buffers for files in directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/docs" deleted.
+Using vacuous schema
+Search failed. No matching tag found. [2 times]
+Auto-saving...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+(No changes need to be saved)
+😟
+software-developer-career
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Walk directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl/" failed.
+Error during redisplay: (eval (let* ((fname (neo-buffer--get-filename-current-line)) (current (if fname fname neo-buffer--start-node)) (parent (if fname (file-name-directory current) current)) (nodes (neo-buffer--get-nodes parent)) (dirs (car nodes)) (files (cdr nodes)) (ndirs (length dirs)) (nfiles (length files)) (index (when fname (1+ (if (file-directory-p current) (neo-buffer--get-node-index current dirs) (+ ndirs (neo-buffer--get-node-index current files))))))) (neo-mode-line--compute-format parent index ndirs nfiles))) signaled (wrong-type-argument number-or-marker-p nil)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+C-c SPC is undefined
+Quit
+have just deleted neotree window
+(No files need saving) [2 times]
+Quit
+byte-code: Beginning of buffer
+(No files need saving)
+Quit
+(No files need saving)
+have just popped neotree
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+(No changes need to be saved)
+byte-code: End of buffer [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+neotree buffer was opened
+😟
+:worried:
+🎁
+:gift:
+🔧
+:gift:
+🎁
+:worried:
+😟
+Quit
+:world_map:
+🗺
+:map:
+:womens:
+🚺 [2 times]
+Defining kbd macro...
+👡
+:sandal:
+:womans-hat: [2 times]
+Keyboard macro defined
+Abort macro recording (changed buffer)
+have just popped neotree
+have just deleted neotree window
+have just popped neotree
+have just deleted neotree window
+have just popped neotree
+(No changes need to be saved)
+neotree buffer was opened
+have just popped neotree
+mouse-2, RET: Push this button
+(No changes need to be saved)
+mouse-2, RET: Push this button [3 times]
+(No changes need to be saved)
+mouse-2, RET: Push this button [2 times]
+byte-code: Beginning of buffer
+mouse-2, RET: Push this button
+Quit
+mouse-2, RET: Push this button
+(No changes need to be saved)
+mouse-2, RET: Push this button
+neotree buffer was opened
+have just popped neotree
+(No changes need to be saved)
+byte-code: End of buffer [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+(No changes need to be saved)
+byte-code: End of buffer [3 times]
+(No changes need to be saved)
+neotree buffer was opened
+have just popped neotree
+byte-code: End of buffer
+byte-code: Beginning of buffer
+Copy successful. [2 times]
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+(No changes need to be saved)
+Overwrite mode enabled
+Overwrite mode disabled
+No completions [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org
+byte-code: Beginning of buffer [3 times]
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+user-error: Not in table data field
+Building list of manual directory expansions...
+Building completion list of all manual topics...
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org
+LINK: ../../portifolio/spotify [2 times]
+LINK: ../../portifolio/org-loader [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org
+(No changes need to be saved)
+Auto-saving...done
+LINK: file:/img/orgtweet.png
+Auto-saving...
+byte-code: End of buffer [5 times]
+byte-code: Beginning of buffer [4 times]
+LINK: file:/img/orgtweet.png [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org
+(No changes need to be saved)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.en.org
+(No changes need to be saved)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../../blog/software-developer-career/ [5 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../portifolio/boil [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/docs" is a directory, delete it recursively? (y or n) y
+kill buffers for files in directory "/home/cescoferraro/go/src/github.com/cescoferraro/me/docs"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/docs" deleted.
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/hey.md" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/hey.md
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/he.org" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/he.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Quit
+(No changes need to be saved)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+byte-code: Beginning of buffer
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/hey.md"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/hey.md" deleted.
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/he.org"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/he.org" deleted.
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.br.org" deleted.
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/org-loader.en.org" deleted.
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+Undo branch point!
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+SPC j is undefined
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org"? (y or n) y
+Buffer ssl.br.org is unmodified.  Kill? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.br.org" deleted.
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.en.org"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/ssl.en.org" deleted.
+have just deleted neotree window
+have just popped neotree
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html"? (y or n) y
+Buffer terms.html is unmodified.  Kill? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html" deleted.
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html
+byte-code: End of buffer
+Indenting region...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html
+SPC b is undefined
+user-error: "world": pattern not found
+SPC b is undefined
+user-error: "world": pattern not found
+Quit
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html"? (y or n) y
+Buffer terms.html is unmodified.  Kill? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html" deleted.
+neotree buffer was opened
+have just popped neotree
+byte-code: Beginning of buffer [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+(No changes need to be saved)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html
+Indenting region...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/themes/cocoa/layouts/_default/terms.html
+SPC b is undefined
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.md" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.md
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.md"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.md" deleted.
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../../blog/software-developer-career/
+byte-code: End of buffer
+software-dev.en.org [2 times]
+mouse-2, RET: Push this button
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of line
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Do you want to create file "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.org" ? (y or n) y
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.org
+Quit
+byte-code: Beginning of buffer [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+(No changes need to be saved)
+byte-code: Beginning of buffer [17 times]
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+neotree buffer was opened
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+C-c <mouse-1> is undefined
+have just popped neotree
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.org"? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/content/hey.org" deleted.
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+user-error: No further undo information [6 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../portifolio/flag [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+LINK: ../../portifolio/flag [2 times]
+user-error: Not in table data field [2 times]
+LINK: ../../portifolio/flag [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+LINK: ../../portifolio/flag [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/config.bck.toml"? (y or n) y
+Buffer config.bck.toml is unmodified.  Kill? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/config.bck.toml" deleted.
+Warning: unknown coding system "ASCII"
+Using vacuous schema
+Loading /usr/share/emacs/24.5/etc/nxml/1D400-1D7FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/0FFF0-0FFFF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/0FE50-0FE6F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/0FE00-0FE0F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/0FB00-0FB4F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/03000-0303F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02A00-02AFF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02980-029FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02900-0297F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/027F0-027FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/027C0-027EF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02700-027BF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02600-026FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/025A0-025FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02580-0259F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02500-0257F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02460-024FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02440-0245F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02400-0243F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02300-023FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02200-022FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02190-021FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02150-0218F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02100-0214F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/020D0-020FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/020A0-020CF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02070-0209F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/02000-0206F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00400-004FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00370-003FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00300-0036F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/002B0-002FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00250-002AF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00180-0024F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00100-0017F.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00080-000FF.el (source)...done
+Loading /usr/share/emacs/24.5/etc/nxml/00000-0007F.el (source)...done
+Search failed. No matching tag found. [2 times]
+Do you really want to delete "/home/cescoferraro/go/src/github.com/cescoferraro/me/workbench.xmi"? (y or n) y
+Buffer workbench.xmi is unmodified.  Kill? (y or n) y
+"/home/cescoferraro/go/src/github.com/cescoferraro/me/workbench.xmi" deleted.
+18E988A9C144977FE6AC7BBF0919B0C3.txt [3 times]
+mouse-2, RET: Push this button
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+byte-code: End of buffer
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Undo branch point!
+user-error: No further undo information [3 times]
+Mark set
+Undo branch point!
+byte-code: End of buffer [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../portifolio/spotify [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.br.org
+LINK: ../../portifolio/spotify [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/spotify.br.org
+LINK: ../../portifolio/spotify
+LINK: ../../portifolio/flag [2 times]
+user-error: No further undo information [2 times]
+LINK: ../../portifolio/flag
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+LINK: ../../portifolio/flag
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.en.org
+(No changes need to be saved)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+byte-code: Beginning of buffer [11 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+Mark set
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+(No changes need to be saved)
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.en.org
+user-error: No further undo information
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+byte-code: End of buffer [5 times]
+byte-code: Beginning of buffer [8 times]
+have just deleted neotree window
+have just popped neotree
+have just deleted neotree window
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+have just popped neotree
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+LINK: ../../portifolio/flag [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+LINK: ../../portifolio/flag [3 times]
+user-error: No further undo information
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+byte-code: Beginning of buffer [6 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/config.toml
+byte-code: End of buffer
+byte-code: Beginning of buffer [12 times]
+byte-code: End of buffer [9 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+(No files need saving) [3 times]
+user-error: No further undo information
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+byte-code: End of buffer
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.br.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+byte-code: End of buffer [12 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Auto-saving...done
+LINK: ../../portifolio/flag [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/Makefile
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+No completions [2 times]
+No completions of L
+No completions of LAN
+No completions of La
+No completions of Lan
+user-error: Not in table data field [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of buffer [12 times]
+Auto-saving...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+ispell-init-process: Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.
+Local Ispell dictionary set to english
+Dictionary switched from pt_BR to english
+Starting new Ispell process aspell with english dictionary...
+Spell Checking...62%
+Spell Checking completed.
+mouse-2: correct word at point [11 times]
+Personal dictionary saved.
+mouse-2: correct word at point [7 times]
+Personal dictionary saved.
+(No changes need to be saved)
+mouse-2: correct word at point [7 times]
+Personal dictionary saved.
+(No changes need to be saved)
+mouse-2: correct word at point [2 times]
+Personal dictionary saved.
+(No changes need to be saved)
+mouse-2: correct word at point [7 times]
+Personal dictionary saved.
+(No changes need to be saved)
+byte-code: End of buffer [2 times]
+(No changes need to be saved)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of buffer [2 times]
+No completions of In
+No completions of Int
+No completions of Inter
+No completions of Intere
+No completions of Interes
+No completions of Interest
+No completions of Interests
+byte-code: End of buffer
+user-error: Not in table data field
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+(No changes need to be saved)
+byte-code: Beginning of buffer [6 times]
+auto-complete-mode is not enabled
+No completions of PO
+No completions of PR
+No completions of Pr
+No completions of Profil
+No completions of Profile
+No completions of Profiles
+Quit
+byte-code: End of line
+Type x to expand again, z to contract, 0 to reset
+LINK: https://github.com/cescoferraro
+Type x to expand again, z to contract, 0 to reset
+LINK: https://stackoverflow.com/users/3074508/cesco
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+neotree buffer was opened
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Type x to expand again, z to contract, 0 to reset
+LINK: https://www.gnu.org/software/emacs/ [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.gnu.org/software/emacs/
+Type x to expand again, z to contract, 0 to reset
+LINK: https://www.typescriptlang.org/
+LINK: https://www.gnu.org/software/emacs/
+Type x to expand again, z to contract, 0 to reset [2 times]
+LINK: https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/ [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of line
+Quit
+user-error: Not in table data field
+No completions of Ru
+No completions of Rua
+No completions of Ce
+No completions of Cel
+No completions of Cel:
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Auto-saving...
+[AC-PCMP] Failed get ac candidates : Args out of range: "", 1, 0
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of line
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+No completions of ngineer*
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Auto-saving...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Quit
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of buffer [44 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+SPC b is undefined
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/ [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Type x to expand again, z to contract, 0 to reset
+LINK: https://redis.io/ [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://redis.io/
+LINK: https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/
+LINK: https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/
+LINK: https://stackoverflow.com/users/3074508/cesco
+LINK: https://github.com/cescoferraro
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://github.com/cescoferraro
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Auto-saving...
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Quit [2 times]
+Auto-saving...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Auto-saving...done
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Overwrite mode enabled
+Overwrite mode disabled
+Overwrite mode enabled
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+(No changes need to be saved) [2 times]
+helm-projectile-ag: You're not in a project
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Checking region...
+Spell Checking...100% [Iot]
+Spell Checking completed.
+mouse-2: correct word at point [10 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+mouse-2: correct word at point [6 times]
+Personal dictionary saved.
+(No changes need to be saved)
+mouse-2: correct word at point [4 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+byte-code: End of buffer
+mouse-2: correct word at point
+LINK: https://redis.io/
+mouse-2: correct word at point [9 times]
+LINK: https://redis.io/
+mouse-2: correct word at point [5 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://redis.io/
+byte-code: Beginning of buffer [8 times]
+(No changes need to be saved)
+Ispell process killed
+Starting new Ispell process aspell with pt_BR dictionary...
+ispell-init-process: Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.
+Local Ispell dictionary set to english
+Dictionary switched from pt_BR to english
+Starting new Ispell process aspell with english dictionary...
+Spell Checking...87%
+Spell Checking completed.
+mouse-2: correct word at point [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org
+mouse-2: correct word at point [10 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org
+mouse-2: correct word at point [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org
+(No changes need to be saved)
+LINK: ../../portifolio/flag [6 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/flag.br.org
+LINK: ../../portifolio/flag
+have just popped neotree
+Ispell process killed
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Starting new Ispell process aspell with pt_BR dictionary...
+ispell-init-process: Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.
+byte-code: End of buffer [2 times]
+Starting new Ispell process aspell with pt_BR dictionary...
+ispell-init-process: Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.
+Local Ispell dictionary set to english
+Dictionary switched from pt_BR to english
+Starting new Ispell process aspell with english dictionary...
+Spell Checking completed.
+LINK: ../../../blog/software-developer-career/
+byte-code: Beginning of buffer [4 times]
+mouse-2: correct word at point [7 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/blog/software-dev.br.org
+Ispell process killed
+Starting new Ispell process aspell with pt_BR dictionary...
+ispell-init-process: Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.
+Local Ispell dictionary set to english
+Dictionary switched from pt_BR to english
+Starting new Ispell process aspell with english dictionary...
+Checking region...
+Spell Checking completed.
+Checking region...
+Spell Checking completed.
+byte-code: Beginning of buffer [15 times]
+(No changes need to be saved)
+LINK: ../../portifolio/flag [3 times]
+Ispell process killed
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Type x to expand again, z to contract, 0 to reset [2 times]
+LINK: mailto:francescoaferraro@gmail.com [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: mailto:francescoaferraro@gmail.com [2 times]
+LINK: tel:555194457005 [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.google.com/maps/place/Porto+Alegre+-+RS,+Brazil/@-30.1018504,-51.2959986,11z/data=!3m1!4b1!4m5!3m4!1s0x9519784e88e1007d:0xc7011777424f60bd!8m2!3d-30.0346564!4d-51.2176584 [3 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.gnu.org/software/emacs/
+LINK: https://react.js [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.gnu.org/software/emacs/
+LINK: https://react.js [3 times]
+LINK: https://facebook.github.io/react/ [2 times]
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+LINK: https://www.gnu.org/software/emacs/
+LINK: https://www.typescriptlang.org/
+LINK: https://www.gnu.org/software/emacs/
+LINK: https://facebook.github.io/react/
+byte-code: Beginning of buffer [16 times]
+byte-code: End of buffer [13 times]
+byte-code: Beginning of buffer [21 times]
+(No changes need to be saved)
+mouse-2, RET: Push this button
+byte-code: End of buffer [6 times]
+have just deleted neotree window
+have just popped neotree
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/portifolio/boil.br.org
+byte-code: Beginning of buffer [6 times]
+LINK: ../../portifolio/boil [2 times]
+neotree buffer was opened
+have just popped neotree
+byte-code: End of buffer
+user-error: Unable to resolve link: "tel:555194457005"
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988cai.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988cai.org
+Running pandoc with args: (-f org -t latex -o /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.pdf --parse-raw --mathjax --standalone /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988cai.org)
+Error occured. 
+pandoc: pdflatex not found. pdflatex is needed for pdf output.
+
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988pko.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988pko.org
+Running pandoc with args: (-f org -t latex -o /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.pdf --parse-raw --mathjax --standalone /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp16988pko.org)
+Error occured. 
+! LaTeX Error: File `lmodern.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.3 \usepackage
+
+pandoc: Error producing PDF
+
+user-error: Minibuffer window is not active
+Error during redisplay: (eval (with-helm-buffer (helm-show-candidate-number (car-safe helm-mode-line-string)))) signaled (error "No buffer named *helm*") [3 times]
+/home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/about.en.org
+Error during redisplay: (eval (with-helm-buffer (helm-show-candidate-number (car-safe helm-mode-line-string)))) signaled (error "No buffer named *helm*") [7 times]
+(No changes need to be saved)
+neotree buffer was opened
+have just popped neotree
+Starting new Ispell process aspell with pt_BR dictionary...
+Error enabling Flyspell mode:
+(Error: The file "/usr/lib/aspell/pt_BR" can not be opened for reading.)
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp169882uu.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp169882uu.org
+Running pandoc with args: (-f org -t latex -o /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.pdf --parse-raw --mathjax --standalone /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.tmp169882uu.org)
+Exported to ./software.en.pdf.
+Running gimp-2.8 /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.pdf...done
+Type x to expand again, z to contract, 0 to reset
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+Wrote /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org
+Saving file /home/cescoferraro/go/src/github.com/cescoferraro/me/content/fixed/software.en.org...
+fringe-helper-modification-func: Invalid search bound (wrong side of point)
+
