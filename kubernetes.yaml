@@ -4,6 +4,10 @@ metadata:
   namespace: me
   name: me-ingress
 spec:
+  tls:		
+  - hosts:		
+    - www.cescoferraro.xyz		
+    secretName: wildcard-tls 
   rules:
   - host: www.cescoferraro.xyz
     http:
