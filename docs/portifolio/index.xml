@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portifolio on @cescoferraro</title>
-    <link>https://cescoferraro.github.io/me/portifolio/</link>
+    <link>https://www.cescoferraro.xyz/portifolio/</link>
     <description>Recent content in Portifolio on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/me/portifolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.cescoferraro.xyz/portifolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>boil.cescoferraro.xyz </title>
-      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
+      <link>https://www.cescoferraro.xyz/portifolio/boil/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
+      <guid>https://www.cescoferraro.xyz/portifolio/boil/</guid>
       <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.
    👀 react as the view   🔥 Redux store ready! All the cool tooling and extensions.   🔀 redux-first-router as the router.   🚄 express server.   🎛 Offilne first. Try going offline for a bit.   🔥 OneSignal gives us web push Notifications to keep in touch with our customers   🖌 ReduxStorage makes the app remember where the user was last time with ALL THE DATA!</description>
     </item>
     
     <item>
       <title>spotify.cescoferraro.xyz </title>
-      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
+      <link>https://www.cescoferraro.xyz/portifolio/spotify/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
+      <guid>https://www.cescoferraro.xyz/portifolio/spotify/</guid>
       <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
 You can check the source code here
             </description>
@@ -34,10 +34,10 @@ You can check the source code here
     
     <item>
       <title>flag.cescoferraro.xyz </title>
-      <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
+      <link>https://www.cescoferraro.xyz/portifolio/flag/</link>
       <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
+      <guid>https://www.cescoferraro.xyz/portifolio/flag/</guid>
       <description>A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.
 You can check the source code here.
         </description>
@@ -45,10 +45,10 @@ You can check the source code here.
     
     <item>
       <title>www.cescoferraro.xyz </title>
-      <link>https://cescoferraro.github.io/me/portifolio/www/</link>
+      <link>https://www.cescoferraro.xyz/portifolio/www/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/portifolio/www/</guid>
+      <guid>https://www.cescoferraro.xyz/portifolio/www/</guid>
       <description>This own website is a Hugo blog. Uses Golang for serving and deploying it!
 You can check the source code here</description>
     </item>

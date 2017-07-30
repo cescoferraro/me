@@ -26,7 +26,7 @@ around 3s. Web push notification by 📶 [[https://onesignal.com][OneSignal]]. W
 | 💩 | Code splitting  Thanks to   [[https://www.npmjs.com/package/react-universal-component][react-universal-component]]                                                                 |
 | 😎 | Progressive Web Application ready, with offline support, via a Service Worker.                                        |
 | 🕸 | Is this reality? Believe at the web https://boil.cescoferraro.xyz                                                     |
-| 🎭 | `jest` as the test framework. -- YET TO BE IMPLEMENTED --                                                             |
+| 🎭 | `jest` as the test framework. Snapshots for life! 
 
 
 You can check the source code [[https://github.com/cescoferraro/react-boil][here.]]
