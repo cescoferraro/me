@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>@cescoferraro</title>
-    <link>https://www.cescoferraro.xyz/</link>
+    <link>https://cescoferraro.github.io/me/</link>
     <description>Recent content on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.cescoferraro.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>boil.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/portifolio/boil/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/portifolio/boil/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
       <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.
    👀 react as the view   🔥 Redux store ready! All the cool tooling and extensions.   🔀 redux-first-router as the router.   🚄 express server.   🎛 Offilne first. Try going offline for a bit.   🔥 OneSignal gives us web push Notifications to keep in touch with our customers   🖌 ReduxStorage makes the app remember where the user was last time with ALL THE DATA!</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>https://www.cescoferraro.xyz/about/</link>
+      <link>https://cescoferraro.github.io/me/about/</link>
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/about/</guid>
+      <guid>https://cescoferraro.github.io/me/about/</guid>
       <description>Resident Rap DJ of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&#39;s write tomorrow&#39;s web today.</description>
     </item>
     
     <item>
       <title>civil</title>
-      <link>https://www.cescoferraro.xyz/civil/</link>
+      <link>https://cescoferraro.github.io/me/civil/</link>
       <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/civil/</guid>
+      <guid>https://cescoferraro.github.io/me/civil/</guid>
       <description>Portuguese Version Only</description>
     </item>
     
     <item>
       <title>portifolio</title>
-      <link>https://www.cescoferraro.xyz/portifolio/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/</link>
       <pubDate>Mon, 29 May 2017 23:22:06 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/portifolio/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/</guid>
       <description>Francesco Antonello Ferraro
 Civil Engineer - UFRGS
 OBJETIVO:
@@ -55,10 +55,10 @@ Cassano Administradora de Bens Ltda.</description>
     
     <item>
       <title>spotify.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/portifolio/spotify/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/portifolio/spotify/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
       <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
 You can check the source code here
             </description>
@@ -66,10 +66,10 @@ You can check the source code here
     
     <item>
       <title>flag.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/portifolio/flag/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
       <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/portifolio/flag/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
       <description>A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.
 You can check the source code here.
         </description>
@@ -77,29 +77,29 @@ You can check the source code here.
     
     <item>
       <title>www.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/portifolio/www/</link>
+      <link>https://cescoferraro.github.io/me/portifolio/www/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/portifolio/www/</guid>
+      <guid>https://cescoferraro.github.io/me/portifolio/www/</guid>
       <description>This own website is a Hugo blog. Uses Golang for serving and deploying it!
 You can check the source code here</description>
     </item>
     
     <item>
       <title>Software Developer Career </title>
-      <link>https://www.cescoferraro.xyz/blog/software-developer-career/</link>
+      <link>https://cescoferraro.github.io/me/blog/software-developer-career/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/blog/software-developer-career/</guid>
+      <guid>https://cescoferraro.github.io/me/blog/software-developer-career/</guid>
       <description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://www.cescoferraro.xyz/software/</link>
+      <link>https://cescoferraro.github.io/me/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/software/</guid>
+      <guid>https://cescoferraro.github.io/me/software/</guid>
       <description>Name Francesco Antonello Ferraro   Graduation Software Engineer   Email francescoaferraro@gmail.com   Birthdate 12/30/1987   Location Porto Alegre/RS - Brazil    Professional Summary   I started off as a Civil Engineer, but felt in love with coding. I am pursing a career in this area in order to constantly engage myself with more complex problems.  I grow up with the Internet, so that my primary focus as a developer.</description>
     </item>
     

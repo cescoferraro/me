@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portifolio on @cescoferraro</title>
-    <link>https://www.cescoferraro.xyz/br/portifolio/</link>
+    <link>https://cescoferraro.github.io/me/br/portifolio/</link>
     <description>Recent content in Portifolio on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Tout est à moi</copyright>
     <lastBuildDate>Wed, 31 Aug 2016 03:55:41 -0300</lastBuildDate>
     
-	<atom:link href="https://www.cescoferraro.xyz/br/portifolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/br/portifolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>boil.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/br/portifolio/boil/</link>
+      <link>https://cescoferraro.github.io/me/br/portifolio/boil/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/br/portifolio/boil/</guid>
+      <guid>https://cescoferraro.github.io/me/br/portifolio/boil/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>flag.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/br/portifolio/flag/</link>
+      <link>https://cescoferraro.github.io/me/br/portifolio/flag/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/br/portifolio/flag/</guid>
+      <guid>https://cescoferraro.github.io/me/br/portifolio/flag/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>spotify.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/br/portifolio/spotify/</link>
+      <link>https://cescoferraro.github.io/me/br/portifolio/spotify/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/br/portifolio/spotify/</guid>
+      <guid>https://cescoferraro.github.io/me/br/portifolio/spotify/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>www.cescoferraro.xyz </title>
-      <link>https://www.cescoferraro.xyz/br/portifolio/www/</link>
+      <link>https://cescoferraro.github.io/me/br/portifolio/www/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.xyz/br/portifolio/www/</guid>
+      <guid>https://cescoferraro.github.io/me/br/portifolio/www/</guid>
       <description>English Version only, sun.</description>
     </item>
     
