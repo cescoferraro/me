@@ -1,6 +1,0 @@
-#+TITLE: www.cescoferraro.xyz 
-#+DATE: 2016-08-31T03:55:41-03:00
-#+DRAFT: nil
-#+TAGS: nil, nil
-
-[[../../../portifolio/www][English Version only, sun.]]
