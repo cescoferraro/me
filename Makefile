@@ -5,18 +5,17 @@ gh:
 	git push
 
 new:
-	hugo -b https://www.cescoferraro.xyz
-	cp 18E988A9C144977FE6AC7BBF0919B0C3.txt docs/
-	cp Dockerfile docs/
-
-kube:
 	rm -rf docs/
 	hugo -b https://www.cescoferraro.xyz
 	cp 18E988A9C144977FE6AC7BBF0919B0C3.txt docs/
-	docker build -t cescoferraro/me:latest .
-	docker push cescoferraro/me:latest
-	kubectl -n me delete --all pods 
-	kubectl -n nginx-ingress delete --all pods 
+	cp Dockerfile docs/
+	docker-compose build me
+	make refresh
 
 dev:
 	hugo server --renderToDisk
+
+refresh:
+	docker-compose stop me
+	docker-compose rm -f me
+	docker-compose up -d me
