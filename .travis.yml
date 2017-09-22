@@ -1,0 +1,13 @@
+language: go # don't install any environment
+
+go:
+  - 1.8
+install: go get -v github.com/spf13/hugo
+script:
+  - hugo
+  - bash ./deploy.sh
+  
+env:
+  global:
+  - ENCRYPTION_LABEL: "<.... encryption label from previous step ....>"
+  - COMMIT_AUTHOR_EMAIL: "you@example.com"
