@@ -1,0 +1,44 @@
+# Created 2017-08-14 Mon 20:43
+#+TITLE: software
+#+AUTHOR: @cescoferraro
+#+DRAFT: nil
+#+TAGS: vitae , nil
+
+
+|------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name       | Francesco Antonello Ferraro                                                                                                                                                                                          |
+| Graduation | Software Engineer                                                                                                                                                                                                    |
+| Email      | [[mailto:francescoaferraro@gmail.com][francescoaferraro@gmail.com]]                                                                                                                                                  |
+| Birthdate  | 12/30/1987                                                                                                                                                                                                           |
+| Location   | [[https://www.google.com/maps/place/Porto+Alegre+-+RS,+Brazil/@-30.1018504,-51.2959986,11z/data=!3m1!4b1!4m5!3m4!1s0x9519784e88e1007d:0xc7011777424f60bd!8m2!3d-30.0346564!4d-51.2176584][Porto Alegre/RS - Brazil]] |
+
+* Professional Summary
+
+#+BEGIN_QUOTE
+
+
+I started off as a Civil Engineer, but felt in love with coding. I am pursing a career in this area in order to constantly engage myself with more complex problems. 
+I grow up with the Internet, so that my primary focus as a developer. I really want to help it evolve as much as I can, so maybe I can pay off all the acknowledgment and fun it gave me. Have been a Linux user for 10+ years.
+#+END_QUOTE
+
+* Technical Skills
+*** Languages
+
+| [[https://golang.org][Golang]] | [[https://nodejs.com][NodeJS]] | [[https://java.com][Java]] |
+
+*** Interests
+
+| [[https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/][Progressive Web Apps]] | [[https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/][Server Side Rendering]] | Websockets                                     |
+| [[https://redis.io/][Redis]]                                                                                        | [[https://facebook.github.io/react/][React.js]]                                                               | [[https://www.gnu.org/software/emacs/][Emacs]] |
+| [[https://www.typescriptlang.org/][Typescript]]                                                                     | Iot                                                                                                           |                                                |
+
+* Education
+*** ➡ Bachelor's - Civil Engineer :Graduated 2013:
+Universidade Federal do Rio Grande do Sul - Porto Alegre
+
+*** ➡ Bachelor's - Software Enginee :~:                                :2017:
+Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
+
+* Courses
+*** ➡ Formação Java Web                                                :2016:
+SISNEMA - Porto Alegre

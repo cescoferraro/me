@@ -1,0 +1,28 @@
+version: '3'
+services:
+  nginx:
+    image: cescoferraro/nginx 
+    container_name: nginx
+    ports:
+      - "443:443"
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+  me:
+    image: cescoferraro/me
+    container_name: me 
+    build: 
+      context: ./docs
+    ports:
+     - "1313:80"
+    environment:
+      - VIRTUAL_HOST=www.cescoferraro.xyz
+      - CERT_NAME=shared
+  boil:
+    image: cescoferraro/boil 
+    # container_name: boil 
+    ports:
+     - "5000:5000"
+    environment:
+      - VIRTUAL_HOST=boil.cescoferraro.xyz
+      - CERT_NAME=shared

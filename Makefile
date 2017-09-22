@@ -4,6 +4,11 @@ gh:
 	git commit -am "Publish new verision to github"	
 	git push
 
+new:
+	hugo -b https://www.cescoferraro.xyz
+	cp 18E988A9C144977FE6AC7BBF0919B0C3.txt docs/
+	cp Dockerfile docs/
+
 kube:
 	rm -rf docs/
 	hugo -b https://www.cescoferraro.xyz

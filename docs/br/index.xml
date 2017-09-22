@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>@cescoferraro</title>
-    <link>http://localhost:1313/me/br/</link>
+    <link>https://www.cescoferraro.xyz/br/</link>
     <description>Recent content on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Tout est à moi</copyright>
     <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/me/br/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.cescoferraro.xyz/br/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>about</title>
-      <link>http://localhost:1313/me/br/about/</link>
+      <link>https://www.cescoferraro.xyz/br/about/</link>
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/about/</guid>
+      <guid>https://www.cescoferraro.xyz/br/about/</guid>
       <description>Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo Linux, Gopher, React.js Hacker e usuário de software livre. Surfista de alma quando perto da costa. Contate-me, vamos escrever a internet de amanhã, hoje.</description>
     </item>
     
     <item>
       <title>civil</title>
-      <link>http://localhost:1313/me/br/civil/</link>
+      <link>https://www.cescoferraro.xyz/br/civil/</link>
       <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/civil/</guid>
+      <guid>https://www.cescoferraro.xyz/br/civil/</guid>
       <description>Francesco Antonello Ferraro
 Engenheiro Civil - Graduado em UFRGS 2013/2
   Carreira desenvolvida na área de Engenharia Civil, com experiência no acompanhamento, porém com ênfase no planejamento e controle de obras. Especialista em software específicos (BIM) visando uma melhor precisão dos dados levantados a fim de diminuir custos, reduzir o retrabalho no intuito de cumprir acordos com os custos e prazos estabelecidos pela organização.  EXPERIÊNCIA PROFISSIONAL 06/2014 a 06/2016 Cassano Administradora de Bens Ltda.</description>
@@ -34,64 +34,64 @@ Engenheiro Civil - Graduado em UFRGS 2013/2
     
     <item>
       <title>Software Developer Career </title>
-      <link>http://localhost:1313/me/br/blog/software-developer-career/</link>
+      <link>https://www.cescoferraro.xyz/br/blog/software-developer-career/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/blog/software-developer-career/</guid>
+      <guid>https://www.cescoferraro.xyz/br/blog/software-developer-career/</guid>
       <description>English Version Only</description>
     </item>
     
     <item>
       <title>boil.cescoferraro.xyz </title>
-      <link>http://localhost:1313/me/br/portifolio/boil/</link>
+      <link>https://www.cescoferraro.xyz/br/portifolio/boil/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/portifolio/boil/</guid>
+      <guid>https://www.cescoferraro.xyz/br/portifolio/boil/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>flag.cescoferraro.xyz </title>
-      <link>http://localhost:1313/me/br/portifolio/flag/</link>
+      <link>https://www.cescoferraro.xyz/br/portifolio/flag/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/portifolio/flag/</guid>
+      <guid>https://www.cescoferraro.xyz/br/portifolio/flag/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>gulp-golang </title>
-      <link>http://localhost:1313/me/br/portifolio/gulp-golang/</link>
+      <link>https://www.cescoferraro.xyz/br/portifolio/gulp-golang/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/portifolio/gulp-golang/</guid>
+      <guid>https://www.cescoferraro.xyz/br/portifolio/gulp-golang/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>org-loader</title>
-      <link>http://localhost:1313/me/br/portifolio/org-loader/</link>
+      <link>https://www.cescoferraro.xyz/br/portifolio/org-loader/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/portifolio/org-loader/</guid>
+      <guid>https://www.cescoferraro.xyz/br/portifolio/org-loader/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>spotify.cescoferraro.xyz </title>
-      <link>http://localhost:1313/me/br/portifolio/spotify/</link>
+      <link>https://www.cescoferraro.xyz/br/portifolio/spotify/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>http://localhost:1313/me/br/portifolio/spotify/</guid>
+      <guid>https://www.cescoferraro.xyz/br/portifolio/spotify/</guid>
       <description>English Version only, sun.</description>
     </item>
     
     <item>
       <title>software</title>
-      <link>http://localhost:1313/me/br/software/</link>
+      <link>https://www.cescoferraro.xyz/br/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/me/br/software/</guid>
+      <guid>https://www.cescoferraro.xyz/br/software/</guid>
       <description>Nome Francesco Antonello Ferraro   Graduação Engenharia de Software   E-mail francescoaferraro@gmail.com   Nascimento 12/30/1987   Residência Porto Alegre/RS - Brasil    Resumo Profissional   Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou buscando uma nova carreira na área, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado.</description>
     </item>
     

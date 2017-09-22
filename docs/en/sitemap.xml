@@ -3,262 +3,274 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/boil/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/boil/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/boil/"
+                href="https://www.cescoferraro.xyz/br/portifolio/boil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/boil/"
+                href="https://www.cescoferraro.xyz/portifolio/boil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/about/</loc>
+    <loc>https://www.cescoferraro.xyz/about/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/about/"
+                href="https://www.cescoferraro.xyz/br/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/about/"
+                href="https://www.cescoferraro.xyz/about/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/civil/</loc>
+    <loc>https://www.cescoferraro.xyz/civil/</loc>
     <lastmod>2017-05-29T23:55:15-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/civil/"
+                href="https://www.cescoferraro.xyz/br/civil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/civil/"
+                href="https://www.cescoferraro.xyz/civil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/</loc>
     <lastmod>2017-05-29T23:22:06-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/gulp-golang/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/gulp-golang/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/gulp-golang/"
+                href="https://www.cescoferraro.xyz/br/portifolio/gulp-golang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/gulp-golang/"
+                href="https://www.cescoferraro.xyz/portifolio/gulp-golang/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/org-loader/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/org-loader/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/org-loader/"
+                href="https://www.cescoferraro.xyz/br/portifolio/org-loader/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/org-loader/"
+                href="https://www.cescoferraro.xyz/portifolio/org-loader/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/spotify/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/spotify/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/spotify/"
+                href="https://www.cescoferraro.xyz/br/portifolio/spotify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/spotify/"
+                href="https://www.cescoferraro.xyz/portifolio/spotify/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/flag/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/flag/</loc>
     <lastmod>2017-01-24T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/flag/"
+                href="https://www.cescoferraro.xyz/br/portifolio/flag/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/flag/"
+                href="https://www.cescoferraro.xyz/portifolio/flag/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/blog/software-developer-career/</loc>
+    <loc>https://www.cescoferraro.xyz/blog/software-developer-career/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/blog/software-developer-career/"
+                href="https://www.cescoferraro.xyz/br/blog/software-developer-career/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/blog/software-developer-career/"
+                href="https://www.cescoferraro.xyz/blog/software-developer-career/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/</loc>
+    <loc>https://www.cescoferraro.xyz/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/</loc>
+    <loc>https://www.cescoferraro.xyz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.cescoferraro.xyz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.cescoferraro.xyz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.cescoferraro.xyz/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/"
+                href="https://www.cescoferraro.xyz/br/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/"
+                href="https://www.cescoferraro.xyz/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/blog/</loc>
+    <loc>https://www.cescoferraro.xyz/blog/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/blog/"
+                href="https://www.cescoferraro.xyz/br/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/blog/"
+                href="https://www.cescoferraro.xyz/blog/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/categories/</loc>
+    <loc>https://www.cescoferraro.xyz/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/categories/"
+                href="https://www.cescoferraro.xyz/br/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/categories/"
+                href="https://www.cescoferraro.xyz/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/fixed/</loc>
+    <loc>https://www.cescoferraro.xyz/fixed/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/fixed/"
+                href="https://www.cescoferraro.xyz/br/fixed/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/fixed/"
+                href="https://www.cescoferraro.xyz/fixed/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/nil/</loc>
+    <loc>https://www.cescoferraro.xyz/tags/nil/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/tags/nil/"
+                href="https://www.cescoferraro.xyz/br/tags/nil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/tags/nil/"
+                href="https://www.cescoferraro.xyz/tags/nil/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/portifolio/</loc>
+    <loc>https://www.cescoferraro.xyz/portifolio/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/portifolio/"
+                href="https://www.cescoferraro.xyz/br/portifolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/portifolio/"
+                href="https://www.cescoferraro.xyz/portifolio/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/</loc>
+    <loc>https://www.cescoferraro.xyz/tags/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/tags/"
+                href="https://www.cescoferraro.xyz/br/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/tags/"
+                href="https://www.cescoferraro.xyz/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/tags/vitae/</loc>
+    <loc>https://www.cescoferraro.xyz/tags/vitae/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/me/software/</loc>
+    <loc>https://www.cescoferraro.xyz/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="http://localhost:1313/me/br/software/"
+                href="https://www.cescoferraro.xyz/br/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/me/software/"
+                href="https://www.cescoferraro.xyz/software/"
                 />
   </url>
   
