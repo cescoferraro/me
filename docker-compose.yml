@@ -12,7 +12,7 @@ services:
     image: cescoferraro/me
     container_name: me 
     build: 
-      context: ./docs
+      context: ./out
     ports:
      - "1313:80"
     environment:
@@ -20,7 +20,7 @@ services:
       - CERT_NAME=shared
   boil:
     image: cescoferraro/boil 
-    # container_name: boil 
+    container_name: boil 
     ports:
      - "5000:5000"
     environment:
