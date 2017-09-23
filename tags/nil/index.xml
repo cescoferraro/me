@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nil on @cescoferraro</title>
+    <link>https://cescoferraro.github.io/me/tags/nil/</link>
+    <description>Recent content in Nil on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
+    
+	<atom:link href="https://cescoferraro.github.io/me/tags/nil/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>https://cescoferraro.github.io/me/about/</link>
+      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/about/</guid>
+      <description>Resident Rap DJ of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&#39;s write tomorrow&#39;s web today.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://cescoferraro.github.io/me/about/</link>
+      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/about/</guid>
+      <description>Resident Rap DJ of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&#39;s write tomorrow&#39;s web today.</description>
+    </item>
+    
+    <item>
+      <title>civil</title>
+      <link>https://cescoferraro.github.io/me/civil/</link>
+      <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/civil/</guid>
+      <description>Portuguese Version Only</description>
+    </item>
+    
+    <item>
+      <title>civil</title>
+      <link>https://cescoferraro.github.io/me/civil/</link>
+      <pubDate>Mon, 29 May 2017 23:55:15 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/civil/</guid>
+      <description>Portuguese Version Only</description>
+    </item>
+    
+    <item>
+      <title>portifolio</title>
+      <link>https://cescoferraro.github.io/me/portifolio/</link>
+      <pubDate>Mon, 29 May 2017 23:22:06 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/</guid>
+      <description>Francesco Antonello Ferraro
+Civil Engineer - UFRGS
+OBJETIVO:
+  Carreira desenvolvida na área de Engenharia Civil, com experiência no acompanhamento, porém com ênfase no planejamento e controle de obras. Especialista em software específicos (BIM) visando uma melhor precisão dos dados levantados a fim de diminuir custos, reduzir o retrabalho no intuito de cumprir acordos com os custose prazos estabelecidos pela organização.  RESUMO DAS QUALIFICAÇÕES:
+06/2014 a 06/2016
+Cassano Administradora de Bens Ltda.</description>
+    </item>
+    
+    <item>
+      <title>portifolio</title>
+      <link>https://cescoferraro.github.io/me/portifolio/</link>
+      <pubDate>Mon, 29 May 2017 23:22:06 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/</guid>
+      <description>Francesco Antonello Ferraro
+Civil Engineer - UFRGS
+OBJETIVO:
+  Carreira desenvolvida na área de Engenharia Civil, com experiência no acompanhamento, porém com ênfase no planejamento e controle de obras. Especialista em software específicos (BIM) visando uma melhor precisão dos dados levantados a fim de diminuir custos, reduzir o retrabalho no intuito de cumprir acordos com os custose prazos estabelecidos pela organização.  RESUMO DAS QUALIFICAÇÕES:
+06/2014 a 06/2016
+Cassano Administradora de Bens Ltda.</description>
+    </item>
+    
+    <item>
+      <title>gulp-golang </title>
+      <link>https://cescoferraro.github.io/me/portifolio/gulp-golang/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/gulp-golang/</guid>
+      <description>A gulp wrapper arround the Golang language. Created to allow users to have more control over the build system. This is specially good for packaging Go application with docker.
+You can check the source code here
+        </description>
+    </item>
+    
+    <item>
+      <title>gulp-golang </title>
+      <link>https://cescoferraro.github.io/me/portifolio/gulp-golang/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/gulp-golang/</guid>
+      <description>A gulp wrapper arround the Golang language. Created to allow users to have more control over the build system. This is specially good for packaging Go application with docker.
+You can check the source code here
+        </description>
+    </item>
+    
+    <item>
+      <title>org-loader </title>
+      <link>https://cescoferraro.github.io/me/portifolio/org-loader/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/org-loader/</guid>
+      <description>A official webpack loader for org files. Org, for those who may not know, is a file extension used on the best text editor there is Emacs for organization purpose&#39;s. The library is published on npm, so using is as hard as typing npm i org-loader
+You can check the source code here
+        </description>
+    </item>
+    
+    <item>
+      <title>org-loader </title>
+      <link>https://cescoferraro.github.io/me/portifolio/org-loader/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/org-loader/</guid>
+      <description>A official webpack loader for org files. Org, for those who may not know, is a file extension used on the best text editor there is Emacs for organization purpose&#39;s. The library is published on npm, so using is as hard as typing npm i org-loader
+You can check the source code here
+        </description>
+    </item>
+    
+    <item>
+      <title>spotify.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
+      <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
+You can check the source code here
+            </description>
+    </item>
+    
+    <item>
+      <title>spotify.cescoferraro.xyz </title>
+      <link>https://cescoferraro.github.io/me/portifolio/spotify/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
+      <description>A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.
+You can check the source code here
+            </description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career </title>
+      <link>https://cescoferraro.github.io/me/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/blog/software-developer-career/</guid>
+      <description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career </title>
+      <link>https://cescoferraro.github.io/me/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/blog/software-developer-career/</guid>
+      <description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://cescoferraro.github.io/me/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/software/</guid>
+      <description>Name Francesco Antonello Ferraro   Graduation Software Engineer   Email francescoaferraro@gmail.com   Birthdate 12/30/1987   Location Porto Alegre/RS - Brazil    Professional Summary   I started off as a Civil Engineer, but felt in love with coding. I am pursing a career in this area in order to constantly engage myself with more complex problems.  I grow up with the Internet, so that my primary focus as a developer.</description>
+    </item>
+    
+  </channel>
+</rss>
