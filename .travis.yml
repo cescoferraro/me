@@ -4,7 +4,7 @@ go:
   - 1.8
 
 before_script:
-  - openssl aes-256-cbc -K $encrypted_5d4e24277700_key -iv $encrypted_5d4e24277700_iv -in travis.enc -out settings/keys/travis -d 
+  - openssl aes-256-cbc -K $encrypted_5d4e24277700_key -iv $encrypted_5d4e24277700_iv -in deploy_key.enc -out settings/keys/deploy_key -d 
 
 install: go get -v github.com/spf13/hugo
 script:
