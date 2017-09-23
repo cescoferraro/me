@@ -1,8 +1,0 @@
-#+TITLE: Software Developer Career 
-#+DATE: 2016-08-31T03:55:41-03:00
-#+PUBLISHDATE: 2016-08-31T03:55:41-03:00
-#+DRAFT: nil
-#+TAGS: nil, nil
-#+DESCRIPTION: Short description
-
-[[../../../blog/software-developer-career/][English Version Only]]
