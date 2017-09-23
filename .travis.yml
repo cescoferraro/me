@@ -7,7 +7,7 @@ before_script:
   - openssl aes-256-cbc -K $encrypted_5d4e24277700_key -iv $encrypted_5d4e24277700_iv -in deploy_key.enc -out settings/keys/deploy_key -d 
 
 install: 
-  - wget https://goo.gl/2KqdKZ
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.27.1/hugo_0.27.1_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
 script:
   - ls ../
