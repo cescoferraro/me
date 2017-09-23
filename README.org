@@ -1,6 +1,0 @@
-#+TITLE: www.cescoferraro.xyz 
-#+DRAFT: nil
-#+AUTHOR: @cescoferraro 
-#+TAGS: vitae , nil
-
-#  LocalWords:  Alegre Websockets Iot
