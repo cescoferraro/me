@@ -4,7 +4,6 @@ go:
   - 1.8
 install: go get -v github.com/spf13/hugo
 script:
-  - hugo
   - bash ./deploy.sh
   
 env:
