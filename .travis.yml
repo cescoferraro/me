@@ -8,7 +8,9 @@ before_script:
 
 install: go get -v github.com/spf13/hugo
 script:
+  - ls ../
   - bash ./deploy.sh
+
 env:
   global:
   - ENCRYPTION_LABEL: "5d4e24277700"
