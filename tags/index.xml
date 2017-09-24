@@ -6,7 +6,7 @@
     <description>Recent content in Tags on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate>
     
 	<atom:link href="https://cescoferraro.github.io/me/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,9 +21,18 @@
     </item>
     
     <item>
+      <title>Java</title>
+      <link>https://cescoferraro.github.io/me/tags/java/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nil</title>
       <link>https://cescoferraro.github.io/me/tags/nil/</link>
-      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/tags/nil/</guid>
       <description></description>

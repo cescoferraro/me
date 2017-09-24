@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cescoferraro.github.io/me/blog/gradle-play/</loc>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/portifolio/boil/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -146,7 +151,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -162,7 +167,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/blog/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -208,8 +213,14 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/tags/java/</loc>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/tags/nil/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -241,7 +252,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/tags/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

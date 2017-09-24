@@ -6,10 +6,22 @@
     <description>Recent content in Nil on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate>
     
 	<atom:link href="https://cescoferraro.github.io/me/tags/nil/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>gradle-play </title>
+      <link>https://cescoferraro.github.io/me/blog/gradle-play/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/blog/gradle-play/</guid>
+      <description>Basic Play Framework gradle configuration
+#+begin_src groovy apply plugin: &#39;java&#39; apply plugin: &#39;play&#39; apply plugin: &#39;idea&#39; apply plugin: &#39;eclipse&#39;
+repositories { mavenCentral() jcenter() maven { name &#34;typesafe-maven-release&#34; url &#34;https://repo.typesafe.com/typesafe/maven-releases&#34; } ivy { name &#34;typesafe-ivy-release&#34; url &#34;https://repo.typesafe.com/typesafe/ivy-releases&#34; layout &#34;ivy&#34; } }
+dependencies { testCompile group: &#39;junit&#39;, name: &#39;junit&#39;, version: &#39;4.11&#39; compile group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; play group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple play group: &#39;org.slf4j&#39;, name: &#39;slf4j-simple&#39;, version: &#39;1.</description>
+    </item>
     
     <item>
       <title>about</title>
