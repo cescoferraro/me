@@ -7,8 +7,6 @@
                     {{ .Content }}
                 </div>
             {{ end }}
-	    <h2>kjsdnjsdf[]</h2>
-	    <h2>kjsdnjsdf[]</h2>
             {{ $totalpostscount := len (where .Data.Pages "Section" "portifolio") }}
             {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
             {{ if gt $latestpostscount 0 }}
