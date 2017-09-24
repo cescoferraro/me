@@ -81,11 +81,11 @@
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
-    <link rel="stylesheet" href="../../css/main.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
+    <link rel="stylesheet" href="../../css/reset.css?t=2017-09-24%2014%3a46%3a20.29488993%20%2b0000%20UTC%20m%3d%2b0.052844174">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2017-09-24%2014%3a46%3a20.29488993%20%2b0000%20UTC%20m%3d%2b0.052844174">
+    <link rel="stylesheet" href="../../css/main.css?t=2017-09-24%2014%3a46%3a20.29488993%20%2b0000%20UTC%20m%3d%2b0.052844174">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
+	<link rel="stylesheet" href="../../css/override.css?t=2017-09-24%2014%3a46%3a20.29488993%20%2b0000%20UTC%20m%3d%2b0.052844174">
     
 
 
@@ -237,19 +237,24 @@
 			<div class="date" title='Thu Sep 21 2017 03:55:41 -0300'>Sep 21, 2017</div>
                     
                     
-			<div class="reading-time"><div class="middot"></div>One minute read</div>
+			<div class="reading-time"><div class="middot"></div>2 minutes read</div>
                     
                 </div>
             </div>
             <div class="markdown">
-                <p>Basic Play Framework gradle configuration</p>
+                <p>Basic Play Framework gradle configuration. It uses 4 plugins.  
+Play plugin needs the java one. The other 2 are IDE specific.</p>
 
 <pre><code class="language-groovy">
 apply plugin: 'java'
 apply plugin: 'play'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+</code></pre>
 
+<p>Where the play plugins lives!</p>
+
+<pre><code class="language-groovy">
 repositories {
     mavenCentral()
     jcenter()
@@ -263,27 +268,38 @@ repositories {
         layout &quot;ivy&quot;
     }
 }
+</code></pre>
 
-dependencies {
+<p>The dependencies of the project.</p>
+
+<p>Note the some of them are duplicates because Eclipse could not find
+the play dependencie at the classpath</p>
+
+<pre><code class="language-groovy">
+dependencies { 
+    play    group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
+    play    'javax.inject:javax.inject:1'
+    compile 'javax.inject:javax.inject:1'
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
     compile group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
     play group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
+
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     play group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
     testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
-
 }
+</code></pre>
 
-sourceSets {
-    main {
-	java {
-	    srcDir 'app'
-	}
-    }
-}
+<p>This block does 3 things. Sets the Play version. Turn on these Play
+feature that allows writing non-static methods inside a Play
+Controller. And copy the a Dockerfile to the dist folder every time
+you issue one of the distributions tasks implemented by the Gradle-Play
+plugin, so it can be used to deploy the artifacts generated.</p>
 
-
+<pre><code class="language-groovy">
 model {
     components {
         play {
@@ -299,10 +315,28 @@ model {
         }
     }
 }
-// Eclipse
-eclipse.classpath.plusConfigurations += [ configurations.play ] 
+</code></pre>
 
-// Intellij
+<p>eclipse support is very limited with the current version on the
+Play-Gradle plugin, but these somehow make it work, not perfectly, but
+working.</p>
+
+<pre><code class="language-groovy">
+eclipse.classpath.plusConfigurations += [ configurations.play ] 
+sourceSets {
+    main {
+	java {
+	    srcDir 'app'
+	}
+    }
+}
+</code></pre>
+
+<p>Intellij by the other hand is fully supported. All you need is to
+setup things nicely so it can find what it need within the Play
+scaffolding.</p>
+
+<pre><code class="language-groovy">
 idea {
     module {
         sourceDirs += file(&quot;app&quot;)
@@ -312,7 +346,6 @@ idea {
         scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
     }
 }
-
 </code></pre>
 
                 <br>
