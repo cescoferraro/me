@@ -99,6 +99,16 @@ You can check the source code here
     </item>
     
     <item>
+      <title>Web offline support </title>
+      <link>https://cescoferraro.github.io/me/blog/web-offline-support/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/blog/web-offline-support/</guid>
+      <description>Here I am using HubSpot/Offline. You can find more information at the Docs.
+export const offlineCheck = (store) =&amp;gt; { const { Offline } = (window as any) const upHandler = (e) =&amp;gt; {console.log(&amp;quot;upppp&amp;quot;)} const downHandler = (e) =&amp;gt; {console.log(&amp;quot;downnnnn&amp;quot;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&amp;gt; (&amp;quot;https://esri.github.io/offline-editor-js/tiny-image.png?_=&amp;quot; + (Math.floor(Math.random() * 1000000000))) }, active: &amp;quot;image&amp;quot; } } Offline.on(&amp;quot;up&amp;quot;, upHandler) Offline.on(&amp;quot;down&amp;quot;, downHandler) }  </description>
+    </item>
+    
+    <item>
       <title>flag.cescoferraro.xyz </title>
       <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
       <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>

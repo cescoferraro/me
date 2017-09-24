@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</loc>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/br/about/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <xhtml:link
@@ -124,7 +139,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/br/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -140,7 +155,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/br/blog/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -186,8 +201,24 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/br/tags/java/</loc>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/tags/java/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/br/tags/nil/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -219,7 +250,7 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/br/tags/</loc>
-    <lastmod>2017-05-30T01:53:46-03:00</lastmod>
+    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

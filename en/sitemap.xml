@@ -5,6 +5,16 @@
   <url>
     <loc>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</loc>
     <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/"
+                />
   </url>
   
   <url>
@@ -100,6 +110,11 @@
                 hreflang="en"
                 href="https://cescoferraro.github.io/me/portifolio/spotify/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/blog/web-offline-support/</loc>
+    <lastmod>2017-01-31T03:55:41-03:00</lastmod>
   </url>
   
   <url>
@@ -204,6 +219,16 @@
     <loc>https://cescoferraro.github.io/me/tags/java/</loc>
     <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/tags/java/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/tags/java/"
+                />
   </url>
   
   <url>
