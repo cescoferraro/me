@@ -1,4 +1,4 @@
-#+TITLE: gradle-play 
+#+TITLE: Using Gradle with Play framework 
 #+DATE: 2017-09-21T03:55:41-03:00
 #+PUBLISHDATE: 2017-09-21T03:55:41-03:00
 #+DRAFT: nil
@@ -8,12 +8,11 @@
 
 Basic Play Framework gradle configuration
 
-  #+begin_src groovy 
+#+BEGIN_SRC groovy
 apply plugin: 'java'
 apply plugin: 'play'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
-
 
 repositories {
     mavenCentral()
@@ -40,26 +39,11 @@ dependencies {
 
 }
 
-
 sourceSets {
     main {
 	java {
 	    srcDir 'app'
 	}
-    }
-}
-
-// Eclipse
-eclipse.classpath.plusConfigurations += [ configurations.play ] 
-
-// Intellij
-idea {
-    module {
-        sourceDirs += file("app")
-        testSourceDirs += file("test")
-        scopes.COMPILE = [plus: [configurations.play], minus: []]
-        scopes.RUNTIME = [plus: [configurations.playRun], minus:[configurations.play]]
-        scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
     }
 }
 
@@ -79,5 +63,18 @@ model {
         }
     }
 }
+// Eclipse
+eclipse.classpath.plusConfigurations += [ configurations.play ] 
 
-  #+end_src
+// Intellij
+idea {
+    module {
+        sourceDirs += file("app")
+        testSourceDirs += file("test")
+        scopes.COMPILE = [plus: [configurations.play], minus: []]
+        scopes.RUNTIME = [plus: [configurations.playRun], minus:[configurations.play]]
+        scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
+    }
+}
+
+#+END_SRC
