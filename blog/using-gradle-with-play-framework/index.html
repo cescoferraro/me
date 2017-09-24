@@ -10,10 +10,10 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Short description">
 
-<meta property="og:title" content="gradle-play " />
+<meta property="og:title" content="Using Gradle with Play framework " />
 <meta property="og:description" content="Short description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://cescoferraro.github.io/me/blog/gradle-play/" />
+<meta property="og:url" content="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/" />
 
 
 
@@ -35,10 +35,10 @@
     <title>
 	
 	
-	     gradle-play  
+	     Using Gradle with Play framework  
 	
     </title>
-    <link rel="canonical" href="https://cescoferraro.github.io/me/blog/gradle-play/">
+    <link rel="canonical" href="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/">
     
 
 
@@ -81,11 +81,11 @@
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2017-09-24%2001%3a19%3a00.098815335%20%2b0000%20UTC%20m%3d%2b0.055509625">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2017-09-24%2001%3a19%3a00.098815335%20%2b0000%20UTC%20m%3d%2b0.055509625">
-    <link rel="stylesheet" href="../../css/main.css?t=2017-09-24%2001%3a19%3a00.098815335%20%2b0000%20UTC%20m%3d%2b0.055509625">
+    <link rel="stylesheet" href="../../css/reset.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
+    <link rel="stylesheet" href="../../css/main.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2017-09-24%2001%3a19%3a00.098815335%20%2b0000%20UTC%20m%3d%2b0.055509625">
+	<link rel="stylesheet" href="../../css/override.css?t=2017-09-24%2014%3a08%3a43.123972812%20%2b0000%20UTC%20m%3d%2b0.049782935">
     
 
 
@@ -226,7 +226,7 @@
                 <div class="title-container">
                     <div class="page-heading">
     
-	gradle-play 
+	Using Gradle with Play framework 
     
 </div>
 
@@ -244,60 +244,47 @@
             <div class="markdown">
                 <p>Basic Play Framework gradle configuration</p>
 
-<p>#+begin_src groovy 
+<pre><code class="language-groovy">
 apply plugin: 'java'
 apply plugin: 'play'
 apply plugin: 'idea'
-apply plugin: 'eclipse'</p>
+apply plugin: 'eclipse'
 
-<p>repositories {
+repositories {
     mavenCentral()
     jcenter()
     maven {
-        name "typesafe-maven-release"
-        url "https://repo.typesafe.com/typesafe/maven-releases"
+        name &quot;typesafe-maven-release&quot;
+        url &quot;https://repo.typesafe.com/typesafe/maven-releases&quot;
     }
     ivy {
-        name "typesafe-ivy-release"
-        url "https://repo.typesafe.com/typesafe/ivy-releases"
-        layout "ivy"
+        name &quot;typesafe-ivy-release&quot;
+        url &quot;https://repo.typesafe.com/typesafe/ivy-releases&quot;
+        layout &quot;ivy&quot;
     }
-}</p>
+}
 
-<p>dependencies {
+dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
     play group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     play group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
-    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'</p>
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 
-<p>}</p>
+}
 
-<p>sourceSets {
+sourceSets {
     main {
 	java {
 	    srcDir 'app'
 	}
     }
-}</p>
+}
 
-<p>// Eclipse
-eclipse.classpath.plusConfigurations += [ configurations.play ]</p>
 
-<p>// Intellij
-idea {
-    module {
-        sourceDirs += file("app")
-        testSourceDirs += file("test")
-        scopes.COMPILE = [plus: [configurations.play], minus: []]
-        scopes.RUNTIME = [plus: [configurations.playRun], minus:[configurations.play]]
-        scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
-    }
-}</p>
-
-<p>model {
+model {
     components {
         play {
             platform play: '2.5.8', scala: '2.11'
@@ -307,13 +294,26 @@ idea {
     distributions {
         playBinary {
             contents {
-                from("Dockerfile") 
+                from(&quot;Dockerfile&quot;) 
             }
         }
     }
-}</p>
+}
+// Eclipse
+eclipse.classpath.plusConfigurations += [ configurations.play ] 
 
-<p>#+end_src</p>
+// Intellij
+idea {
+    module {
+        sourceDirs += file(&quot;app&quot;)
+        testSourceDirs += file(&quot;test&quot;)
+        scopes.COMPILE = [plus: [configurations.play], minus: []]
+        scopes.RUNTIME = [plus: [configurations.playRun], minus:[configurations.play]]
+        scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
+    }
+}
+
+</code></pre>
 
                 <br>
 		<p><a href="../../blog/">Back to posts</a></p>
@@ -357,6 +357,12 @@ ga('send', 'pageview');
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/python.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/gradle.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/groovy.min.js"></script>
     
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
     

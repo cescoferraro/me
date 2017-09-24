@@ -12,15 +12,13 @@
     
     
     <item>
-      <title>gradle-play </title>
-      <link>https://cescoferraro.github.io/me/blog/gradle-play/</link>
+      <title>Using Gradle with Play framework </title>
+      <link>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</link>
       <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
       
-      <guid>https://cescoferraro.github.io/me/blog/gradle-play/</guid>
+      <guid>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</guid>
       <description>Basic Play Framework gradle configuration
-#+begin_src groovy apply plugin: &#39;java&#39; apply plugin: &#39;play&#39; apply plugin: &#39;idea&#39; apply plugin: &#39;eclipse&#39;
-repositories { mavenCentral() jcenter() maven { name &#34;typesafe-maven-release&#34; url &#34;https://repo.typesafe.com/typesafe/maven-releases&#34; } ivy { name &#34;typesafe-ivy-release&#34; url &#34;https://repo.typesafe.com/typesafe/ivy-releases&#34; layout &#34;ivy&#34; } }
-dependencies { testCompile group: &#39;junit&#39;, name: &#39;junit&#39;, version: &#39;4.11&#39; compile group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; play group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple play group: &#39;org.slf4j&#39;, name: &#39;slf4j-simple&#39;, version: &#39;1.</description>
+apply plugin: &#39;java&#39; apply plugin: &#39;play&#39; apply plugin: &#39;idea&#39; apply plugin: &#39;eclipse&#39; repositories { mavenCentral() jcenter() maven { name &amp;quot;typesafe-maven-release&amp;quot; url &amp;quot;https://repo.typesafe.com/typesafe/maven-releases&amp;quot; } ivy { name &amp;quot;typesafe-ivy-release&amp;quot; url &amp;quot;https://repo.typesafe.com/typesafe/ivy-releases&amp;quot; layout &amp;quot;ivy&amp;quot; } } dependencies { testCompile group: &#39;junit&#39;, name: &#39;junit&#39;, version: &#39;4.11&#39; compile group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; play group: &#39;com.typesafe.play&#39;, name: &#39;play_2.11&#39;, version: &#39;2.5.8&#39; // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple play group: &#39;org.slf4j&#39;, name: &#39;slf4j-simple&#39;, version: &#39;1.7.25&#39; compile group: &#39;org.</description>
     </item>
     
     <item>

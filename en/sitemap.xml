@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cescoferraro.github.io/me/blog/gradle-play/</loc>
+    <loc>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</loc>
     <lastmod>2017-09-21T03:55:41-03:00</lastmod>
   </url>
   
@@ -135,18 +135,6 @@
   <url>
     <loc>https://cescoferraro.github.io/me/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/</loc>
   </url>
   
   <url>
