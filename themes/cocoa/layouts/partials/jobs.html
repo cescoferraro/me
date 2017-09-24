@@ -1,0 +1,28 @@
+<section class="main" >
+    <div class="container">
+        <div class="content">
+            {{ if .Content }}
+                <div class="markdown">
+                    {{ .Content }}
+                </div>
+            {{ end }}
+            {{ $totaljobscount := len (where .Data.Pages "Section" "portifolio") }}
+            {{ $latestjobscount := .Site.Params.latestjobscount | default $totaljobscount }}
+            {{ if gt $latestjobscount 0 }}
+                <div class="page-heading">{{ i18n "latestPortifolio" }}</div>
+                <ul>
+                    {{ range (first $latestjobscount (where .Data.Pages.ByPublishDate "Section" "portifolio")) }}
+                        {{ partial "portifolio-name.html" . }}
+                    {{ end }}
+                    {{ if gt $totaljobscount $latestjobscount }}
+                        {{ range where .Site.Menus.main "Identifier" "portifolio" }}
+                            <li class="post-item">
+                                <a id="see-more" {{ printf "href=%q " .URL | safeHTMLAttr }}><span>See more&hellip;</span></a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+        </div>
+            {{ end }}
+    </div>
+</section>

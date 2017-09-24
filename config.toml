@@ -53,6 +53,7 @@ identifier             = "civil"
 url                    = "civil/"
 
 [params]
+latestjobscount        = 3                             
 latestpostscount       = 5                             
 i18n_flags             = true 
 author                 = "Cesco Ferraro"

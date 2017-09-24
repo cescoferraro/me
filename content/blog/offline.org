@@ -1,0 +1,26 @@
+#+TITLE: Web offline support 
+#+DATE: 2017-01-31T03:55:41-03:00
+#+DRAFT: nil
+#+TAGS: nil, nil
+
+Here I am using [[https://https://github.com/HubSpot/offline][HubSpot/Offline]]. You can find more information at [[http://github.hubspot.com/offline/docs/welcome/][the Docs.]] 
+
+#+BEGIN_SRC groovy
+export const offlineCheck = (store) => {
+    const { Offline } = (window as any)
+    const upHandler = (e) => {console.log("upppp")}
+    const downHandler = (e) => {console.log("downnnnn")}
+    Offline.options = {
+        checkOnLoad: true,
+        checks: {
+            image: {
+                url: () => ("https://esri.github.io/offline-editor-js/tiny-image.png?_="
+                    + (Math.floor(Math.random() * 1000000000)))
+            },
+            active: "image"
+        }
+    }
+    Offline.on("up", upHandler)
+    Offline.on("down", downHandler)
+}
+#+END_SRC
