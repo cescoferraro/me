@@ -6,14 +6,18 @@
 #+DESCRIPTION: Short description
 
 
-Basic Play Framework gradle configuration
+Basic Play Framework gradle configuration. It uses 4 plugins.  
+Play plugin needs the java one. The other 2 are IDE specific.
 
 #+BEGIN_SRC groovy
 apply plugin: 'java'
 apply plugin: 'play'
 apply plugin: 'idea'
 apply plugin: 'eclipse'
+#+END_SRC
 
+Where the play plugins lives!
+#+BEGIN_SRC groovy
 repositories {
     mavenCentral()
     jcenter()
@@ -27,27 +31,36 @@ repositories {
         layout "ivy"
     }
 }
+#+END_SRC
 
-dependencies {
+The dependencies of the project.
+
+Note the some of them are duplicates because Eclipse could not find
+the play dependencie at the classpath
+#+BEGIN_SRC groovy
+dependencies { 
+    play    group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
+    play    'javax.inject:javax.inject:1'
+    compile 'javax.inject:javax.inject:1'
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
     compile group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
     play group: 'com.typesafe.play', name: 'play_2.11', version: '2.5.8'
+
     // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
     play group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
     compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
     testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
-
 }
+#+END_SRC
 
-sourceSets {
-    main {
-	java {
-	    srcDir 'app'
-	}
-    }
-}
-
-
+This block does 3 things. Sets the Play version. Turn on these Play
+feature that allows writing non-static methods inside a Play
+Controller. And copy the a Dockerfile to the dist folder every time
+you issue one of the distributions tasks implemented by the Gradle-Play
+plugin, so it can be used to deploy the artifacts generated.
+#+BEGIN_SRC groovy
 model {
     components {
         play {
@@ -63,10 +76,26 @@ model {
         }
     }
 }
-// Eclipse
+#+END_SRC
+eclipse support is very limited with the current version on the
+Play-Gradle plugin, but these somehow make it work, not perfectly, but
+working.
+#+BEGIN_SRC groovy
 eclipse.classpath.plusConfigurations += [ configurations.play ] 
+sourceSets {
+    main {
+	java {
+	    srcDir 'app'
+	}
+    }
+}
+#+END_SRC
 
-// Intellij
+Intellij by the other hand is fully supported. All you need is to
+setup things nicely so it can find what it need within the Play
+scaffolding.
+
+#+BEGIN_SRC groovy
 idea {
     module {
         sourceDirs += file("app")
@@ -76,5 +105,4 @@ idea {
         scopes.TEST = [plus: [configurations.playTest], minus: [configurations.playRun]]
     }
 }
-
 #+END_SRC
