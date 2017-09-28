@@ -26,3 +26,21 @@ services:
     environment:
       - VIRTUAL_HOST=boil.cescoferraro.xyz
       - CERT_NAME=shared
+  play:
+    image: cescoferraro/play
+    container_name: play 
+    ports:
+     - "9000:9000"
+    environment:
+      - VIRTUAL_HOST=play.cescoferraro.xyz
+      - CERT_NAME=shared
+      - PLAY_AWS_ACCESS_KEY=AKIAJ7OWUPJ7ANREIBVA
+      - PLAY_AWS_SECRET_KEY=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
+  onni:
+    image: cescoferraro/onni
+    container_name: onni 
+    ports:
+     - "8000:80"
+    environment:
+      - VIRTUAL_HOST=onni.cescoferraro.xyz
+      - CERT_NAME=shared
