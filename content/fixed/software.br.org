@@ -12,7 +12,7 @@
 * Resumo Profissional 
 
 #+BEGIN_QUOTE
-Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou buscando uma nova carreira na área, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado. Eu cresci com a internet, e ela é a área em que eu gostaria de focar a minha nova carreira. Almejo ajudar a Internet a evoluir, para talvez conseguir retribuir todo o conhecimento e diversão que ela me proporcionou.
+Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou nessa área faz +4 anos, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado. Eu cresci com a internet, e ela é a área em que eu gostaria de focar a minha nova carreira. Almejo ajudar a Internet a evoluir, para talvez conseguir retribuir todo o conhecimento e diversão que ela me proporcionou.
 #+END_QUOTE 
 
 * Habilidades Técnicas 
@@ -24,7 +24,19 @@ Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional 
 
 | [[https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/][Progressive Web Apps]] | [[https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/][Server Side Rendering]] | Websockets |
 | [[https://redis.io/][Redis]]                | [[https://facebook.github.io/react/][React.js]]              | [[https://www.gnu.org/software/emacs/][Emacs]]      |
-| [[https://www.typescriptlang.org/][Typescript]]           | Iot                   |            |
+| [[https://www.typescriptlang.org/][Typescript]]           | Iot                   |        GraphQl    |
+
+* Professional 
+
+*** ➡ ONNi :2016 - 2018:
+Full Stack Developer - React + Golang &
+DevOps - Kubernetes
+
+*** ➡ D3 :~: :2019~:
+Backend Developer C#
+
+*** ➡ B2BReservas :~: :2019~:
+Fullstack Developer - Graphql Java + React
 
 * Educação 
 ***  Engenharia Civil :Graduado em 2013:
@@ -33,9 +45,6 @@ Universidade Federal do Rio Grande do Sul - Porto Alegre
 ***  Engenharia de Software :~: :2017:
 Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
 
-* Cursos 
-***  Formação Java Web :2016:
-SISNEMA - Porto Alegre
 
 
 
