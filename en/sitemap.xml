@@ -48,26 +48,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/civil/</loc>
-    <lastmod>2017-05-29T23:55:15-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/civil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/civil/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/portifolio/</loc>
-    <lastmod>2017-05-29T23:22:06-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/portifolio/gulp-golang/</loc>
     <lastmod>2017-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
