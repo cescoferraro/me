@@ -28,13 +28,6 @@ identifier             = "blog"
 url                    = "blog/"
 
 [[menu.main]]
-name                   = "Portifolio"
-weight                 = -110
-identifier             = "portifolio"
-title = "portifolio"
-url                    = "portifolio/"
-
-[[menu.main]]
 name                   = "About"
 weight                 = -90
 identifier             = "about"
@@ -45,12 +38,6 @@ name                   = "Software"
 weight                 = -100
 identifier             = "software"
 url                    = "software/"
-
-[[menu.main]]
-name                   = "Civil"
-weight                 = -80
-identifier             = "civil"
-url                    = "civil/"
 
 [params]
 latestjobscount        = 3                             
