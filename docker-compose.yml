@@ -3,13 +3,13 @@ services:
   web:
     container_name: me
     build:
-      context: ./build
+      context: ./out
     ports:
       - "80"
     environment:
-      - VIRTUAL_HOST=spotify.cescoferraro.xyz
+      - VIRTUAL_HOST=www.cescoferraro.xyz
       - VIRTUAL_PORT=80
-      - LETSENCRYPT_HOST=spotify.cescoferraro.xyz
+      - LETSENCRYPT_HOST=www.cescoferraro.xyz
       - LETSENCRYPT_EMAIL=francescoaferraro@gmail.com
     networks:
       global:
