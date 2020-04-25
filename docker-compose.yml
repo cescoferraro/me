@@ -1,46 +1,18 @@
-version: '3'
+version: '3.2'
 services:
-  nginx:
-    image: cescoferraro/nginx 
-    container_name: nginx
+  web:
+    container_name: me
+    build:
+      context: ./build
     ports:
-      - "443:443"
-      - "80:80"
-    volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
-  me:
-    image: cescoferraro/me
-    container_name: me 
-    build: 
-      context: ./out
-    ports:
-     - "1313:80"
+      - "80"
     environment:
-      - VIRTUAL_HOST=www.cescoferraro.xyz
-      - CERT_NAME=shared
-  boil:
-    image: cescoferraro/boil 
-    container_name: boil 
-    ports:
-     - "5000:5000"
-    environment:
-      - VIRTUAL_HOST=boil.cescoferraro.xyz
-      - CERT_NAME=shared
-  play:
-    image: cescoferraro/play
-    container_name: play 
-    ports:
-     - "9000:9000"
-    environment:
-      - VIRTUAL_HOST=play.cescoferraro.xyz
-      - CERT_NAME=shared
-      - PLAY_AWS_ACCESS_KEY=AKIAJ7OWUPJ7ANREIBVA
-      - PLAY_AWS_SECRET_KEY=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
-  onni:
-    image: cescoferraro/onni
-    container_name: onni 
-    ports:
-     - "8000:80"
-    environment:
-      - VIRTUAL_HOST=onni.cescoferraro.xyz
-      - CERT_NAME=shared
+      - VIRTUAL_HOST=spotify.cescoferraro.xyz
+      - VIRTUAL_PORT=80
+      - LETSENCRYPT_HOST=spotify.cescoferraro.xyz
+      - LETSENCRYPT_EMAIL=francescoaferraro@gmail.com
+    networks:
+      global:
+networks:
+  global:
+    external: true
