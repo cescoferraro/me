@@ -1,3 +1,4 @@
 out/
 .idea/
+deploy_key
 settings/keys/deploy_key
