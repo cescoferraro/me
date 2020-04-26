@@ -8,16 +8,18 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Don&#39;t panic">
+<meta name="description" content="How to use SSH inside Travis">
 
-<meta property="og:title" content="Portifolio" />
-<meta property="og:description" content="Don&#39;t panic" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://cescoferraro.github.io/me/br/portifolio/" />
+<meta property="og:title" content="Travis SSH" />
+<meta property="og:description" content="How to use SSH inside Travis" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cescoferraro.github.io/me/br/blog/travis-ssh/" />
 
 
 
-<meta property="og:updated_time" content="2016-08-31T03:55:41-03:00"/>
+<meta property="article:published_time" content="2017-01-31T03:55:41-03:00"/>
+<meta property="article:modified_time" content="2017-01-31T03:55:41-03:00"/>
+
 
 
 
@@ -32,10 +34,10 @@
     <title>
 	
 	
-	     Portifolio 
+	     Travis SSH 
 	
     </title>
-    <link rel="canonical" href="https://cescoferraro.github.io/me/br/portifolio/">
+    <link rel="canonical" href="https://cescoferraro.github.io/me/br/blog/travis-ssh/">
     
 
 
@@ -78,11 +80,11 @@
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2020-04-26%2000%3a42%3a47.272224715%20%2b0000%20UTC%20m%3d%2b0.091533642">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2020-04-26%2000%3a42%3a47.272224715%20%2b0000%20UTC%20m%3d%2b0.091533642">
-    <link rel="stylesheet" href="../../css/main.css?t=2020-04-26%2000%3a42%3a47.272224715%20%2b0000%20UTC%20m%3d%2b0.091533642">
+    <link rel="stylesheet" href="../../../css/reset.css?t=2020-04-26%2000%3a42%3a47.255388504%20%2b0000%20UTC%20m%3d%2b0.074697419">
+    <link rel="stylesheet" href="../../../css/pygments.css?t=2020-04-26%2000%3a42%3a47.255388504%20%2b0000%20UTC%20m%3d%2b0.074697419">
+    <link rel="stylesheet" href="../../../css/main.css?t=2020-04-26%2000%3a42%3a47.255388504%20%2b0000%20UTC%20m%3d%2b0.074697419">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2020-04-26%2000%3a42%3a47.272224715%20%2b0000%20UTC%20m%3d%2b0.091533642">
+	<link rel="stylesheet" href="../../../css/override.css?t=2020-04-26%2000%3a42%3a47.255388504%20%2b0000%20UTC%20m%3d%2b0.074697419">
     
 
 
@@ -90,13 +92,11 @@
 
 <link rel="shortcut icon"
       
-      href="../../img/favicon.ico"
+      href="../../../img/favicon.ico"
       
 >
 
 
-
-    <link href="https://cescoferraro.github.io/me/br/portifolio/index.xml" rel="alternate" type="application/rss+xml" title="@cescoferraro" />
 
 
 </head>
@@ -143,9 +143,9 @@
 			    
 			
 			
-			<a href="../../br/"><img class="avatar" src="../../img/profile.png" srcset="https://cescoferraro.github.io/me/img/profile.png 1x"></a>
+			<a href="../../../br/"><img class="avatar" src="../../../img/profile.png" srcset="https://cescoferraro.github.io/me/img/profile.png 1x"></a>
 		    
-		    <a href="../../"><div class="name">Cesco Ferraro</div></a>
+		    <a href="../../../"><div class="name">Cesco Ferraro</div></a>
 		    
 		    <nav>
 			<ul>
@@ -173,17 +173,17 @@
 		<div class="content">
 
 		    
-			<a href="//github.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../img/github.svg" alt="github" /></a>
+			<a href="//github.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../../img/github.svg" alt="github" /></a>
 		    
 
 		    
-			<a href="//twitter.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../img/twitter.svg" alt="twitter" /></a>
+			<a href="//twitter.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../../img/twitter.svg" alt="twitter" /></a>
 		    
 
 		    
 
 		    
-			<a href="//www.linkedin.com/in/francesco-ferraro-64805114/" target="_blank" rel="noopener"><img class="icon" src="../../img/linkedin.svg" alt="linkedin" /></a>
+			<a href="//www.linkedin.com/in/francesco-ferraro-64805114/" target="_blank" rel="noopener"><img class="icon" src="../../../img/linkedin.svg" alt="linkedin" /></a>
 		    
 
 		    
@@ -199,79 +199,77 @@
 		    
 
 		    
-			<a href="mailto:francescoaferraro@gmail.com"><img class="icon" src="../../img/email.svg" alt="email" /></a>
+			<a href="mailto:francescoaferraro@gmail.com"><img class="icon" src="../../../img/email.svg" alt="email" /></a>
 		    
 
 		    
-			<a href="https://cescoferraro.github.io/me/index.xml"><img class="icon" src="../../img/rss.svg" alt="rss" /></a>
+			<a href="https://cescoferraro.github.io/me/index.xml"><img class="icon" src="../../../img/rss.svg" alt="rss" /></a>
 		    
 		    
 			
-			    <a href="https://cescoferraro.github.io/me/portifolio/"><img class="icon flag" src="../../img/flags/en.svg"></a>
+			    <a href="https://cescoferraro.github.io/me/blog/travis-ssh/"><img class="icon flag" src="../../../img/flags/en.svg"></a>
 			
 		    
 		</div>
 	    </div>
 	</section>
 
-<section class="main">
+<section class="main post non-narrow zero-top-spacing">
     <div class="container">
         <div class="content">
-            
-	    
-		<div class="page-heading">Projetos</div>
-	    
-	    
-	    <div class="page-heading"></div>
-            <ul>
-                
-                
-                    
-			<li class="post-item">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
     
-	<span class="meta"><time datetime='2016-08-31T03:55:41-03:00'>Aug 31, 2016</time></span>
+	Travis SSH
     
-    <a href="https://cescoferraro.github.io/me/br/portifolio/boil/"><span>boil.cescoferraro.xyz </span></a>
-</li>
+</div>
 
+                    <div class="initials"><a href="https://cescoferraro.github.io/me/"></a></div>
+                </div>
+                <div class="meta">
                     
-			<li class="post-item">
-    
-	<span class="meta"><time datetime='2016-08-31T03:55:41-03:00'>Aug 31, 2016</time></span>
-    
-    <a href="https://cescoferraro.github.io/me/br/portifolio/flag/"><span>flag.cescoferraro.xyz </span></a>
-</li>
+			<div class="date" title='Tue Jan 31 2017 03:55:41 -0300'>Jan 31, 2017</div>
+                    
+                    
+			<div class="reading-time"><div class="middot"></div>One minute read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                <p><a href="../../../blog/travis-ssh/" title="English Version Only">English Version Only</a></p>
+<!--  LocalWords:  travis ssh description PUBLISHDATE UFRGS ECMA LocalWords -->
 
-                    
-			<li class="post-item">
+                <br>
+		<p><a href="../../../blog/">Voltar ao blog</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
     
-	<span class="meta"><time datetime='2016-08-31T03:55:41-03:00'>Aug 31, 2016</time></span>
     
-    <a href="https://cescoferraro.github.io/me/br/portifolio/gulp-golang/"><span>gulp-golang </span></a>
-</li>
-
-                    
-			<li class="post-item">
     
-	<span class="meta"><time datetime='2016-08-31T03:55:41-03:00'>Aug 31, 2016</time></span>
-    
-    <a href="https://cescoferraro.github.io/me/br/portifolio/org-loader/"><span>org-loader</span></a>
-</li>
-
-                    
-			<li class="post-item">
-    
-	<span class="meta"><time datetime='2016-08-31T03:55:41-03:00'>Aug 31, 2016</time></span>
-    
-    <a href="https://cescoferraro.github.io/me/br/portifolio/spotify/"><span>spotify.cescoferraro.xyz </span></a>
-</li>
-
-                    
-                
-            </ul>
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "blog-cescoferraro-xyz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
         </div>
     </div>
 </section>
+
 
 
 <script>
@@ -312,5 +310,4 @@ ga('send', 'pageview');
 
 </body>
 </html>
-
 

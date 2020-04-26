@@ -33,6 +33,21 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/br/blog/travis-ssh/</loc>
+    <lastmod>2017-01-31T03:55:41-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/blog/travis-ssh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/blog/travis-ssh/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/br/blog/software-developer-career/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
