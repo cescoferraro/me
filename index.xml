@@ -76,6 +76,15 @@ You can check the source code here
     </item>
     
     <item>
+      <title>Travis SSH</title>
+      <link>https://cescoferraro.github.io/me/blog/travis-ssh/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/blog/travis-ssh/</guid>
+      <description>I can deploy ssh machines from travis!</description>
+    </item>
+    
+    <item>
       <title>Web offline support </title>
       <link>https://cescoferraro.github.io/me/blog/web-offline-support/</link>
       <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
