@@ -1,11 +1,11 @@
-#+TITLE: Software Developer Career 
+#+TITLE: Software Developer Career
 #+DATE: 2016-08-31T03:55:41-03:00
 #+PUBLISHDATE: 2016-08-31T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 #+DESCRIPTION: Short description
 
- 
+
 I have been coding a lot for the past two years. And by crazy I mean
 at least a little bit everyday, but often all my spare time. Not
 usually for work, except for a few freelance jobs I have successfully
@@ -44,7 +44,7 @@ wrote and use everyday. This blog is a vehicle for that as well as
 some open-source project I run and some PR i send to popular
 repositories.
 
-*** Write better English 
+*** Write better English
 I have done a Construction Management Extension course at UCLA. And to
 be able to enroll I had to take a TOEFL test, which is a English
 proficiency test. I got A real high score, but my writing skill pulled

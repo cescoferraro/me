@@ -1,7 +1,7 @@
-#+TITLE: org-loader 
+#+TITLE: org-loader
 #+DATE: 2017-04-21
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 #+DESCRIPTION: Short description
 
 A official webpack loader for org files. Org, for those who may not
@@ -13,7 +13,7 @@ You can check the source code [[https://github.com/cescoferraro/org-loader][here
 
 |-----+-----|
 | [[file:/img/org.png][hey]] | [[file:/img/org2.png][hjey]] |
- 
+
 
 
 

@@ -1,12 +1,12 @@
-#+TITLE: Using Gradle with Play framework 
+#+TITLE: Using Gradle with Play framework
 #+DATE: 2017-09-21T03:55:41-03:00
 #+PUBLISHDATE: 2017-09-21T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: java, nil
+#+TAGS[]: java, nil
 #+DESCRIPTION: Short description
 
 
-Basic Play Framework gradle configuration. It uses 4 plugins.  
+Basic Play Framework gradle configuration. It uses 4 plugins.
 Play plugin needs the java one. The other 2 are IDE specific.
 
 #+BEGIN_SRC groovy
@@ -38,7 +38,7 @@ The dependencies of the project.
 Note the some of them are duplicates because Eclipse could not find
 the play dependencie at the classpath
 #+BEGIN_SRC groovy
-dependencies { 
+dependencies {
     play    group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
     compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
     play    'javax.inject:javax.inject:1'
@@ -71,7 +71,7 @@ model {
     distributions {
         playBinary {
             contents {
-                from("Dockerfile") 
+                from("Dockerfile")
             }
         }
     }
@@ -81,7 +81,7 @@ eclipse support is very limited with the current version on the
 Play-Gradle plugin, but these somehow make it work, not perfectly, but
 working.
 #+BEGIN_SRC groovy
-eclipse.classpath.plusConfigurations += [ configurations.play ] 
+eclipse.classpath.plusConfigurations += [ configurations.play ]
 sourceSets {
     main {
 	java {

@@ -1,7 +1,7 @@
 #+TITLE: software
 #+DRAFT: nil
-#+AUTHOR: @cescoferraro 
-#+TAGS: vitae , nil
+#+AUTHOR: @cescoferraro
+#+TAGS[]: vitae , nil
 
 
 |------------+-----------------------------|
@@ -11,16 +11,16 @@
 | Birthdate  | 12/30/1987                  |
 | Location   | [[https://www.google.com/maps/place/Porto+Alegre+-+RS,+Brazil/@-30.1018504,-51.2959986,11z/data=!3m1!4b1!4m5!3m4!1s0x9519784e88e1007d:0xc7011777424f60bd!8m2!3d-30.0346564!4d-51.2176584][Porto Alegre/RS - Brazil]]    |
 
-* Professional Summary 
+* Professional Summary
 
 #+BEGIN_QUOTE
 
-I started off as a Civil Engineer, but felt in love with coding. I have been working in the industry for 4+ in order to constantly engage myself with more complex problems. 
+I started off as a Civil Engineer, but felt in love with coding. I have been working in the industry for 4+ in order to constantly engage myself with more complex problems.
 I grow up with the Internet, so that my primary focus as a developer. I really want to help it evolve as much as I can, so maybe I can pay off all the acknowledgment and fun it gave me. Have been a Linux user for 10+ years.
 #+END_QUOTE
 
-* Technical Skills 
-*** Languages 
+* Technical Skills
+*** Languages
 
 | [[https://golang.org][Golang]] | [[https://nodejs.com][NodeJS]] | [[https://java.com][Java]] | [[https://docs.microsoft.com/en-us/dotnet/csharp/][DotNet]] |
 
@@ -30,7 +30,7 @@ I grow up with the Internet, so that my primary focus as a developer. I really w
 | [[https://redis.io/][Redis]]                | [[https://facebook.github.io/react/][React.js]]              | [[https://www.gnu.org/software/emacs/][Emacs]]      |
 | [[https://www.typescriptlang.org/][Typescript]]           | Iot                   | GraphQl        |
 
-* Professional 
+* Professional
 
 *** ➡ ONNi :2016 - 2018:
 Full Stack Developer - React + Golang &
@@ -42,7 +42,7 @@ Backend Developer C#
 *** ➡ B2BReservas :~: :2019~:
 Fullstack Developer - Graphql Java + React
 
-* Education 
+* Education
 *** ➡ Bachelor's - Civil Engineer :Graduated 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre
 

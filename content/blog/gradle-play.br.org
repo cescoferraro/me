@@ -1,8 +1,8 @@
-#+TITLE: Using Gradle with Play framework 
+#+TITLE: Using Gradle with Play framework
 #+DATE: 2017-09-21T03:55:41-03:00
 #+PUBLISHDATE: 2017-09-21T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: java, nil
+#+TAGS[]: java, nil
 #+DESCRIPTION: Short description
 
 [[../../../blog/using-gradle-with-play-framework][English Version Only]]

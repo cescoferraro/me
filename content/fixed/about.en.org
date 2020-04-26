@@ -2,7 +2,7 @@
 #+DATE: 2017-05-30T01:53:46-03:00
 #+PUBLISHDATE: 2017-05-30T01:53:46-03:00
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 #+DESCRIPTION: Short description
 
 Resident Rap DJ of with own headphones. Linux passionate, Gopher,

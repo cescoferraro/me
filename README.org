@@ -1,7 +1,7 @@
-#+TITLE: www.cescoferraro.xyz 
+#+TITLE: www.cescoferraro.xyz
 #+DRAFT: nil
-#+AUTHOR: @cescoferraro 
-#+TAGS: vitae , nil
+#+AUTHOR: @cescoferraro
+#+TAGS[]: vitae , nil
 
 Deployed here at Github at [[https://cescoferraro.github.io/me][https://cescoferraro.github.io/me]]
 automatically by [[https://travis-ci.org/cescoferraro/me][https://travis-ci.org/cescoferraro/me]]

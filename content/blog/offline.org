@@ -1,9 +1,9 @@
-#+TITLE: Web offline support 
+#+TITLE: Web offline support
 #+DATE: 2017-01-31T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 
-Here I am using [[https://https://github.com/HubSpot/offline][HubSpot/Offline]]. You can find more information at [[http://github.hubspot.com/offline/docs/welcome/][the Docs.]] 
+Here I am using [[https://https://github.com/HubSpot/offline][HubSpot/Offline]]. You can find more information at [[http://github.hubspot.com/offline/docs/welcome/][the Docs.]]
 
 #+BEGIN_SRC groovy
 export const offlineCheck = (store) => {

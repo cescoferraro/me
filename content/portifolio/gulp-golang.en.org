@@ -1,7 +1,7 @@
-#+TITLE: gulp-golang 
+#+TITLE: gulp-golang
 #+DATE: 2017-04-21
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 #+DESCRIPTION: Short description
 
 A gulp wrapper arround the Golang language. Created to allow users to
@@ -13,7 +13,7 @@ You can check the source code [[https://github.com/cescoferraro/gulp-golang][her
 
 |-----+------|
 | [[file:/img/org.png][hey]] | [[file:/img/org2.png][hjey]] |
- 
+
 
 
 
