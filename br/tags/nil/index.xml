@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portifolio on @cescoferraro</title>
-    <link>https://cescoferraro.github.io/me/br/portifolio/</link>
-    <description>Recent content in Portifolio on @cescoferraro</description>
+    <title>nil on @cescoferraro</title>
+    <link>https://cescoferraro.github.io/me/br/tags/nil/</link>
+    <description>Recent content in nil on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Tout est à moi</copyright>
-    <lastBuildDate>Wed, 31 Aug 2016 03:55:41 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/me/br/portifolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/br/tags/nil/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Gradle with Play framework</title>
+      <link>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</guid>
+      <description> English Version Only </description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://cescoferraro.github.io/me/br/about/</link>
+      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/br/about/</guid>
+      <description> Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo Linux, Gopher, React.js Hacker e usuário de software livre. Surfista de alma quando perto da costa. Contate-me, vamos escrever a internet de amanhã, hoje. </description>
+    </item>
+    
+    <item>
+      <title>Travis SSH</title>
+      <link>https://cescoferraro.github.io/me/br/blog/travis-ssh/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/br/blog/travis-ssh/</guid>
+      <description> English Version Only </description>
+    </item>
     
     <item>
       <title>boil.cescoferraro.xyz</title>
@@ -46,6 +73,15 @@
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/org-loader/</guid>
       <description> English Version only, sun. </description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career</title>
+      <link>https://cescoferraro.github.io/me/br/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/br/blog/software-developer-career/</guid>
+      <description> English Version Only </description>
     </item>
     
     <item>

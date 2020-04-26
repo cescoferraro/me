@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fixed on @cescoferraro</title>
-    <link>https://cescoferraro.github.io/me/fixed/</link>
-    <description>Recent content in Fixed on @cescoferraro</description>
+    <title>vitae on @cescoferraro</title>
+    <link>https://cescoferraro.github.io/me/tags/vitae/</link>
+    <description>Recent content in vitae on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/me/fixed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/tags/vitae/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>about</title>
-      <link>https://cescoferraro.github.io/me/about/</link>
-      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/about/</guid>
-      <description> Resident Rap DJ of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&amp;#39;s write tomorrow&amp;#39;s web today. </description>
-    </item>
     
     <item>
       <title>software</title>

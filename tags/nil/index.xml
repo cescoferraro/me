@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>@cescoferraro</title>
-    <link>https://cescoferraro.github.io/me/</link>
-    <description>Recent content on @cescoferraro</description>
+    <title>nil on @cescoferraro</title>
+    <link>https://cescoferraro.github.io/me/tags/nil/</link>
+    <description>Recent content in nil on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate>
     
-	<atom:link href="https://cescoferraro.github.io/me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cescoferraro.github.io/me/tags/nil/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</guid>
       <description>Basic Play Framework gradle configuration. It uses 4 plugins. Play plugin needs the java one. The other 2 are IDE specific. apply plugin: &amp;#39;java&amp;#39; apply plugin: &amp;#39;play&amp;#39; apply plugin: &amp;#39;idea&amp;#39; apply plugin: &amp;#39;eclipse&amp;#39;   Where the play plugins lives! repositories { mavenCentral() jcenter() maven { name &amp;#34;typesafe-maven-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/maven-releases&amp;#34; } ivy { name &amp;#34;typesafe-ivy-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/ivy-releases&amp;#34; layout &amp;#34;ivy&amp;#34; } }   The dependencies of the project.  Note the some of them are duplicates because Eclipse could not find the play dependencie at the classpath dependencies { play group: &amp;#39;com.</description>
-    </item>
-    
-    <item>
-      <title>boil.cescoferraro.xyz</title>
-      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
-      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.    👀 react as the view   🔥 Redux store ready! All the cool tooling and extensions.   🔀 redux-first-router as the router.   🚄 express server.   🎛 Offilne first. Try going offline for a bit.</description>
     </item>
     
     <item>
@@ -81,15 +72,6 @@
       
       <guid>https://cescoferraro.github.io/me/blog/web-offline-support/</guid>
       <description> Here I am using HubSpot/Offline. You can find more information at the Docs. export const offlineCheck = (store) =&amp;gt; { const { Offline } = (window as any) const upHandler = (e) =&amp;gt; {console.log(&amp;#34;upppp&amp;#34;)} const downHandler = (e) =&amp;gt; {console.log(&amp;#34;downnnnn&amp;#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&amp;gt; (&amp;#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&amp;#34; + (Math.floor(Math.random() * 1000000000))) }, active: &amp;#34;image&amp;#34; } } Offline.on(&amp;#34;up&amp;#34;, upHandler) Offline.on(&amp;#34;down&amp;#34;, downHandler) }  </description>
-    </item>
-    
-    <item>
-      <title>flag.cescoferraro.xyz</title>
-      <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
-      <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
-      <description> A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.  You can check the source code here.    hey hey    </description>
     </item>
     
     <item>

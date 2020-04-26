@@ -8,29 +8,14 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Here I am using HubSpot/Offline. You can find more information at the Docs.
-export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) const upHandler = (e) =&gt; {console.log(&quot;upppp&quot;)} const downHandler = (e) =&gt; {console.log(&quot;downnnnn&quot;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&gt; (&quot;https://esri.github.io/offline-editor-js/tiny-image.png?_=&quot; &#43; (Math.floor(Math.random() * 1000000000))) }, active: &quot;image&quot; } } Offline.on(&quot;up&quot;, upHandler) Offline.on(&quot;down&quot;, downHandler) }  ">
+<meta name="description" content=" Here I am using HubSpot/Offline. You can find more information at the Docs. export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) const upHandler = (e) =&gt; {console.log(&#34;upppp&#34;)} const downHandler = (e) =&gt; {console.log(&#34;downnnnn&#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&gt; (&#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&#34; &#43; (Math.floor(Math.random() * 1000000000))) }, active: &#34;image&#34; } } Offline.on(&#34;up&#34;, upHandler) Offline.on(&#34;down&#34;, downHandler) }  ">
 
 <meta property="og:title" content="Web offline support" />
-<meta property="og:description" content="Here I am using HubSpot/Offline. You can find more information at the Docs.
-export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) const upHandler = (e) =&gt; {console.log(&quot;upppp&quot;)} const downHandler = (e) =&gt; {console.log(&quot;downnnnn&quot;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&gt; (&quot;https://esri.github.io/offline-editor-js/tiny-image.png?_=&quot; &#43; (Math.floor(Math.random() * 1000000000))) }, active: &quot;image&quot; } } Offline.on(&quot;up&quot;, upHandler) Offline.on(&quot;down&quot;, downHandler) }  " />
+<meta property="og:description" content=" Here I am using HubSpot/Offline. You can find more information at the Docs. export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) const upHandler = (e) =&gt; {console.log(&#34;upppp&#34;)} const downHandler = (e) =&gt; {console.log(&#34;downnnnn&#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&gt; (&#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&#34; &#43; (Math.floor(Math.random() * 1000000000))) }, active: &#34;image&#34; } } Offline.on(&#34;up&#34;, upHandler) Offline.on(&#34;down&#34;, downHandler) }  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cescoferraro.github.io/me/blog/web-offline-support/" />
-
-
-
-<meta property="article:published_time" content="2017-01-31T03:55:41-03:00"/>
-<meta property="article:modified_time" content="2017-01-31T03:55:41-03:00"/>
-
-
-
-
-
-
-
-
-
-
+<meta property="article:published_time" content="2017-01-31T03:55:41-03:00" />
+<meta property="article:modified_time" content="2017-01-31T03:55:41-03:00" />
 
 
     <title>
@@ -82,11 +67,11 @@ export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) 
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2020-04-26%2000%3a48%3a27.468172129%20%2b0000%20UTC%20m%3d%2b0.047622506">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2020-04-26%2000%3a48%3a27.468172129%20%2b0000%20UTC%20m%3d%2b0.047622506">
-    <link rel="stylesheet" href="../../css/main.css?t=2020-04-26%2000%3a48%3a27.468172129%20%2b0000%20UTC%20m%3d%2b0.047622506">
+    <link rel="stylesheet" href="../../css/reset.css?t=2020-04-26%2001%3a02%3a33.982160338%20%2b0000%20UTC%20m%3d%2b0.060533659">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2020-04-26%2001%3a02%3a33.982160338%20%2b0000%20UTC%20m%3d%2b0.060533659">
+    <link rel="stylesheet" href="../../css/main.css?t=2020-04-26%2001%3a02%3a33.982160338%20%2b0000%20UTC%20m%3d%2b0.060533659">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2020-04-26%2000%3a48%3a27.468172129%20%2b0000%20UTC%20m%3d%2b0.047622506">
+	<link rel="stylesheet" href="../../css/override.css?t=2020-04-26%2001%3a02%3a33.982160338%20%2b0000%20UTC%20m%3d%2b0.060533659">
     
 
 
@@ -235,27 +220,28 @@ export const offlineCheck = (store) =&gt; { const { Offline } = (window as any) 
                 </div>
             </div>
             <div class="markdown">
-                <p>Here I am using <a href="https://https://github.com/HubSpot/offline" title="HubSpot/Offline">HubSpot/Offline</a>. You can find more information at <a href="http://github.hubspot.com/offline/docs/welcome/" title="the Docs.">the Docs.</a></p>
-
-<pre><code class="language-groovy">
-export const offlineCheck = (store) =&gt; {
-    const { Offline } = (window as any)
-    const upHandler = (e) =&gt; {console.log(&quot;upppp&quot;)}
-    const downHandler = (e) =&gt; {console.log(&quot;downnnnn&quot;)}
-    Offline.options = {
-        checkOnLoad: true,
-        checks: {
-            image: {
-                url: () =&gt; (&quot;https://esri.github.io/offline-editor-js/tiny-image.png?_=&quot;
-                    + (Math.floor(Math.random() * 1000000000)))
-            },
-            active: &quot;image&quot;
-        }
-    }
-    Offline.on(&quot;up&quot;, upHandler)
-    Offline.on(&quot;down&quot;, downHandler)
-}
-</code></pre>
+                <p>
+Here I am using <a href="https://https://github.com/HubSpot/offline">HubSpot/Offline</a>. You can find more information at <a href="http://github.hubspot.com/offline/docs/welcome/">the Docs.</a>
+</p>
+<div class="src src-groovy">
+<div class="highlight"><pre class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">export</span> <span class="kd">const</span> <span class="n">offlineCheck</span> <span class="o">=</span> <span class="o">(</span><span class="n">store</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">{</span>
+    <span class="kd">const</span> <span class="o">{</span> <span class="n">Offline</span> <span class="o">}</span> <span class="o">=</span> <span class="o">(</span><span class="n">window</span> <span class="k">as</span> <span class="n">any</span><span class="o">)</span>
+    <span class="kd">const</span> <span class="n">upHandler</span> <span class="o">=</span> <span class="o">(</span><span class="n">e</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">{</span><span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="s2">&#34;upppp&#34;</span><span class="o">)}</span>
+    <span class="kd">const</span> <span class="n">downHandler</span> <span class="o">=</span> <span class="o">(</span><span class="n">e</span><span class="o">)</span> <span class="o">=&gt;</span> <span class="o">{</span><span class="n">console</span><span class="o">.</span><span class="na">log</span><span class="o">(</span><span class="s2">&#34;downnnnn&#34;</span><span class="o">)}</span>
+    <span class="n">Offline</span><span class="o">.</span><span class="na">options</span> <span class="o">=</span> <span class="o">{</span>
+        <span class="nl">checkOnLoad:</span> <span class="kc">true</span><span class="o">,</span>
+        <span class="nl">checks:</span> <span class="o">{</span>
+            <span class="nl">image:</span> <span class="o">{</span>
+                <span class="nl">url:</span> <span class="o">()</span> <span class="o">=&gt;</span> <span class="o">(</span><span class="s2">&#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&#34;</span>
+                    <span class="o">+</span> <span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">floor</span><span class="o">(</span><span class="n">Math</span><span class="o">.</span><span class="na">random</span><span class="o">()</span> <span class="o">*</span> <span class="mi">1000000000</span><span class="o">)))</span>
+            <span class="o">},</span>
+            <span class="nl">active:</span> <span class="s2">&#34;image&#34;</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="n">Offline</span><span class="o">.</span><span class="na">on</span><span class="o">(</span><span class="s2">&#34;up&#34;</span><span class="o">,</span> <span class="n">upHandler</span><span class="o">)</span>
+    <span class="n">Offline</span><span class="o">.</span><span class="na">on</span><span class="o">(</span><span class="s2">&#34;down&#34;</span><span class="o">,</span> <span class="n">downHandler</span><span class="o">)</span>
+<span class="o">}</span></code></pre></div>
+</div>
 
                 <br>
 		<p><a href="../../blog/">Back to posts</a></p>
@@ -263,7 +249,7 @@ export const offlineCheck = (store) =&gt; {
             <br>
             <div class="disqus">
                 <div id="disqus_thread"></div>
-<script>
+<script type="application/javascript">
     var disqus_config = function () {
     
     
@@ -289,12 +275,16 @@ export const offlineCheck = (store) =&gt; {
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-123-45', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>

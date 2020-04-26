@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on @cescoferraro</title>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</guid>
-      <description>English Version Only</description>
+      <description> English Version Only </description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/blog/travis-ssh/</guid>
-      <description>English Version Only</description>
+      <description> English Version Only </description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/blog/software-developer-career/</guid>
-      <description>English Version Only</description>
+      <description> English Version Only </description>
     </item>
     
   </channel>

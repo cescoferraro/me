@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>@cescoferraro</title>
@@ -18,7 +18,7 @@
       <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</guid>
-      <description>English Version Only</description>
+      <description> English Version Only </description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/about/</guid>
-      <description>Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo Linux, Gopher, React.js Hacker e usuário de software livre. Surfista de alma quando perto da costa. Contate-me, vamos escrever a internet de amanhã, hoje.</description>
+      <description> Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo Linux, Gopher, React.js Hacker e usuário de software livre. Surfista de alma quando perto da costa. Contate-me, vamos escrever a internet de amanhã, hoje. </description>
     </item>
     
     <item>
@@ -36,16 +36,7 @@
       <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/blog/travis-ssh/</guid>
-      <description>English Version Only</description>
-    </item>
-    
-    <item>
-      <title>Software Developer Career</title>
-      <link>https://cescoferraro.github.io/me/br/blog/software-developer-career/</link>
-      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/br/blog/software-developer-career/</guid>
-      <description>English Version Only</description>
+      <description> English Version Only </description>
     </item>
     
     <item>
@@ -54,7 +45,7 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/boil/</guid>
-      <description>English Version only, sun.</description>
+      <description> English Version only, sun. </description>
     </item>
     
     <item>
@@ -63,7 +54,7 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/flag/</guid>
-      <description>English Version only, sun.</description>
+      <description> English Version only, sun. </description>
     </item>
     
     <item>
@@ -72,7 +63,7 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/gulp-golang/</guid>
-      <description>English Version only, sun.</description>
+      <description> English Version only, sun. </description>
     </item>
     
     <item>
@@ -81,7 +72,16 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/org-loader/</guid>
-      <description>English Version only, sun.</description>
+      <description> English Version only, sun. </description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career</title>
+      <link>https://cescoferraro.github.io/me/br/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://cescoferraro.github.io/me/br/blog/software-developer-career/</guid>
+      <description> English Version Only </description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/portifolio/spotify/</guid>
-      <description>English Version only, sun.</description>
+      <description> English Version only, sun. </description>
     </item>
     
     <item>
@@ -99,7 +99,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cescoferraro.github.io/me/br/software/</guid>
-      <description>Nome Francesco Antonello Ferraro   Graduação Engenharia de Software   E-mail francescoaferraro@gmail.com   Nascimento 12/30/1987   Residência Porto Alegre/RS - Brasil    Resumo Profissional   Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou nessa área faz +4 anos, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado.</description>
+      <description>Nome Francesco Antonello Ferraro   Graduação Engenharia de Software   E-mail francescoaferraro@gmail.com   Nascimento 12/30/1987   Residência Porto Alegre/RS - Brasil    Resumo Profissional    Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou nessa área faz +4 anos, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado.</description>
     </item>
     
   </channel>
