@@ -1,9 +1,8 @@
 #+TITLE: Travis SSH
-#+DATE: 2020-08-25T03:55:41-03:00
-#+PUBLISHDATE: 2020-08-25T03:55:41-03:00
+#+DATE: 2017-01-31T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: TRAVIS, SSH
-#+DESCRIPTION: How to use SSH iniside Travis
+#+TAGS: nil, nil
+#+DESCRIPTION: How to use SSH inside Travis
 
 I can deploy ssh machines from travis!
 
