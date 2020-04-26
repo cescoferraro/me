@@ -143,11 +143,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/</loc>
     <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
@@ -211,38 +206,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/tags/java/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/tags/java/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/tags/java/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/tags/nil/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/tags/nil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/tags/nil/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/portifolio/</loc>
     <lastmod>2017-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -260,7 +223,6 @@
   
   <url>
     <loc>https://cescoferraro.github.io/me/tags/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -272,11 +234,6 @@
                 hreflang="en"
                 href="https://cescoferraro.github.io/me/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/tags/vitae/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

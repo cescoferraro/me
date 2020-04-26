@@ -10,7 +10,7 @@
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Short description">
 
-<meta property="og:title" content="Using Gradle with Play framework " />
+<meta property="og:title" content="Using Gradle with Play framework" />
 <meta property="og:description" content="Short description" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/" />
@@ -35,7 +35,7 @@
     <title>
 	
 	
-	     Using Gradle with Play framework  
+	     Using Gradle with Play framework 
 	
     </title>
     <link rel="canonical" href="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/">
@@ -81,11 +81,11 @@
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2020-04-26%2000%3a42%3a47.224141351%20%2b0000%20UTC%20m%3d%2b0.043450264">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2020-04-26%2000%3a42%3a47.224141351%20%2b0000%20UTC%20m%3d%2b0.043450264">
-    <link rel="stylesheet" href="../../css/main.css?t=2020-04-26%2000%3a42%3a47.224141351%20%2b0000%20UTC%20m%3d%2b0.043450264">
+    <link rel="stylesheet" href="../../css/reset.css?t=2020-04-26%2000%3a48%3a27.464498752%20%2b0000%20UTC%20m%3d%2b0.043949139">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2020-04-26%2000%3a48%3a27.464498752%20%2b0000%20UTC%20m%3d%2b0.043949139">
+    <link rel="stylesheet" href="../../css/main.css?t=2020-04-26%2000%3a48%3a27.464498752%20%2b0000%20UTC%20m%3d%2b0.043949139">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2020-04-26%2000%3a42%3a47.224141351%20%2b0000%20UTC%20m%3d%2b0.043450264">
+	<link rel="stylesheet" href="../../css/override.css?t=2020-04-26%2000%3a48%3a27.464498752%20%2b0000%20UTC%20m%3d%2b0.043949139">
     
 
 
@@ -222,7 +222,7 @@
                 <div class="title-container">
                     <div class="page-heading">
     
-	Using Gradle with Play framework 
+	Using Gradle with Play framework
     
 </div>
 
@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="markdown">
-                <p>Basic Play Framework gradle configuration. It uses 4 plugins.  
+                <p>Basic Play Framework gradle configuration. It uses 4 plugins.
 Play plugin needs the java one. The other 2 are IDE specific.</p>
 
 <pre><code class="language-groovy">
@@ -272,7 +272,7 @@ repositories {
 the play dependencie at the classpath</p>
 
 <pre><code class="language-groovy">
-dependencies { 
+dependencies {
     play    group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
     compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.197'
     play    'javax.inject:javax.inject:1'
@@ -306,7 +306,7 @@ model {
     distributions {
         playBinary {
             contents {
-                from(&quot;Dockerfile&quot;) 
+                from(&quot;Dockerfile&quot;)
             }
         }
     }
@@ -318,7 +318,7 @@ Play-Gradle plugin, but these somehow make it work, not perfectly, but
 working.</p>
 
 <pre><code class="language-groovy">
-eclipse.classpath.plusConfigurations += [ configurations.play ] 
+eclipse.classpath.plusConfigurations += [ configurations.play ]
 sourceSets {
     main {
 	java {
