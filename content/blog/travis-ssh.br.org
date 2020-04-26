@@ -1,10 +1,9 @@
 #+TITLE: Travis SSH
 #+DATE: 2017-01-31T03:55:41-03:00
 #+DRAFT: nil
-#+TAGS: nil, nil
+#+TAGS[]: nil, nil
 #+DESCRIPTION: How to use SSH inside Travis
 
-I can deploy ssh machines from travis!
-
+[[../../../blog/travis-ssh/][English Version Only]]
 
 #  LocalWords:  travis ssh description PUBLISHDATE UFRGS ECMA LocalWords
