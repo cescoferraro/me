@@ -1,8 +1,8 @@
 baseurl             = "https://cescoferraro.github.io/me/"
-builddrafts         = true 
-watch               = true 
+builddrafts         = true
+watch               = true
 canonifyurls        = true
-relativeURLs	    = true 
+relativeURLs	    = true
 contentdir          = "content/"
 languageCode        = "en-US"
 layoutdir           = "layouts/"
@@ -28,39 +28,39 @@ identifier             = "blog"
 url                    = "blog/"
 
 [[menu.main]]
-name                   = "About"
-weight                 = -90
-identifier             = "about"
-url                    = "about/"
+name                   = "Portifolio"
+weight                 = -120
+identifier             = "portifolio"
+url                    = "portifolio/"
 
 [[menu.main]]
-name                   = "Software"
+name                   = "VITAE"
 weight                 = -100
-identifier             = "software"
+identifier             = "vitae"
 url                    = "software/"
 
 [params]
-latestjobscount        = 3                             
-latestpostscount       = 5                             
-i18n_flags             = true 
+latestjobscount        = 3
+latestpostscount       = 5
+i18n_flags             = true
 author                 = "Cesco Ferraro"
-cachebuster            = true                          
+cachebuster            = true
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
 email                  = "francescoaferraro@gmail.com"
-extracssfiles          = [ "/css/override.css" ]      
+extracssfiles          = [ "/css/override.css" ]
 github                 = "//github.com/cescoferraro"
 stackoverflow 	       = "//stackoverflow.com/users/3074508/cesco"
 highlightjs            = true
 lang                   = "en,br"
 linkedin               = "//www.linkedin.com/in/francesco-ferraro-64805114/"
-noshowreadtime         = false                       
-selfintro              = ""                         
+noshowreadtime         = false
+selfintro              = ""
 twitter                = "//twitter.com/cescoferraro"
-highlightjslanguages   = ["python","gradle","groovy","go","java","clojure-repl"]                        
+highlightjslanguages   = ["python","gradle","groovy","go","java","clojure-repl"]
 highlightjsStyle       = "atelier-estuary-dark"
-avatar                 = "img/profile.png" 
+avatar                 = "img/profile.png"
 DefaultContentLanguage = "en"
 
 

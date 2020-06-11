@@ -20,33 +20,31 @@ I grow up with the Internet, so that my primary focus as a developer. I really w
 #+END_QUOTE
 
 * Technical Skills
-*** Languages
 
-| [[https://golang.org][Golang]] | [[https://nodejs.com][NodeJS]] | [[https://java.com][Java]] | [[https://docs.microsoft.com/en-us/dotnet/csharp/][DotNet]] |
-
-*** Interests
-
-| [[https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/][Progressive Web Apps]] | [[https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/][Server Side Rendering]] | Websockets |
-| [[https://redis.io/][Redis]]                | [[https://facebook.github.io/react/][React.js]]              | [[https://www.gnu.org/software/emacs/][Emacs]]      |
-| [[https://www.typescriptlang.org/][Typescript]]           | Iot                   | GraphQl        |
+**** Backend
+| [[https://golang.org][Golang]] | [[https://java.com][Java]] | [[https://docs.microsoft.com/en-us/dotnet/csharp/][C#]] |
+**** Frontend
+| [[https://golang.org][React - Web]] |[[https://nodejs.com][Kotlin - Android]] |
+**** Extra
+| [[https://docker.com][Docker]] | [[https://golang.org][Kubernetes]] | [[https://nodejs.com][Typescript]] | [[https://nodejs.com][GraphQl]] |
 
 * Professional
 
-*** ➡ ONNi :2016 - 2018:
+***  ONNi :2016 - 2018:
 Full Stack Developer - React + Golang &
 DevOps - Kubernetes
 
-*** ➡ D3 :~: :2019~:
+***  D3 :~: :2019~:
 Backend Developer C#
 
-*** ➡ B2BReservas :~: :2019~:
+***  B2BReservas :~: :2019~:
 Fullstack Developer - Graphql Java + React
 
 * Education
-*** ➡ Bachelor's - Civil Engineer :Graduated 2013:
+***  Bachelor's - Civil Engineer :Graduated 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre
 
-*** ➡ Bachelor's - Software Enginee :~: :2017:
+***  Bachelor's - Software Enginee :~: :2017:
 Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
 
 

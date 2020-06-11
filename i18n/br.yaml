@@ -1,13 +1,21 @@
 ---
 - id: latestPosts
-  translation: "Últimos Posts"
+  translation: "Blog"
 
+- id: curriculum
+  translation: "Currículo"
 
-
+- id: about
+  translation: "
+  Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo
+  Linux, Gopher, React.js Hacker e usuário de software livre. Surfista
+  de alma quando perto da costa. Contate-me, vamos escrever a internet
+  de amanhã, hoje.
+  "
 - id: latestPortifolio
-  translation: "Últimos Projetos"
+  translation: "Portifolio"
 
-- id: portifolioHeading 
+- id: portifolioHeading
   translation: "Projetos"
 
 - id: blogHeading

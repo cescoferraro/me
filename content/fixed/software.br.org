@@ -1,6 +1,6 @@
 #+TITLE: software
 #+DRAFT: nil
-#+AUTHOR: @cescoferraro 
+#+AUTHOR: @cescoferraro
 
 |------------+-----------------------------|
 | Nome       | Francesco Antonello Ferraro |
@@ -9,36 +9,35 @@
 | Nascimento | 12/30/1987                  |
 | Residência | [[https://www.google.com/maps/place/Porto+Alegre+-+RS,+Brazil/@-30.1018504,-51.2959986,11z/data=!3m1!4b1!4m5!3m4!1s0x9519784e88e1007d:0xc7011777424f60bd!8m2!3d-30.0346564!4d-51.2176584][Porto Alegre/RS - Brasil]]    |
 
-* Resumo Profissional 
+* Resumo Profissional
 
 #+BEGIN_QUOTE
 Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou nessa área faz +4 anos, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado. Eu cresci com a internet, e ela é a área em que eu gostaria de focar a minha nova carreira. Almejo ajudar a Internet a evoluir, para talvez conseguir retribuir todo o conhecimento e diversão que ela me proporcionou.
-#+END_QUOTE 
+#+END_QUOTE
 
-* Habilidades Técnicas 
-*** Linguagens 
 
-| [[https://golang.org][Golang]] | [[https://nodejs.com][NodeJS]] | [[https://java.com][Java]] |
+* Habilidades Técnicas
 
-*** Interesses 
+*** Backend
+| [[https://golang.org][Golang]] | [[https://java.com][Java]] | [[https://docs.microsoft.com/en-us/dotnet/csharp/][C#]] |
+*** Frontend
+| [[https://golang.org][React - Web]] |[[https://nodejs.com][Kotlin - Android]] |
+*** Extra
+| [[https://docker.com][Docker]] | [[https://golang.org][Kubernetes]] | [[https://nodejs.com][Typescript]] | [[https://nodejs.com][GraphQl]] |
 
-| [[https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/][Progressive Web Apps]] | [[https://www.smashingmagazine.com/2016/03/server-side-rendering-react-node-express/][Server Side Rendering]] | Websockets |
-| [[https://redis.io/][Redis]]                | [[https://facebook.github.io/react/][React.js]]              | [[https://www.gnu.org/software/emacs/][Emacs]]      |
-| [[https://www.typescriptlang.org/][Typescript]]           | Iot                   |        GraphQl    |
+* Professional
 
-* Professional 
-
-*** ➡ ONNi :2016 - 2018:
+*** ONNi :2016 - 2018:
 Full Stack Developer - React + Golang &
 DevOps - Kubernetes
 
-*** ➡ D3 :~: :2019~:
+*** D3 :~: :2019~:
 Backend Developer C#
 
-*** ➡ B2BReservas :~: :2019~:
+*** B2BReservas :~: :2019~:
 Fullstack Developer - Graphql Java + React
 
-* Educação 
+* Educação
 ***  Engenharia Civil :Graduado em 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre
 

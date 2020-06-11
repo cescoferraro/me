@@ -1,5 +1,38 @@
 {{ partial "header.html" . }}
-{{ partial "posts.html" . }}
-{{ partial "jobs.html" . }}
+
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="markdown">
+                {{ i18n "about" }}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">{{ i18n "latestPosts" }}</div>
+            <div class="markdown">
+                {{ range where $.Site.RegularPages "Section" "blog" }}
+                {{partial "li.html" .}}
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="main post non-narrow zero-top-spacing">
+    <div class="container">
+        <div class="content">
+            <div class="page-heading">{{ i18n "latestPortifolio" }}</div>
+            <div class="markdown">
+                {{ range where $.Site.RegularPages "Section" "portifolio" }}
+                {{partial "li.html" .}}
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>
+
 {{ partial "footer.html" . }}
 

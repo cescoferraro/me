@@ -5,8 +5,7 @@
 #+TAGS[]: nil, nil
 #+DESCRIPTION: Short description
 
-Resident Rap DJ of with own headphones. Linux passionate, Gopher,
-React.js hacker and free software user. Soul surfer when by the
-coast. Hit me up, let's write tomorrow's web today.
+
+
 
 #  LocalWords:  js

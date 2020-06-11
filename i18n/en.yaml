@@ -1,14 +1,22 @@
 ---
-- id: latestPosts
-  translation: "Latest Posts"
+- id: curriculum
+  translation: "Curriculum Vitae"
 
+- id: latestPosts
+  translation: "Blog"
+
+- id: about
+  translation: "Resident Rap DJ of my own headphones. Linux user for +15 years with intrinsic conteinerization/devops knowledge.
+  Have been doing full stack profesionally for the past 5 years; Working server side with Golang, C# & Java whilst doing mostly React on the front end.
+  Hit me up, let's write tomorrow's web today.
+  "
 - id: blogHeading
   translation: "Posts"
 
 - id: latestPortifolio
-  translation: "Latest Projects"
+  translation: "Portifolio"
 
-- id: portifolioHeading 
+- id: portifolioHeading
   translation: "Portifolio"
 
 - id: pageNotFound
