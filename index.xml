@@ -35,7 +35,7 @@
       <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
       
       <guid>https://cescoferraro.github.io/me/about/</guid>
-      <description> Resident Rap DJ of with own headphones. Linux passionate, Gopher, React.js hacker and free software user. Soul surfer when by the coast. Hit me up, let&amp;#39;s write tomorrow&amp;#39;s web today. </description>
+      <description></description>
     </item>
     
     <item>
@@ -81,15 +81,6 @@
       
       <guid>https://cescoferraro.github.io/me/blog/web-offline-support/</guid>
       <description> Here I am using HubSpot/Offline. You can find more information at the Docs. export const offlineCheck = (store) =&amp;gt; { const { Offline } = (window as any) const upHandler = (e) =&amp;gt; {console.log(&amp;#34;upppp&amp;#34;)} const downHandler = (e) =&amp;gt; {console.log(&amp;#34;downnnnn&amp;#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&amp;gt; (&amp;#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&amp;#34; + (Math.floor(Math.random() * 1000000000))) }, active: &amp;#34;image&amp;#34; } } Offline.on(&amp;#34;up&amp;#34;, upHandler) Offline.on(&amp;#34;down&amp;#34;, downHandler) }  </description>
-    </item>
-    
-    <item>
-      <title>flag.cescoferraro.xyz</title>
-      <link>https://cescoferraro.github.io/me/portifolio/flag/</link>
-      <pubDate>Tue, 24 Jan 2017 03:55:41 -0300</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/portifolio/flag/</guid>
-      <description> A website that manipulates data from a Google Sheets table. You can change data on the website and it will reflect on the actual table! I also used D3 to show some graphics of how the data on the table is ditributed.  You can check the source code here.    hey hey    </description>
     </item>
     
     <item>
