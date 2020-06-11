@@ -15,10 +15,13 @@
 
 #+BEGIN_QUOTE
 
-I started off as a Civil Engineer, but felt in love with coding. I have been working in the industry for 4+ in order to constantly engage myself with more complex problems.
-I grow up with the Internet, so that my primary focus as a developer. I really want to help it evolve as much as I can, so maybe I can pay off all the acknowledgment and fun it gave me. Have been a Linux user for 10+ years.
-#+END_QUOTE
+Fluent English speaker and Linux user for +15 years with intrinsic conteinerized devOps knowledge.
+Although academically graduated as a Civil Engineer;
+I have been coding full stack professionally for the past 5 years.
+Working server-side with Golang, C# & Java whilst doing mainly React on the front end.
+Hit me up, let's write tomorrow's web today.
 
+#+END_QUOTE
 * Technical Skills
 
 **** Backend
