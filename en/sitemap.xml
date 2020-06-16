@@ -93,36 +93,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/portifolio/boil/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/portifolio/boil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/portifolio/boil/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://cescoferraro.github.io/me/portifolio/</loc>
-    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/portifolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/portifolio/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/about/</loc>
     <lastmod>2017-05-30T01:53:46-03:00</lastmod>
     <xhtml:link
@@ -179,6 +149,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cescoferraro.github.io/me/portifolio/org-loader/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://cescoferraro.github.io/me/portifolio/</loc>
+    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/portifolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/portifolio/"
                 />
   </url>
   

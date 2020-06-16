@@ -6,19 +6,10 @@
     <description>Recent content in Portifolio on @cescoferraro</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cescoferraro.github.io/me/portifolio/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>boil.cescoferraro.xyz</title>
-      <link>https://cescoferraro.github.io/me/portifolio/boil/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cescoferraro.github.io/me/portifolio/boil/</guid>
-      <description>A cutting edge PWA React.js boilerplated hosted at https://boil.cescoferraro.xyz. A server rendered website that loads in around 3s. Web push notification by 📶 OneSignal. Works 100% Offline.    👀 react as the view   🔥 Redux store ready! All the cool tooling and extensions.   🔀 redux-first-router as the router.   🚄 express server.   🎛 Offilne first. Try going offline for a bit.</description>
-    </item>
     
     <item>
       <title>gulp-golang</title>
@@ -26,7 +17,7 @@
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/gulp-golang/</guid>
-      <description> A gulp wrapper arround the Golang language. Created to allow users to have more control over the build system. This is specially good for packaging Go application with docker.  You can check the source code here    hey hjey    </description>
+      <description> A gulp wrapper arround the Golang language. Created to allow users to have more control over the build system. This is specially good for packaging Go application with docker.  You can check the source code here and the npm package here         </description>
     </item>
     
     <item>
@@ -35,7 +26,7 @@
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/org-loader/</guid>
-      <description> A official webpack loader for org files. Org, for those who may not know, is a file extension used on the best text editor there is Emacs for organization purpose&amp;#39;s. The library is published on npm, so using is as hard as typing npm i org-loader  You can check the source code here    hey hjey    </description>
+      <description> A official webpack loader for org files. Org, for those who may not know, is a file extension used on the best text editor there is Emacs for organization purpose&amp;#39;s. The library is published on npm, so using is as hard as typing npm i org-loader  You can check the source code here         </description>
     </item>
     
     <item>
@@ -44,7 +35,7 @@
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://cescoferraro.github.io/me/portifolio/spotify/</guid>
-      <description> A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.  You can check the source code here    hey hey   hey     </description>
+      <description> A spotify client that allows the user to perform multiple actions to the 🎵 Spotify API. Its a Server-rendered ⚛ React.js website with a 🐰 Golang backend.  You can check the source code here             </description>
     </item>
     
   </channel>

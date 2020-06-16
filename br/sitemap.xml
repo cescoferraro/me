@@ -138,21 +138,6 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/br/portifolio/boil/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/portifolio/boil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/portifolio/boil/"
-                />
-  </url>
-  
-  <url>
     <loc>https://cescoferraro.github.io/me/br/portifolio/gulp-golang/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
