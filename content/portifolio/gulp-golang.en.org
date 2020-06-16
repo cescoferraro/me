@@ -10,9 +10,9 @@ packaging Go application with docker.
 
 
 You can check the source code [[https://github.com/cescoferraro/gulp-golang][here]]
-
+and the npm package [[https://www.npmjs.com/package/gulp-golang][here]]
 |-----+------|
-| [[file:/img/org.png][hey]] | [[file:/img/org2.png][hjey]] |
+| [[file:/img/org.png]] | [[file:/img/org2.png]] |
 
 
 

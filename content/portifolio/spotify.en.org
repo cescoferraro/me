@@ -11,7 +11,7 @@ backend.
 You can check the source code here
 
 |-----+-----|
-| [[file:/img/spotify1.png][hey]] | [[file:/img/spotify2.png][hey]] |
-| [[file:/img/spotify3.png][hey]] |     |
+| [[file:/img/spotify1.png]] | [[file:/img/spotify2.png]] |
+| [[file:/img/spotify3.png]] |     |
 
 

@@ -12,7 +12,10 @@
 * Resumo Profissional
 
 #+BEGIN_QUOTE
-Usuário de Linux há mais de 10 anos. Eu comecei a minha carreira profissional como engenheiro civil, mas acabei me apaixonando por programação em algum momento. Eu estou nessa área faz +4 anos, a fim de constantemente me engajar na solução de problemas mais complexos do que os que eu estou acostumado. Eu cresci com a internet, e ela é a área em que eu gostaria de focar a minha nova carreira. Almejo ajudar a Internet a evoluir, para talvez conseguir retribuir todo o conhecimento e diversão que ela me proporcionou.
+Fluente na língua inglesa e usuário Linux a mais de 15 anos com conhecimento intríciso sobre conteineiração e devOps.
+Apesar de formado academicamente como engenheiro civil; Tenho trabalhado profissionalmente como programandor full stack nos últimos 5 anos.
+Trabalhando no lado do servidor com linguagens como Golang, C# & Java entretanto usando primeiramente React no frontent.
+Contate-me, vamos escrever a internet de amanhã, hoje.
 #+END_QUOTE
 
 

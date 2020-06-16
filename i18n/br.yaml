@@ -10,11 +10,11 @@
 
 - id: about
   translation: "
-  Resisdente de rap residente dos meus fones de ouvido. Apaixonado pelo
-  Linux, Gopher, React.js Hacker e usuário de software livre. Surfista
-  de alma quando perto da costa. Contate-me, vamos escrever a internet
-  de amanhã, hoje.
-  "
+Fluente na língua inglesa e usuário Linux a mais de 15 anos com conhecimento intríciso sobre conteineiração e devOps.
+Apesar de formado academiamente como engenheiro civil; Tenho trabalhado profissionalmente como programandor full stack nos últimos 5 anos.
+Trabalhando no lado do servidor com linguagens como Golang, C# & Java entretanto usando primeiramente React no frontent.
+Contate-me, vamos escrever a internet de amanhã, hoje.
+"
 - id: latestPortifolio
   translation: "Portifolio"
 

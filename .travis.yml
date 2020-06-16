@@ -23,7 +23,7 @@ install:
   - sudo dpkg -i hugo*.deb
 script:
   - bash ./deploy_github.sh
-  - hugo
+  - hugo -b https://www.cescoferraro.xyz
   - cp ./Dockerfile ./out/Dockerfile
   - DOCKER_HOST='ssh://root@45.79.80.53' docker-compose stop hugo
   - DOCKER_HOST='ssh://root@45.79.80.53' docker-compose rm -f hugo

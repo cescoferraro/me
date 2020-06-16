@@ -12,7 +12,7 @@ using is as hard as typing /npm i org-loader/
 You can check the source code [[https://github.com/cescoferraro/org-loader][here]]
 
 |-----+-----|
-| [[file:/img/org.png][hey]] | [[file:/img/org2.png][hjey]] |
+| [[file:/img/org.png]] | [[file:/img/org2.png]] |
 
 
 
