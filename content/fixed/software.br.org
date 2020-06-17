@@ -30,15 +30,22 @@ Contate-me, vamos escrever a internet de amanhã, hoje.
 
 * Professional
 
-*** ONNi :2016 - 2018:
-Full Stack Developer - React + Golang &
-DevOps - Kubernetes
+*** ONNi - 01/2016 - 12/2018
+Fullstack Developer
+    - Dashboard  utilizando React no frontend
+    - Desenvolvedor do App Android em Kotlin
+    - Full Backend rewrite Java -> Golang
+    - Infraestrutura Kubernetes
 
-*** D3 :~: :2019~:
+*** D3 - 02/2019 - 06/2020
 Backend Developer C#
+    - Subcontratado pela MRV Construtora
+    - Desenvolvimento e Arquitetura de inúmeros microserviços com C# e MSSql
 
-*** B2BReservas :~: :2019~:
-Fullstack Developer - Graphql Java + React
+*** B2BReservas - 07/2019~
+Fullstack Developer
+    - Empreitada e manutenção módulo Checkout de Pagamentos
+    - Desenvolvimento e Arquitetura usando Spring-Boot (Java), Postgres e GraphQl
 
 * Educação
 ***  Engenharia Civil :Graduado em 2013:
