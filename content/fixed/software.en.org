@@ -1,9 +1,6 @@
-#+TITLE: software
 #+DRAFT: nil
 #+AUTHOR: @cescoferraro
-#+TAGS[]: vitae , nil
-
-
+#+TAGS[]: vitae , code
 |------------+-----------------------------|
 | Name       | Francesco Antonello Ferraro |
 | Graduation | Software Engineer           |
@@ -24,32 +21,40 @@ Hit me up, let's write tomorrow's web today.
 #+END_QUOTE
 * Technical Skills
 
-**** Backend
 | [[https://golang.org][Golang]] | [[https://java.com][Java]] | [[https://docs.microsoft.com/en-us/dotnet/csharp/][C#]] |
-**** Frontend
 | [[https://golang.org][React - Web]] |[[https://nodejs.com][Kotlin - Android]] |
-**** Extra
 | [[https://docker.com][Docker]] | [[https://golang.org][Kubernetes]] | [[https://nodejs.com][Typescript]] | [[https://nodejs.com][GraphQl]] |
+
+
+
 
 * Professional
 
-***  ONNi :2016 - 2018:
+*** ONNi |2016 - 2018|
 Full Stack Developer - React + Golang &
 DevOps - Kubernetes
 
-***  D3 :~: :2019~:
+*** Vnda Ecommerce |2020~|
+Frontend Engineer
+
+*** D3 :~: |2019:2020|
 Backend Developer C#
 
-***  B2BReservas :~: :2019~:
+*** B2BReservas |Checkout Project|
 Fullstack Developer - Graphql Java + React
+
+*** Tramontina/Ayga |Guru Project|
+Mobile Tester
 
 * Education
 ***  Bachelor's - Civil Engineer :Graduated 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre
 
+***  MBA - Construction Management :Graduated 2014:
+University of California, Los Angeles (UCLA)
+
 ***  Bachelor's - Software Enginee :~: :2017:
 Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
 
 
-
-#  LocalWords:  Alegre Websockets Iot
+#  LocalWords:  Websockets Iot

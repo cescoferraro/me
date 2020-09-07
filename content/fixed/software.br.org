@@ -42,7 +42,7 @@ Backend Developer C#
     - Subcontratado pela MRV Construtora
     - Desenvolvimento e Arquitetura de inúmeros microserviços com C# e MSSql
 
-*** B2BReservas - 07/2019~
+*** B2BReservas - Checkout Project
 Fullstack Developer
     - Empreitada e manutenção módulo Checkout de Pagamentos
     - Desenvolvimento e Arquitetura usando Spring-Boot (Java), Postgres e GraphQl
