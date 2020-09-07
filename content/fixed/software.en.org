@@ -1,6 +1,10 @@
+#+TITLE: software
 #+DRAFT: nil
 #+AUTHOR: @cescoferraro
 #+TAGS[]: vitae , code
+#+OPTIONS: author:nil date:nil
+#+LATEX_HEADER: \renewcommand\maketitle{}
+
 |------------+-----------------------------|
 | Name       | Francesco Antonello Ferraro |
 | Graduation | Software Engineer           |
