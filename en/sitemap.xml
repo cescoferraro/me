@@ -218,6 +218,20 @@
   </url>
   
   <url>
+    <loc>https://cescoferraro.github.io/me/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://cescoferraro.github.io/me/br/software/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cescoferraro.github.io/me/"
+                />
+  </url>
+  
+  <url>
     <loc>https://cescoferraro.github.io/me/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -232,17 +246,7 @@
   </url>
   
   <url>
-    <loc>https://cescoferraro.github.io/me/software/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://cescoferraro.github.io/me/br/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cescoferraro.github.io/me/software/"
-                />
+    <loc>https://cescoferraro.github.io/me/tags/code/</loc>
   </url>
   
   <url>
