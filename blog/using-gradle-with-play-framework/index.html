@@ -1,108 +1,254 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="chrome=1">
-<meta name=HandheldFriendly content="True">
-<meta name=MobileOptimized content="320">
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=referrer content="no-referrer">
-<meta name=description content="Short description">
-<meta property="og:title" content="Using Gradle with Play framework">
-<meta property="og:description" content="Short description">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/"><meta property="article:section" content="blog">
-<meta property="article:published_time" content="2017-09-21T03:55:41-03:00">
-<meta property="article:modified_time" content="2017-09-21T03:55:41-03:00">
-<title>
-Using Gradle with Play framework
-</title>
-<link rel=canonical href=https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/>
-<link rel=stylesheet async href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atelier-estuary-dark.min.css>
-<style>td.hljs-ln-numbers{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-align:center;color:#ccc;border-right:1px solid #ccc;vertical-align:top;padding-right:5px;width:34px}td.hljs-ln-code{padding-left:10px}</style>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
-<link rel=stylesheet href="../../css/reset.css?t=2022-03-03%2016%3a08%3a14.151480841%20%2b0000%20UTC%20m%3d%2b0.033578669">
-<link rel=stylesheet href="../../css/pygments.css?t=2022-03-03%2016%3a08%3a14.151480841%20%2b0000%20UTC%20m%3d%2b0.033578669">
-<link rel=stylesheet href="../../css/main.css?t=2022-03-03%2016%3a08%3a14.151480841%20%2b0000%20UTC%20m%3d%2b0.033578669">
-<link rel=stylesheet href="../../css/override.css?t=2022-03-03%2016%3a08%3a14.151480841%20%2b0000%20UTC%20m%3d%2b0.033578669">
-<link rel="shortcut icon" href=../../img/favicon.ico>
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Short description">
+
+<meta property="og:title" content="Using Gradle with Play framework" />
+<meta property="og:description" content="Short description" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cescoferraro.com/blog/using-gradle-with-play-framework/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2017-09-21T03:55:41-03:00" />
+<meta property="article:modified_time" content="2017-09-21T03:55:41-03:00" />
+
+
+
+    <title>
+	
+	
+	     Using Gradle with Play framework 
+	
+    </title>
+    <link rel="canonical" href="https://www.cescoferraro.com/blog/using-gradle-with-play-framework/">
+    
+
+
+
+
+
+
+    <link rel="stylesheet" async href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/atelier-estuary-dark.min.css">
+    <style>
+      
+     td.hljs-ln-numbers {
+	 -webkit-touch-callout: none;
+	 -webkit-user-select: none;
+	 -khtml-user-select: none;
+	 -moz-user-select: none;
+	 -ms-user-select: none;
+	 user-select: none;
+
+	 text-align: center;
+	 color: #ccc;
+	 border-right: 1px solid #CCC;
+	 vertical-align: top;
+	 padding-right: 5px;
+
+	 width: 34px;
+	  
+     }
+
+      
+     td.hljs-ln-code {
+	 padding-left: 10px;
+     }
+    </style>
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500">
+
+
+
+    
+    <link rel="stylesheet" href="../../css/reset.css?t=2022-03-03%2016%3a16%3a44.232088664%20%2b0000%20UTC%20m%3d%2b0.033872262">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2022-03-03%2016%3a16%3a44.232088664%20%2b0000%20UTC%20m%3d%2b0.033872262">
+    <link rel="stylesheet" href="../../css/main.css?t=2022-03-03%2016%3a16%3a44.232088664%20%2b0000%20UTC%20m%3d%2b0.033872262">
+    
+	<link rel="stylesheet" href="../../css/override.css?t=2022-03-03%2016%3a16%3a44.232088664%20%2b0000%20UTC%20m%3d%2b0.033872262">
+    
+
+
+
+
+<link rel="shortcut icon"
+      
+      href="../../img/favicon.ico"
+      
+>
+
+
+
+
+
 </head>
-<body lang=en,br>
-<section class=header>
-<div class=container>
-<div class=content>
-<a href=../../><img class=avatar src=../../img/profile.png srcset="https://cescoferraro.github.io/me/img/profile.png 1x"></a>
-<a href=../../><div class=name>cescoferraro</div></a>
-<nav>
-<ul>
-<li class=nav-blog>
-<a href=https://cescoferraro.github.io/me/blog/><span>Blog</span></a>
-</li>
-<li class=nav-portifolio>
-<a href=https://cescoferraro.github.io/me/portifolio/><span>Portifolio</span></a>
-</li>
-<li class=nav-vitae>
-<a href=https://cescoferraro.github.io/me/software/><span>VITAE</span></a>
-</li>
-</ul>
-</nav>
-</div>
-</div>
-</section>
-<section class=icons>
-<div class=container>
-<div class=content>
-<a href=//github.com/cescoferraro target=_blank rel=noopener><img class=icon src=../../img/github.svg alt=github></a>
-<a href=//twitter.com/cescoferraro target=_blank rel=noopener><img class=icon src=../../img/twitter.svg alt=twitter></a>
-<a href=//www.linkedin.com/in/francesco-ferraro-64805114/ target=_blank rel=noopener><img class=icon src=../../img/linkedin.svg alt=linkedin></a>
-<a href=//stackoverflow.com/users/3074508/cesco target=_blank rel=noopener>
-<img class=icon src=https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg alt=soundcloud>
-</a>
-<a href=mailto:francescoaferraro@gmail.com><img class=icon src=../../img/email.svg alt=email></a>
-<a href=https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/><img class="icon flag" src=../../img/flags/br.svg></a>
-</div>
-</div>
-</section>
+
+
+    <body lang="en,br">
+	<section class="header">
+	    <div class="container">
+		<div class="content">
+		    
+			
+			
+			
+			
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			    
+			
+			
+			<a href="../../"><img class="avatar" src="../../img/profile.png" srcset="https://www.cescoferraro.com/img/profile.png 1x"></a>
+		    
+		    <a href="../../"><div class="name">cescoferraro</div></a>
+		    
+		    <nav>
+			<ul>
+			    
+				<li class="nav-blog">
+				    <a href="https://www.cescoferraro.com/blog/"><span>Blog</span></a>
+				</li>
+			    
+				<li class="nav-portifolio">
+				    <a href="https://www.cescoferraro.com/portifolio/"><span>Portifolio</span></a>
+				</li>
+			    
+				<li class="nav-vitae">
+				    <a href="https://www.cescoferraro.com/software/"><span>VITAE</span></a>
+				</li>
+			    
+			</ul>
+		    </nav>
+		</div>
+	    </div>
+	</section>
+
+	<section class="icons">
+	    <div class="container">
+		<div class="content">
+
+		    
+			<a href="//github.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../img/github.svg" alt="github" /></a>
+		    
+
+		    
+			<a href="//twitter.com/cescoferraro" target="_blank" rel="noopener"><img class="icon" src="../../img/twitter.svg" alt="twitter" /></a>
+		    
+
+		    
+
+		    
+			<a href="//www.linkedin.com/in/francesco-ferraro-64805114/" target="_blank" rel="noopener"><img class="icon" src="../../img/linkedin.svg" alt="linkedin" /></a>
+		    
+
+		    
+
+		    
+			<a href="//stackoverflow.com/users/3074508/cesco" target="_blank" rel="noopener">
+			    <img class="icon"
+				 src=" https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg "
+				 alt="soundcloud" />
+			</a>
+		    
+
+		    
+
+		    
+			<a href="mailto:francescoaferraro@gmail.com"><img class="icon" src="../../img/email.svg" alt="email" /></a>
+		    
+
+            
+		    
+			
+			    <a href="https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/"><img class="icon flag" src="../../img/flags/br.svg"></a>
+			
+		    
+		</div>
+	    </div>
+	</section>
+
 <section class="main post non-narrow zero-top-spacing">
-<div class=container>
-<div class=content>
-<div class=front-matter>
-<div class=title-container>
-<div class=page-heading>
-Using Gradle with Play framework
+    <div class="container">
+        <div class="content">
+            <div class="front-matter">
+                <div class="title-container">
+                    <div class="page-heading">
+    
+	Using Gradle with Play framework
+    
 </div>
-<div class=initials><a href=https://cescoferraro.github.io/me/></a></div>
-</div>
-<div class=meta>
-<div class=date title="Thu Sep 21 2017 03:55:41 -0300">Sep 21, 2017</div>
-<div class=reading-time><div class=middot></div>2 minutes read</div>
-</div>
-</div>
-<div class=markdown>
-<p>
+
+                    <div class="initials"><a href="https://www.cescoferraro.com"></a></div>
+                </div>
+                <div class="meta">
+                    
+			<div class="date" title='Thu Sep 21 2017 03:55:41 -0300'>Sep 21, 2017</div>
+                    
+                    
+			<div class="reading-time"><div class="middot"></div>2 minutes read</div>
+                    
+                </div>
+            </div>
+            <div class="markdown">
+                <p>
 Basic Play Framework gradle configuration. It uses 4 plugins.
 Play plugin needs the java one. The other 2 are IDE specific.</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>apply</span> <span class=nl>plugin:</span> <span class=s1>&#39;java&#39;</span>
-<span class=n>apply</span> <span class=nl>plugin:</span> <span class=s1>&#39;play&#39;</span>
-<span class=n>apply</span> <span class=nl>plugin:</span> <span class=s1>&#39;idea&#39;</span>
-<span class=n>apply</span> <span class=nl>plugin:</span> <span class=s1>&#39;eclipse&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;java&#39;</span>
+<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;play&#39;</span>
+<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;idea&#39;</span>
+<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;eclipse&#39;</span></code></pre></div>
 </div>
 <p>
 Where the play plugins lives!</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>repositories</span> <span class=o>{</span>
-    <span class=n>mavenCentral</span><span class=o>()</span>
-    <span class=n>jcenter</span><span class=o>()</span>
-    <span class=n>maven</span> <span class=o>{</span>
-        <span class=n>name</span> <span class=s2>&#34;typesafe-maven-release&#34;</span>
-        <span class=n>url</span> <span class=s2>&#34;https://repo.typesafe.com/typesafe/maven-releases&#34;</span>
-    <span class=o>}</span>
-    <span class=n>ivy</span> <span class=o>{</span>
-        <span class=n>name</span> <span class=s2>&#34;typesafe-ivy-release&#34;</span>
-        <span class=n>url</span> <span class=s2>&#34;https://repo.typesafe.com/typesafe/ivy-releases&#34;</span>
-        <span class=n>layout</span> <span class=s2>&#34;ivy&#34;</span>
-    <span class=o>}</span>
-<span class=o>}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">repositories</span> <span class="o">{</span>
+    <span class="n">mavenCentral</span><span class="o">()</span>
+    <span class="n">jcenter</span><span class="o">()</span>
+    <span class="n">maven</span> <span class="o">{</span>
+        <span class="n">name</span> <span class="s2">&#34;typesafe-maven-release&#34;</span>
+        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/maven-releases&#34;</span>
+    <span class="o">}</span>
+    <span class="n">ivy</span> <span class="o">{</span>
+        <span class="n">name</span> <span class="s2">&#34;typesafe-ivy-release&#34;</span>
+        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/ivy-releases&#34;</span>
+        <span class="n">layout</span> <span class="s2">&#34;ivy&#34;</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
 </div>
 <p>
 The dependencies of the project.</p>
@@ -110,21 +256,21 @@ The dependencies of the project.</p>
 Note the some of them are duplicates because Eclipse could not find
 the play dependencie at the classpath</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>dependencies</span> <span class=o>{</span>
-    <span class=n>play</span>    <span class=nl>group:</span> <span class=s1>&#39;com.amazonaws&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;aws-java-sdk-s3&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;1.11.197&#39;</span>
-    <span class=n>compile</span> <span class=nl>group:</span> <span class=s1>&#39;com.amazonaws&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;aws-java-sdk-s3&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;1.11.197&#39;</span>
-    <span class=n>play</span>    <span class=s1>&#39;javax.inject:javax.inject:1&#39;</span>
-    <span class=n>compile</span> <span class=s1>&#39;javax.inject:javax.inject:1&#39;</span>
-    <span class=n>testCompile</span> <span class=nl>group:</span> <span class=s1>&#39;junit&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;junit&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;4.11&#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">dependencies</span> <span class="o">{</span>
+    <span class="n">play</span>    <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
+    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
+    <span class="n">play</span>    <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
+    <span class="n">compile</span> <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
+    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;4.11&#39;</span>
 
-    <span class=n>compile</span> <span class=nl>group:</span> <span class=s1>&#39;com.typesafe.play&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;play_2.11&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;2.5.8&#39;</span>
-    <span class=n>play</span> <span class=nl>group:</span> <span class=s1>&#39;com.typesafe.play&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;play_2.11&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;2.5.8&#39;</span>
+    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
+    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
 
-    <span class=c1>// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
-</span><span class=c1></span>    <span class=n>play</span> <span class=nl>group:</span> <span class=s1>&#39;org.slf4j&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;slf4j-simple&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;1.7.25&#39;</span>
-    <span class=n>compile</span> <span class=nl>group:</span> <span class=s1>&#39;org.slf4j&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;slf4j-simple&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;1.7.25&#39;</span>
-    <span class=n>testCompile</span> <span class=nl>group:</span> <span class=s1>&#39;org.slf4j&#39;</span><span class=o>,</span> <span class=nl>name:</span> <span class=s1>&#39;slf4j-simple&#39;</span><span class=o>,</span> <span class=nl>version:</span> <span class=s1>&#39;1.7.25&#39;</span>
-<span class=o>}</span></code></pre></div>
+    <span class="c1">// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+</span><span class="c1"></span>    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+<span class="o">}</span></code></pre></div>
 </div>
 <p>
 This block does 3 things. Sets the Play version. Turn on these Play
@@ -133,73 +279,123 @@ Controller. And copy the a Dockerfile to the dist folder every time
 you issue one of the distributions tasks implemented by the Gradle-Play
 plugin, so it can be used to deploy the artifacts generated.</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>model</span> <span class=o>{</span>
-    <span class=n>components</span> <span class=o>{</span>
-        <span class=n>play</span> <span class=o>{</span>
-            <span class=n>platform</span> <span class=nl>play:</span> <span class=s1>&#39;2.5.8&#39;</span><span class=o>,</span> <span class=nl>scala:</span> <span class=s1>&#39;2.11&#39;</span>
-            <span class=n>injectedRoutesGenerator</span> <span class=o>=</span> <span class=kc>true</span>
-        <span class=o>}</span>
-    <span class=o>}</span>
-    <span class=n>distributions</span> <span class=o>{</span>
-        <span class=n>playBinary</span> <span class=o>{</span>
-            <span class=n>contents</span> <span class=o>{</span>
-                <span class=n>from</span><span class=o>(</span><span class=s2>&#34;Dockerfile&#34;</span><span class=o>)</span>
-            <span class=o>}</span>
-        <span class=o>}</span>
-    <span class=o>}</span>
-<span class=o>}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">model</span> <span class="o">{</span>
+    <span class="n">components</span> <span class="o">{</span>
+        <span class="n">play</span> <span class="o">{</span>
+            <span class="n">platform</span> <span class="nl">play:</span> <span class="s1">&#39;2.5.8&#39;</span><span class="o">,</span> <span class="nl">scala:</span> <span class="s1">&#39;2.11&#39;</span>
+            <span class="n">injectedRoutesGenerator</span> <span class="o">=</span> <span class="kc">true</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+    <span class="n">distributions</span> <span class="o">{</span>
+        <span class="n">playBinary</span> <span class="o">{</span>
+            <span class="n">contents</span> <span class="o">{</span>
+                <span class="n">from</span><span class="o">(</span><span class="s2">&#34;Dockerfile&#34;</span><span class="o">)</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
 </div>
 <p>eclipse support is very limited with the current version on the
 Play-Gradle plugin, but these somehow make it work, not perfectly, but
 working.</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>eclipse</span><span class=o>.</span><span class=na>classpath</span><span class=o>.</span><span class=na>plusConfigurations</span> <span class=o>+=</span> <span class=o>[</span> <span class=n>configurations</span><span class=o>.</span><span class=na>play</span> <span class=o>]</span>
-<span class=n>sourceSets</span> <span class=o>{</span>
-    <span class=n>main</span> <span class=o>{</span>
-	<span class=n>java</span> <span class=o>{</span>
-	    <span class=n>srcDir</span> <span class=s1>&#39;app&#39;</span>
-	<span class=o>}</span>
-    <span class=o>}</span>
-<span class=o>}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">eclipse</span><span class="o">.</span><span class="na">classpath</span><span class="o">.</span><span class="na">plusConfigurations</span> <span class="o">+=</span> <span class="o">[</span> <span class="n">configurations</span><span class="o">.</span><span class="na">play</span> <span class="o">]</span>
+<span class="n">sourceSets</span> <span class="o">{</span>
+    <span class="n">main</span> <span class="o">{</span>
+	<span class="n">java</span> <span class="o">{</span>
+	    <span class="n">srcDir</span> <span class="s1">&#39;app&#39;</span>
+	<span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
 </div>
 <p>
 Intellij by the other hand is fully supported. All you need is to
 setup things nicely so it can find what it need within the Play
 scaffolding.</p>
 <div class="src src-groovy">
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-groovy data-lang=groovy><span class=n>idea</span> <span class=o>{</span>
-    <span class=n>module</span> <span class=o>{</span>
-        <span class=n>sourceDirs</span> <span class=o>+=</span> <span class=n>file</span><span class=o>(</span><span class=s2>&#34;app&#34;</span><span class=o>)</span>
-        <span class=n>testSourceDirs</span> <span class=o>+=</span> <span class=n>file</span><span class=o>(</span><span class=s2>&#34;test&#34;</span><span class=o>)</span>
-        <span class=n>scopes</span><span class=o>.</span><span class=na>COMPILE</span> <span class=o>=</span> <span class=o>[</span><span class=nl>plus:</span> <span class=o>[</span><span class=n>configurations</span><span class=o>.</span><span class=na>play</span><span class=o>],</span> <span class=nl>minus:</span> <span class=o>[]]</span>
-        <span class=n>scopes</span><span class=o>.</span><span class=na>RUNTIME</span> <span class=o>=</span> <span class=o>[</span><span class=nl>plus:</span> <span class=o>[</span><span class=n>configurations</span><span class=o>.</span><span class=na>playRun</span><span class=o>],</span> <span class=nl>minus:</span><span class=o>[</span><span class=n>configurations</span><span class=o>.</span><span class=na>play</span><span class=o>]]</span>
-        <span class=n>scopes</span><span class=o>.</span><span class=na>TEST</span> <span class=o>=</span> <span class=o>[</span><span class=nl>plus:</span> <span class=o>[</span><span class=n>configurations</span><span class=o>.</span><span class=na>playTest</span><span class=o>],</span> <span class=nl>minus:</span> <span class=o>[</span><span class=n>configurations</span><span class=o>.</span><span class=na>playRun</span><span class=o>]]</span>
-    <span class=o>}</span>
-<span class=o>}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">idea</span> <span class="o">{</span>
+    <span class="n">module</span> <span class="o">{</span>
+        <span class="n">sourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;app&#34;</span><span class="o">)</span>
+        <span class="n">testSourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;test&#34;</span><span class="o">)</span>
+        <span class="n">scopes</span><span class="o">.</span><span class="na">COMPILE</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[]]</span>
+        <span class="n">scopes</span><span class="o">.</span><span class="na">RUNTIME</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">],</span> <span class="nl">minus:</span><span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">]]</span>
+        <span class="n">scopes</span><span class="o">.</span><span class="na">TEST</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playTest</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">]]</span>
+    <span class="o">}</span>
+<span class="o">}</span></code></pre></div>
 </div>
-<br>
-<p><a href=../../blog/>Back to posts</a></p>
-</div>
-<br>
-<div class=disqus>
-<div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//blog-cescoferraro-xyz.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</div>
-</div>
-</div>
+
+                <br>
+		<p><a href="../../blog/">Back to posts</a></p>
+            </div>
+            <br>
+            <div class="disqus">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "blog-cescoferraro-xyz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    </div>
 </section>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-123-45','auto'),ga('send','pageview'))</script>
-<script async src=https://www.google-analytics.com/analytics.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/python.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/gradle.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/groovy.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/java.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/clojure-repl.min.js></script>
-<script type=text/javascript>var y,i;hljs.initHighlightingOnLoad(),window.outerWidth>600&&hljs.initLineNumbersOnLoad(),y=document.querySelectorAll("pre code");for(i=0;i<y.length;i++)y[i].innerHTML=y[i].innerHTML.replace("\n","")</script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/python.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/gradle.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/groovy.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/go.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/java.min.js"></script>
+    
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/clojure-repl.min.js"></script>
+    
+
+    <script type="text/javascript">
+     hljs.initHighlightingOnLoad();
+     if (window.outerWidth > 600){
+	 hljs.initLineNumbersOnLoad();
+     }
+     var y = document.querySelectorAll("pre code");
+     for(var i = 0; i < y.length; i++) {
+	 y[i].innerHTML = y[i].innerHTML.replace("\n", "");
+     }
+    </script>
+
+
 </body>
 </html>
+

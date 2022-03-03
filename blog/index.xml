@@ -1,5 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on @cescoferraro</title><link>https://cescoferraro.github.io/me/blog/</link><description>Recent content in Blog on @cescoferraro</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://cescoferraro.github.io/me/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Gradle with Play framework</title><link>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</link><pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/blog/using-gradle-with-play-framework/</guid><description>Basic Play Framework gradle configuration. It uses 4 plugins. Play plugin needs the java one. The other 2 are IDE specific.
-apply plugin: &amp;#39;java&amp;#39; apply plugin: &amp;#39;play&amp;#39; apply plugin: &amp;#39;idea&amp;#39; apply plugin: &amp;#39;eclipse&amp;#39; Where the play plugins lives!
-repositories { mavenCentral() jcenter() maven { name &amp;#34;typesafe-maven-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/maven-releases&amp;#34; } ivy { name &amp;#34;typesafe-ivy-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/ivy-releases&amp;#34; layout &amp;#34;ivy&amp;#34; } } The dependencies of the project.
-Note the some of them are duplicates because Eclipse could not find the play dependencie at the classpath</description></item><item><title>Travis SSH</title><link>https://cescoferraro.github.io/me/blog/travis-ssh/</link><pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/blog/travis-ssh/</guid><description>I can deploy ssh machines from travis!</description></item><item><title>Web offline support</title><link>https://cescoferraro.github.io/me/blog/web-offline-support/</link><pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/blog/web-offline-support/</guid><description> Here I am using HubSpot/Offline. You can find more information at the Docs.
-export const offlineCheck = (store) =&amp;gt; { const { Offline } = (window as any) const upHandler = (e) =&amp;gt; {console.log(&amp;#34;upppp&amp;#34;)} const downHandler = (e) =&amp;gt; {console.log(&amp;#34;downnnnn&amp;#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&amp;gt; (&amp;#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&amp;#34; + (Math.floor(Math.random() * 1000000000))) }, active: &amp;#34;image&amp;#34; } } Offline.on(&amp;#34;up&amp;#34;, upHandler) Offline.on(&amp;#34;down&amp;#34;, downHandler) }</description></item><item><title>Software Developer Career</title><link>https://cescoferraro.github.io/me/blog/software-developer-career/</link><pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/blog/software-developer-career/</guid><description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on @cescoferraro</title>
+    <link>https://www.cescoferraro.com/blog/</link>
+    <description>Recent content in Blog on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://www.cescoferraro.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Gradle with Play framework</title>
+      <link>https://www.cescoferraro.com/blog/using-gradle-with-play-framework/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/blog/using-gradle-with-play-framework/</guid>
+      <description>Basic Play Framework gradle configuration. It uses 4 plugins. Play plugin needs the java one. The other 2 are IDE specific.
+apply plugin: &amp;#39;java&amp;#39; apply plugin: &amp;#39;play&amp;#39; apply plugin: &amp;#39;idea&amp;#39; apply plugin: &amp;#39;eclipse&amp;#39;   Where the play plugins lives!
+repositories { mavenCentral() jcenter() maven { name &amp;#34;typesafe-maven-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/maven-releases&amp;#34; } ivy { name &amp;#34;typesafe-ivy-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/ivy-releases&amp;#34; layout &amp;#34;ivy&amp;#34; } }   The dependencies of the project.
+ Note the some of them are duplicates because Eclipse could not find the play dependencie at the classpath</description>
+    </item>
+    
+    <item>
+      <title>Travis SSH</title>
+      <link>https://www.cescoferraro.com/blog/travis-ssh/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/blog/travis-ssh/</guid>
+      <description>I can deploy ssh machines from travis!</description>
+    </item>
+    
+    <item>
+      <title>Web offline support</title>
+      <link>https://www.cescoferraro.com/blog/web-offline-support/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/blog/web-offline-support/</guid>
+      <description> Here I am using HubSpot/Offline. You can find more information at the Docs.
+export const offlineCheck = (store) =&amp;gt; { const { Offline } = (window as any) const upHandler = (e) =&amp;gt; {console.log(&amp;#34;upppp&amp;#34;)} const downHandler = (e) =&amp;gt; {console.log(&amp;#34;downnnnn&amp;#34;)} Offline.options = { checkOnLoad: true, checks: { image: { url: () =&amp;gt; (&amp;#34;https://esri.github.io/offline-editor-js/tiny-image.png?_=&amp;#34; + (Math.floor(Math.random() * 1000000000))) }, active: &amp;#34;image&amp;#34; } } Offline.on(&amp;#34;up&amp;#34;, upHandler) Offline.on(&amp;#34;down&amp;#34;, downHandler) }  </description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career</title>
+      <link>https://www.cescoferraro.com/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/blog/software-developer-career/</guid>
+      <description>I have been coding a lot for the past two years. And by crazy I mean at least a little bit everyday, but often all my spare time. Not usually for work, except for a few freelance jobs I have successfully landed, but for FUN. Yes, coding is awesome and I will explain why. I currently work as a on-site Civil Engineer. I have studied quite a bit to get where I am, but the job has become very repetitive with very few new things to learn.</description>
+    </item>
+    
+  </channel>
+</rss>

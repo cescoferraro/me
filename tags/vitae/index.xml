@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vitae on @cescoferraro</title><link>https://cescoferraro.github.io/me/tags/vitae/</link><description>Recent content in vitae on @cescoferraro</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><atom:link href="https://cescoferraro.github.io/me/tags/vitae/index.xml" rel="self" type="application/rss+xml"/><item><title>software</title><link>https://cescoferraro.github.io/me/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cescoferraro.github.io/me/software/</guid><description>Name Francesco Antonello Ferraro Graduation Software Engineer Email francescoaferraro@gmail.com Birthdate 12/30/1987 Location Porto Alegre/RS - Brazil Professional Summary Fluent English speaker and Linux user for +15 years with intrinsic conteinerized devOps knowledge. Although academically graduated as a Civil Engineer; I have been coding full stack professionally for the past 5 years. Working server-side with Golang, C# &amp;amp; Java whilst doing mainly React on the front end.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vitae on @cescoferraro</title>
+    <link>https://www.cescoferraro.com/tags/vitae/</link>
+    <description>Recent content in vitae on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="https://www.cescoferraro.com/tags/vitae/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>software</title>
+      <link>https://www.cescoferraro.com/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cescoferraro.com/software/</guid>
+      <description>Name Francesco Antonello Ferraro   Graduation Software Engineer   Email francescoaferraro@gmail.com   Birthdate 12/30/1987   Location Porto Alegre/RS - Brazil    Professional Summary    Fluent English speaker and Linux user for +15 years with intrinsic conteinerized devOps knowledge. Although academically graduated as a Civil Engineer; I have been coding full stack professionally for the past 5 years. Working server-side with Golang, C# &amp;amp; Java whilst doing mainly React on the front end.</description>
+    </item>
+    
+  </channel>
+</rss>

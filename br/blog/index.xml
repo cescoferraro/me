@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on @cescoferraro</title><link>https://cescoferraro.github.io/me/br/blog/</link><description>Recent content in Blog on @cescoferraro</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Tout est à moi</copyright><lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://cescoferraro.github.io/me/br/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Gradle with Play framework</title><link>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</link><pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/br/blog/using-gradle-with-play-framework/</guid><description>English Version Only</description></item><item><title>Travis SSH</title><link>https://cescoferraro.github.io/me/br/blog/travis-ssh/</link><pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/br/blog/travis-ssh/</guid><description>English Version Only</description></item><item><title>Software Developer Career</title><link>https://cescoferraro.github.io/me/br/blog/software-developer-career/</link><pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/br/blog/software-developer-career/</guid><description>English Version Only</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on @cescoferraro</title>
+    <link>https://www.cescoferraro.com/br/blog/</link>
+    <description>Recent content in Blog on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Tout est à moi</copyright>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://www.cescoferraro.com/br/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Gradle with Play framework</title>
+      <link>https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/</guid>
+      <description>English Version Only</description>
+    </item>
+    
+    <item>
+      <title>Travis SSH</title>
+      <link>https://www.cescoferraro.com/br/blog/travis-ssh/</link>
+      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/blog/travis-ssh/</guid>
+      <description>English Version Only</description>
+    </item>
+    
+    <item>
+      <title>Software Developer Career</title>
+      <link>https://www.cescoferraro.com/br/blog/software-developer-career/</link>
+      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/blog/software-developer-career/</guid>
+      <description>English Version Only</description>
+    </item>
+    
+  </channel>
+</rss>

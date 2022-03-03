@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fixed on @cescoferraro</title><link>https://cescoferraro.github.io/me/br/fixed/</link><description>Recent content in Fixed on @cescoferraro</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Tout est à moi</copyright><lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate><atom:link href="https://cescoferraro.github.io/me/br/fixed/index.xml" rel="self" type="application/rss+xml"/><item><title>about</title><link>https://cescoferraro.github.io/me/br/about/</link><pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate><guid>https://cescoferraro.github.io/me/br/about/</guid><description/></item><item><title>software</title><link>https://cescoferraro.github.io/me/br/software/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cescoferraro.github.io/me/br/software/</guid><description>Nome Francesco Antonello Ferraro Graduação Engenharia de Software E-mail francescoaferraro@gmail.com Nascimento 12/30/1987 Residência Porto Alegre/RS - Brasil Resumo Profissional Fluente na língua inglesa e usuário Linux a mais de 15 anos com conhecimento intríciso sobre conteineiração e devOps. Apesar de formado academicamente como engenheiro civil; Tenho trabalhado profissionalmente como programandor full stack nos últimos 5 anos.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fixed on @cescoferraro</title>
+    <link>https://www.cescoferraro.com/br/fixed/</link>
+    <description>Recent content in Fixed on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Tout est à moi</copyright>
+    <lastBuildDate>Tue, 30 May 2017 01:53:46 -0300</lastBuildDate><atom:link href="https://www.cescoferraro.com/br/fixed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>about</title>
+      <link>https://www.cescoferraro.com/br/about/</link>
+      <pubDate>Tue, 30 May 2017 01:53:46 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://www.cescoferraro.com/br/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/software/</guid>
+      <description>Nome Francesco Antonello Ferraro   Graduação Engenharia de Software   E-mail francescoaferraro@gmail.com   Nascimento 12/30/1987   Residência Porto Alegre/RS - Brasil    Resumo Profissional   Fluente na língua inglesa e usuário Linux a mais de 15 anos com conhecimento intríciso sobre conteineiração e devOps. Apesar de formado academicamente como engenheiro civil; Tenho trabalhado profissionalmente como programandor full stack nos últimos 5 anos.</description>
+    </item>
+    
+  </channel>
+</rss>

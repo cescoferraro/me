@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on @cescoferraro</title><link>https://cescoferraro.github.io/me/tags/</link><description>Recent content in Tags on @cescoferraro</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://cescoferraro.github.io/me/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>java,</title><link>https://cescoferraro.github.io/me/tags/java/</link><pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/tags/java/</guid><description/></item><item><title>nil</title><link>https://cescoferraro.github.io/me/tags/nil/</link><pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate><guid>https://cescoferraro.github.io/me/tags/nil/</guid><description/></item><item><title>code</title><link>https://cescoferraro.github.io/me/tags/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cescoferraro.github.io/me/tags/code/</guid><description/></item><item><title>vitae</title><link>https://cescoferraro.github.io/me/tags/vitae/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cescoferraro.github.io/me/tags/vitae/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on @cescoferraro</title>
+    <link>https://www.cescoferraro.com/tags/</link>
+    <description>Recent content in Tags on @cescoferraro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://www.cescoferraro.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>java,</title>
+      <link>https://www.cescoferraro.com/tags/java/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nil</title>
+      <link>https://www.cescoferraro.com/tags/nil/</link>
+      <pubDate>Thu, 21 Sep 2017 03:55:41 -0300</pubDate>
+      
+      <guid>https://www.cescoferraro.com/tags/nil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://www.cescoferraro.com/tags/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cescoferraro.com/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vitae</title>
+      <link>https://www.cescoferraro.com/tags/vitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cescoferraro.com/tags/vitae/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
