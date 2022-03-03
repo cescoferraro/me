@@ -7,9 +7,9 @@ services:
     ports:
       - "80"
     environment:
-      - VIRTUAL_HOST=www.cescoferraro.xyz
+      - VIRTUAL_HOST=www.cescoferraro.com
       - VIRTUAL_PORT=80
-      - LETSENCRYPT_HOST=www.cescoferraro.xyz
+      - LETSENCRYPT_HOST=www.cescoferraro.com
       - LETSENCRYPT_EMAIL=francescoaferraro@gmail.com
     networks:
       global:

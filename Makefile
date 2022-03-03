@@ -6,7 +6,7 @@ gh:
 
 new:
 	rm -rf out/
-	hugo -b https://www.cescoferraro.xyz
+	hugo -b https://www.cescoferraro.com
 	cp 18E988A9C144977FE6AC7BBF0919B0C3.txt out/
 	cp Dockerfile out/
 	docker-compose build me
