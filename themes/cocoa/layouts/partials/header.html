@@ -9,9 +9,9 @@
 		<div class="content">
 		    {{ if .Site.Params.gravatar }}
 			<a {{ printf "href=%q" ("/" | relLangURL) | safeHTMLAttr }}>
-			    <img class="avatar" 
-				 src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" 
-				 rcset="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=100 2x, 
+			    <img class="avatar"
+				 src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50"
+				 rcset="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=100 2x,
 					https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=150 3x, 
 					https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=200 4x">
 			</a>
@@ -71,8 +71,8 @@
 
 		    {{ if .Site.Params.stackoverflow }}
 			<a href="{{ .Site.Params.stackoverflow }}" target="_blank" rel="noopener">
-			    <img class="icon" 
-				 src=" https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg " 
+			    <img class="icon"
+				 src=" https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg "
 				 alt="soundcloud" />
 			</a>
 		    {{ end }}
@@ -85,9 +85,7 @@
 			<a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
 		    {{ end }}
 
-		    {{ if .Site.RSSLink }}
-			<a href="{{ .Site.RSSLink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>
-		    {{ end }}
+            {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}"><img class="icon" src="/img/rss.svg" alt="rss" /></a>{{ end }}
 		    {{ if and .Site.Params.i18n_flags .IsTranslated }}
 			{{ range .Translations }}
 			    <a href="{{ .Permalink }}"><img class="icon flag" src="/img/flags/{{ .Lang }}.svg"></a>
