@@ -18,4 +18,5 @@ jobs:
         uses: chabad360/hugo-gh-pages@master
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
-          cname: https://www.cescoferraro.com
+          cname: cescoferraro.com
+          args: -b https://www.cescoferraro.com
