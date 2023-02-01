@@ -47,6 +47,24 @@ Fullstack Developer
     - Empreitada e manutenção módulo Checkout de Pagamentos
     - Desenvolvimento e Arquitetura usando Spring-Boot (Java), Postgres e GraphQl
 
+*** Tramontina/Ayga |Guru Project|
+Mobile Tester
+
+*** Boticario/DYSYS |2020:2021|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
+*** Proclivity Systems/BairresDev  |2020:2021|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
+*** Tracetest/Kubeshop :~: |2022:~|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
 * Educação
 ***  Engenharia Civil :Graduado em 2013:
 Universidade Federal do Rio Grande do Sul - Porto Alegre

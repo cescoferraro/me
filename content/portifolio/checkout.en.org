@@ -1,0 +1,15 @@
+#+TITLE: checkout.b2breservas.com.br
+#+DATE: 2021-01-01
+#+DRAFT: nil
+#+TAGS[]: nil, nil
+#+DESCRIPTION: Short description
+
+A app that business control their hotel expenses. Developed using graphql, Java, and React.
+I have solo developed this product both frontend & backend for the first 2 years of its existance.
+
+
+|-----+-----|
+| [[file:/img/checkout1.png]] | [[file:/img/checkout2.png]] |
+| [[file:/img/checkout3.png]] |
+
+

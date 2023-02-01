@@ -1,0 +1,13 @@
+#+TITLE: global.tt
+#+DATE: 2021-06-01
+#+DRAFT: nil
+#+TAGS[]: nil, nil
+#+DESCRIPTION: Short description
+
+A fully fledged CMS backed website using Gatsby, Netlify & Github
+
+|-----+-----|
+| [[file:/img/global1.png]] | [[file:/img/global2.png]] |
+| [[file:/img/global3.png]] | [[file:/img/global4.png]] |
+
+

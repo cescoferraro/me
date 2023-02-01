@@ -1,41 +1,42 @@
-{{ partial "header.html" . }}
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head.html" . }}
 
-<section class="main post non-narrow zero-top-spacing">
-    <div class="container">
-        <div class="content">
-            <div class="markdown">
-                {{ i18n "about" }}
-                <a href="cv.pdf">
-                    {{ i18n "pdf_vitae" }}
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="main post non-narrow zero-top-spacing">
-    <div class="container">
-        <div class="content">
-            <div class="page-heading">{{ i18n "latestPosts" }}</div>
-            <div class="markdown">
-                {{ range where $.Site.RegularPages "Section" "blog" }}
-                {{partial "li.html" .}}
-                {{end}}
-            </div>
-        </div>
-    </div>
-</section>
-<section class="main post non-narrow zero-top-spacing">
-    <div class="container">
-        <div class="content">
-            <div class="page-heading">{{ i18n "latestPortifolio" }}</div>
-            <div class="markdown">
-                {{ range where $.Site.RegularPages "Section" "portifolio" }}
-                {{partial "li.html" .}}
-                {{end}}
-            </div>
-        </div>
-    </div>
-</section>
+  <body lang="{{ .Site.Params.lang }}">
+    {{ partial "header.html" . }}
 
-{{ partial "footer.html" . }}
-
+    <section class="main post non-narrow zero-top-spacing">
+      <div class="container">
+        <div class="content">
+          <div class="markdown">
+            {{ i18n "about" }}
+            <a href="cv.pdf"> {{ i18n "pdf_vitae" }} </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main post non-narrow zero-top-spacing">
+      <div class="container">
+        <div class="content">
+          <div class="page-heading">{{ i18n "latestPosts" }}</div>
+          <div class="markdown">
+            {{ range where $.Site.RegularPages "Section" "blog" }} {{partial
+            "li.html" .}} {{end}}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main post non-narrow zero-top-spacing">
+      <div class="container">
+        <div class="content">
+          <div class="page-heading">{{ i18n "latestPortifolio" }}</div>
+          <div class="markdown">
+            {{ range where $.Site.RegularPages "Section" "portifolio" }}
+            {{partial "li.html" .}} {{end}}
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

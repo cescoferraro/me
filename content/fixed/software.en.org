@@ -18,7 +18,7 @@
 
 Fluent English speaker and Linux user for +15 years with intrinsic conteinerized devOps knowledge.
 Although academically graduated as a Civil Engineer;
-I have been coding full stack professionally for the past 5 years.
+I have been coding full stack professionally for the past 8 years.
 Working server-side with Golang, C# & Java whilst doing mainly React on the front end.
 Hit me up, let's write tomorrow's web today.
 
@@ -35,20 +35,52 @@ Hit me up, let's write tomorrow's web today.
 * Professional
 
 *** ONNi |2016 - 2018|
-Full Stack Developer - React + Golang &
-DevOps - Kubernetes
+Full Stack Developer - React + Golang & DevOps - Kubernetes
 
 *** Vnda Ecommerce |2020~|
 Frontend Engineer
+Vnda is an e-commerce startup that focuses on building internet shops that focus on engaging the user with the brand.
+There I have built a checkout module for international clients making payment with PayPal.
+I have used a Express backend with a Next.js frontend all deployed as a single bundle to the Heroku platform though Github Actions to make integration and Deployment easier and faster
+Technologies used: Github Actions, Node.js, Express, React and Next.js
 
 *** D3 :~: |2019:2020|
 Backend Developer C#
+D3 is an outsourcing company. There I have worked solely for one of the major construction companies around Brazil called MRV.
+I have written multiple microservices to interface with legacy Microsoft products like CRM and Sharepoint;
+Have also implemented API's to interact with new Microsoft products like Identity Server.
+All those API were deployed on Docker containers on a Kubernetes cluster using Azure Pipelines to continuously integrate and deploy the products.
+My major task was to build a photo API to deliver and store all existing construction photos as well as new photos in order to allow customers to follow construction development over time.
+Another big part of the job was to deal with Database migrations, from legacy old MS SQL databases to other databases living on a Kubernetes cluster, where I wrote multiple Golang scripts to complete the task.
+Technologies used: Docker, C#, Golang, SOAP, CRM, Azure Pipelines, Microsoft SQL Database, Identity Server, Sharepoint, XML and REST
 
 *** B2BReservas |Checkout Project|
 Fullstack Developer - Graphql Java + React
+B2B helps big companies organize their employees' hotel expenses.
+I have built a fully featured checkout module to help the hotel clerk to charge the host's stay expenses.
+Consists of a React frontend using Apollo Client with MobX and a Java Backend using Spring whilst applying the GraphQL paradigm instead of Rest whenever possible.
+Both the frontend and the backend repos ran on docker containers on top of AWS Elastic Container Service through AWS CodePipeline in order to provide an agile way to continuously integrate and ship the products.
+Technologies used: Docker, AWS CodePipeline, AWS ECS, GraphQL, Java, Spring, React, MobX, Rest, GraphQL and Apollo
 
 *** Tramontina/Ayga |Guru Project|
 Mobile Tester
+
+*** Boticario/DYSYS |2020:2021|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
+*** Proclivity Systems/BairresDev  |2020:2021|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
+*** Tracetest/Kubeshop :~: |2022:~|
+Senior React Developer
+DYSYS  is an outsourcing company.
+Technologies used: Docker, React
+
+
 
 * Education
 ***  Bachelor's - Civil Engineer :Graduated 2013:
@@ -57,7 +89,7 @@ Universidade Federal do Rio Grande do Sul - Porto Alegre
 ***  MBA - Construction Management :Graduated 2014:
 University of California, Los Angeles (UCLA)
 
-***  Bachelor's - Software Enginee :~: :2017:
+***  Bachelor's - Software Engineer :~: :2017:
 Pontifícia Universidade Católica do Rio Grande do Sul - Porto Alegre
 
 
