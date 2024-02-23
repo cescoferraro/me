@@ -5,23 +5,26 @@
   <body lang="{{ .Site.Params.lang }}">
     {{ partial "header.html" . }}
 
-    <section class="main post non-narrow zero-top-spacing">
-      <div class="container">
-        <div class="content">
-          <div class="markdown">
-            {{ i18n "about" }}
-            <a href="cv.pdf"> {{ i18n "pdf_vitae" }} </a>
+      <section class="main post non-narrow zero-top-spacing">
+        <div class="container">
+          <div class="content">
+            <main>
+            <div class="markdown">
+              {{ i18n "about" }}
+              <a href="cv.pdf"> {{ i18n "pdf_vitae" }} </a>
+            </div>
+            </main>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <section class="main post non-narrow zero-top-spacing">
       <div class="container">
         <div class="content">
           <div class="page-heading">{{ i18n "latestPosts" }}</div>
           <div class="markdown">
-            {{ range where $.Site.RegularPages "Section" "blog" }} {{partial
-            "li.html" .}} {{end}}
+            <ul>{{ range where $.Site.RegularPages "Section" "blog" }} {{partial
+              "li.html" .}} {{end}}
+            </ul>
           </div>
         </div>
       </div>
@@ -31,8 +34,9 @@
         <div class="content">
           <div class="page-heading">{{ i18n "latestPortifolio" }}</div>
           <div class="markdown">
-            {{ range where $.Site.RegularPages "Section" "portifolio" }}
-            {{partial "li.html" .}} {{end}}
+            <ul>{{ range where $.Site.RegularPages "Section" "portifolio" }}
+              {{partial "li.html" .}} {{end}}
+            </ul>
           </div>
         </div>
       </div>

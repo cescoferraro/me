@@ -7,7 +7,7 @@
 }
 
 .accent {
-    color: #428bca !important;
+    color: #1a74c1 !important;
 }
 
 @media (min-width: 550px) {
@@ -611,7 +611,7 @@ section.main {
 }
 
 a {
-    color: #428bca;
+    color: #1a74c1;
     -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
     -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
     -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -715,7 +715,7 @@ section.main .content .markdown pre code {
 }
 
 section.main .content .markdown a code {
-    color: #428bca !important;
+    color: #1a74c1 !important;
 }
 
 section.main .content .markdown a code:hover {
