@@ -14,9 +14,9 @@
       
       <guid>https://www.cescoferraro.com/blog/using-gradle-with-play-framework/</guid>
       <description>Basic Play Framework gradle configuration. It uses 4 plugins. Play plugin needs the java one. The other 2 are IDE specific.
-apply plugin: &amp;#39;java&amp;#39; apply plugin: &amp;#39;play&amp;#39; apply plugin: &amp;#39;idea&amp;#39; apply plugin: &amp;#39;eclipse&amp;#39;   Where the play plugins lives!
-repositories { mavenCentral() jcenter() maven { name &amp;#34;typesafe-maven-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/maven-releases&amp;#34; } ivy { name &amp;#34;typesafe-ivy-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/ivy-releases&amp;#34; layout &amp;#34;ivy&amp;#34; } }   The dependencies of the project.
- Note the some of them are duplicates because Eclipse could not find the play dependencie at the classpath</description>
+apply plugin: &amp;#39;java&amp;#39; apply plugin: &amp;#39;play&amp;#39; apply plugin: &amp;#39;idea&amp;#39; apply plugin: &amp;#39;eclipse&amp;#39; Where the play plugins lives!
+repositories { mavenCentral() jcenter() maven { name &amp;#34;typesafe-maven-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/maven-releases&amp;#34; } ivy { name &amp;#34;typesafe-ivy-release&amp;#34; url &amp;#34;https://repo.typesafe.com/typesafe/ivy-releases&amp;#34; layout &amp;#34;ivy&amp;#34; } } The dependencies of the project.
+Note the some of them are duplicates because Eclipse could not find the play dependencie at the classpath</description>
     </item>
     
   </channel>

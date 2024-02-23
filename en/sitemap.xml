@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.cescoferraro.com/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
@@ -13,6 +13,84 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.cescoferraro.com/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/portifolio/global/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/global/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/global/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/portifolio/guarida/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/guarida/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/guarida/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/tags/nil/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/tags/nil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/tags/nil/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/portifolio/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/tags/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/tags/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/portifolio/checkout/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/checkout/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/checkout/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/blog/</loc>
@@ -39,32 +117,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.cescoferraro.com/tags/java/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/tags/nil/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/tags/nil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/tags/nil/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/tags/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/tags/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/blog/using-gradle-with-play-framework/</loc>
@@ -104,71 +156,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.cescoferraro.com/fixed/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/portifolio/gulp-golang/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/gulp-golang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/gulp-golang/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/portifolio/org-loader/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/org-loader/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/org-loader/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/portifolio/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/portifolio/spotify/</loc>
-    <lastmod>2017-04-21T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/spotify/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/spotify/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/blog/travis-ssh/</loc>
-    <lastmod>2017-01-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/blog/travis-ssh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/blog/travis-ssh/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/blog/web-offline-support/</loc>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Tout est à moi</copyright>
-    <lastBuildDate>Thu, 21 Sep 2017 03:55:41 -0300</lastBuildDate><atom:link href="https://www.cescoferraro.com/br/tags/nil/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.cescoferraro.com/br/tags/nil/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>checkout.b2breservas.com</title>
+      <link>https://www.cescoferraro.com/br/portifolio/checkout/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.cescoferraro.com/br/portifolio/checkout/</guid>
+      <description>English Version only, sun.</description>
+    </item>
+    
     <item>
       <title>Using Gradle with Play framework</title>
       <link>https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/</link>
@@ -27,29 +36,11 @@
     </item>
     
     <item>
-      <title>Travis SSH</title>
-      <link>https://www.cescoferraro.com/br/blog/travis-ssh/</link>
-      <pubDate>Tue, 31 Jan 2017 03:55:41 -0300</pubDate>
-      
-      <guid>https://www.cescoferraro.com/br/blog/travis-ssh/</guid>
-      <description>English Version Only</description>
-    </item>
-    
-    <item>
-      <title>gulp-golang</title>
-      <link>https://www.cescoferraro.com/br/portifolio/gulp-golang/</link>
+      <title>https://guarida.com.br</title>
+      <link>https://www.cescoferraro.com/br/portifolio/guarida/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.com/br/portifolio/gulp-golang/</guid>
-      <description>English Version only, sun.</description>
-    </item>
-    
-    <item>
-      <title>org-loader</title>
-      <link>https://www.cescoferraro.com/br/portifolio/org-loader/</link>
-      <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
-      
-      <guid>https://www.cescoferraro.com/br/portifolio/org-loader/</guid>
+      <guid>https://www.cescoferraro.com/br/portifolio/guarida/</guid>
       <description>English Version only, sun.</description>
     </item>
     
@@ -64,10 +55,10 @@
     
     <item>
       <title>spotify.cescoferraro.xyz</title>
-      <link>https://www.cescoferraro.com/br/portifolio/spotify/</link>
+      <link>https://www.cescoferraro.com/br/portifolio/global/</link>
       <pubDate>Wed, 31 Aug 2016 03:55:41 -0300</pubDate>
       
-      <guid>https://www.cescoferraro.com/br/portifolio/spotify/</guid>
+      <guid>https://www.cescoferraro.com/br/portifolio/global/</guid>
       <description>English Version only, sun.</description>
     </item>
     

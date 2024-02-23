@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.cescoferraro.com/br/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,58 @@
                 rel="alternate"
                 hreflang="br"
                 href="https://www.cescoferraro.com/br/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/br/portifolio/checkout/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/checkout/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/checkout/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/br/tags/nil/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/tags/nil/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/tags/nil/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/br/portifolio/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/portifolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/portifolio/"
+                />
+  </url><url>
+    <loc>https://www.cescoferraro.com/br/tags/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.cescoferraro.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="br"
+                href="https://www.cescoferraro.com/br/tags/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/br/blog/</loc>
@@ -39,32 +91,6 @@
                 rel="alternate"
                 hreflang="br"
                 href="https://www.cescoferraro.com/br/tags/java/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/br/tags/nil/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/tags/nil/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/tags/nil/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/br/tags/</loc>
-    <lastmod>2017-09-21T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/tags/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/</loc>
@@ -106,56 +132,17 @@
                 href="https://www.cescoferraro.com/br/fixed/"
                 />
   </url><url>
-    <loc>https://www.cescoferraro.com/br/blog/travis-ssh/</loc>
-    <lastmod>2017-01-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/blog/travis-ssh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/blog/travis-ssh/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/br/portifolio/gulp-golang/</loc>
+    <loc>https://www.cescoferraro.com/br/portifolio/guarida/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/gulp-golang/"
+                href="https://www.cescoferraro.com/portifolio/guarida/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/gulp-golang/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/br/portifolio/org-loader/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/org-loader/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/org-loader/"
-                />
-  </url><url>
-    <loc>https://www.cescoferraro.com/br/portifolio/</loc>
-    <lastmod>2016-08-31T03:55:41-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/"
+                href="https://www.cescoferraro.com/br/portifolio/guarida/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/br/blog/software-developer-career/</loc>
@@ -171,17 +158,17 @@
                 href="https://www.cescoferraro.com/br/blog/software-developer-career/"
                 />
   </url><url>
-    <loc>https://www.cescoferraro.com/br/portifolio/spotify/</loc>
+    <loc>https://www.cescoferraro.com/br/portifolio/global/</loc>
     <lastmod>2016-08-31T03:55:41-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.cescoferraro.com/portifolio/spotify/"
+                href="https://www.cescoferraro.com/portifolio/global/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://www.cescoferraro.com/br/portifolio/spotify/"
+                href="https://www.cescoferraro.com/br/portifolio/global/"
                 />
   </url><url>
     <loc>https://www.cescoferraro.com/br/categories/</loc>

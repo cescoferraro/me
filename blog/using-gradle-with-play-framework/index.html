@@ -18,7 +18,6 @@
 <meta property="article:modified_time" content="2017-09-21T03:55:41-03:00" />
 
 
-
     <title>
 	
 	
@@ -68,11 +67,11 @@
 
 
     
-    <link rel="stylesheet" href="../../css/reset.css?t=2022-03-04%2015%3a48%3a48.936029217%20%2b0000%20UTC%20m%3d%2b0.044388155">
-    <link rel="stylesheet" href="../../css/pygments.css?t=2022-03-04%2015%3a48%3a48.936029217%20%2b0000%20UTC%20m%3d%2b0.044388155">
-    <link rel="stylesheet" href="../../css/main.css?t=2022-03-04%2015%3a48%3a48.936029217%20%2b0000%20UTC%20m%3d%2b0.044388155">
+    <link rel="stylesheet" href="../../css/reset.css?t=2024-02-23%2003%3a00%3a53.93656951%20%2b0000%20UTC%20m%3d%2b0.032273907">
+    <link rel="stylesheet" href="../../css/pygments.css?t=2024-02-23%2003%3a00%3a53.93656951%20%2b0000%20UTC%20m%3d%2b0.032273907">
+    <link rel="stylesheet" href="../../css/main.css?t=2024-02-23%2003%3a00%3a53.93656951%20%2b0000%20UTC%20m%3d%2b0.032273907">
     
-	<link rel="stylesheet" href="../../css/override.css?t=2022-03-04%2015%3a48%3a48.936029217%20%2b0000%20UTC%20m%3d%2b0.044388155">
+	<link rel="stylesheet" href="../../css/override.css?t=2024-02-23%2003%3a00%3a53.93656951%20%2b0000%20UTC%20m%3d%2b0.032273907">
     
 
 
@@ -88,7 +87,7 @@
 </head>
 
 
-    <body lang="en,br">
+    <body lang="en">
 	<section class="header">
 	    <div class="container">
 		<div class="content">
@@ -128,8 +127,16 @@
 			
 			    
 			
+			    
 			
-			<a href="../../"><img class="avatar" src="../../img/profile.png" srcset="https://www.cescoferraro.com/img/profile.png 1x"></a>
+			    
+			
+			    
+			
+			    
+			
+			
+			<a href="../../"><img class="avatar" alt="cesco-avatar" src="../../img/profile.png" srcset="https://www.cescoferraro.com/img/profile.png 1x"></a>
 		    
 		    <a href="../../"><div class="name">cescoferraro</div></a>
 		    
@@ -191,7 +198,7 @@
             
 		    
 			
-			    <a href="https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/"><img class="icon flag" src="../../img/flags/br.svg"></a>
+			    <a href="https://www.cescoferraro.com/br/blog/using-gradle-with-play-framework/"><img class="icon flag" alt="br-language-flag" src="../../img/flags/br.svg"></a>
 			
 		    
 		</div>
@@ -225,27 +232,27 @@
 Basic Play Framework gradle configuration. It uses 4 plugins.
 Play plugin needs the java one. The other 2 are IDE specific.</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;java&#39;</span>
-<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;play&#39;</span>
-<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;idea&#39;</span>
-<span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;eclipse&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;java&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;play&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;idea&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="n">apply</span> <span class="nl">plugin:</span> <span class="s1">&#39;eclipse&#39;</span></span></span></code></pre></div>
 </div>
 <p>
 Where the play plugins lives!</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">repositories</span> <span class="o">{</span>
-    <span class="n">mavenCentral</span><span class="o">()</span>
-    <span class="n">jcenter</span><span class="o">()</span>
-    <span class="n">maven</span> <span class="o">{</span>
-        <span class="n">name</span> <span class="s2">&#34;typesafe-maven-release&#34;</span>
-        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/maven-releases&#34;</span>
-    <span class="o">}</span>
-    <span class="n">ivy</span> <span class="o">{</span>
-        <span class="n">name</span> <span class="s2">&#34;typesafe-ivy-release&#34;</span>
-        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/ivy-releases&#34;</span>
-        <span class="n">layout</span> <span class="s2">&#34;ivy&#34;</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">repositories</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">mavenCentral</span><span class="o">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">jcenter</span><span class="o">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">maven</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">name</span> <span class="s2">&#34;typesafe-maven-release&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/maven-releases&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">ivy</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">name</span> <span class="s2">&#34;typesafe-ivy-release&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">url</span> <span class="s2">&#34;https://repo.typesafe.com/typesafe/ivy-releases&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">layout</span> <span class="s2">&#34;ivy&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 </div>
 <p>
 The dependencies of the project.</p>
@@ -253,21 +260,21 @@ The dependencies of the project.</p>
 Note the some of them are duplicates because Eclipse could not find
 the play dependencie at the classpath</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">dependencies</span> <span class="o">{</span>
-    <span class="n">play</span>    <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
-    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
-    <span class="n">play</span>    <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
-    <span class="n">compile</span> <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
-    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;4.11&#39;</span>
-
-    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
-    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
-
-    <span class="c1">// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
-</span><span class="c1"></span>    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
-    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
-    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">dependencies</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">play</span>    <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.amazonaws&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;aws-java-sdk-s3&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.11.197&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">play</span>    <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">compile</span> <span class="s1">&#39;javax.inject:javax.inject:1&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;junit&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;4.11&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;com.typesafe.play&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;play_2.11&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;2.5.8&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">play</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">compile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">testCompile</span> <span class="nl">group:</span> <span class="s1">&#39;org.slf4j&#39;</span><span class="o">,</span> <span class="nl">name:</span> <span class="s1">&#39;slf4j-simple&#39;</span><span class="o">,</span> <span class="nl">version:</span> <span class="s1">&#39;1.7.25&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 </div>
 <p>
 This block does 3 things. Sets the Play version. Turn on these Play
@@ -276,49 +283,49 @@ Controller. And copy the a Dockerfile to the dist folder every time
 you issue one of the distributions tasks implemented by the Gradle-Play
 plugin, so it can be used to deploy the artifacts generated.</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">model</span> <span class="o">{</span>
-    <span class="n">components</span> <span class="o">{</span>
-        <span class="n">play</span> <span class="o">{</span>
-            <span class="n">platform</span> <span class="nl">play:</span> <span class="s1">&#39;2.5.8&#39;</span><span class="o">,</span> <span class="nl">scala:</span> <span class="s1">&#39;2.11&#39;</span>
-            <span class="n">injectedRoutesGenerator</span> <span class="o">=</span> <span class="kc">true</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
-    <span class="n">distributions</span> <span class="o">{</span>
-        <span class="n">playBinary</span> <span class="o">{</span>
-            <span class="n">contents</span> <span class="o">{</span>
-                <span class="n">from</span><span class="o">(</span><span class="s2">&#34;Dockerfile&#34;</span><span class="o">)</span>
-            <span class="o">}</span>
-        <span class="o">}</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">model</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">components</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">play</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">platform</span> <span class="nl">play:</span> <span class="s1">&#39;2.5.8&#39;</span><span class="o">,</span> <span class="nl">scala:</span> <span class="s1">&#39;2.11&#39;</span>
+</span></span><span class="line"><span class="cl">            <span class="n">injectedRoutesGenerator</span> <span class="o">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="n">distributions</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">playBinary</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">contents</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">from</span><span class="o">(</span><span class="s2">&#34;Dockerfile&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">            <span class="o">}</span>
+</span></span><span class="line"><span class="cl">        <span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 </div>
 <p>eclipse support is very limited with the current version on the
 Play-Gradle plugin, but these somehow make it work, not perfectly, but
 working.</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">eclipse</span><span class="o">.</span><span class="na">classpath</span><span class="o">.</span><span class="na">plusConfigurations</span> <span class="o">+=</span> <span class="o">[</span> <span class="n">configurations</span><span class="o">.</span><span class="na">play</span> <span class="o">]</span>
-<span class="n">sourceSets</span> <span class="o">{</span>
-    <span class="n">main</span> <span class="o">{</span>
-	<span class="n">java</span> <span class="o">{</span>
-	    <span class="n">srcDir</span> <span class="s1">&#39;app&#39;</span>
-	<span class="o">}</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">eclipse</span><span class="o">.</span><span class="na">classpath</span><span class="o">.</span><span class="na">plusConfigurations</span> <span class="o">+=</span> <span class="o">[</span> <span class="n">configurations</span><span class="o">.</span><span class="na">play</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl"><span class="n">sourceSets</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">main</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	<span class="n">java</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">	    <span class="n">srcDir</span> <span class="s1">&#39;app&#39;</span>
+</span></span><span class="line"><span class="cl">	<span class="o">}</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 </div>
 <p>
 Intellij by the other hand is fully supported. All you need is to
 setup things nicely so it can find what it need within the Play
 scaffolding.</p>
 <div class="src src-groovy">
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="n">idea</span> <span class="o">{</span>
-    <span class="n">module</span> <span class="o">{</span>
-        <span class="n">sourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;app&#34;</span><span class="o">)</span>
-        <span class="n">testSourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;test&#34;</span><span class="o">)</span>
-        <span class="n">scopes</span><span class="o">.</span><span class="na">COMPILE</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[]]</span>
-        <span class="n">scopes</span><span class="o">.</span><span class="na">RUNTIME</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">],</span> <span class="nl">minus:</span><span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">]]</span>
-        <span class="n">scopes</span><span class="o">.</span><span class="na">TEST</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playTest</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">]]</span>
-    <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-groovy" data-lang="groovy"><span class="line"><span class="cl"><span class="n">idea</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">module</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;app&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">testSourceDirs</span> <span class="o">+=</span> <span class="n">file</span><span class="o">(</span><span class="s2">&#34;test&#34;</span><span class="o">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scopes</span><span class="o">.</span><span class="na">COMPILE</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[]]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scopes</span><span class="o">.</span><span class="na">RUNTIME</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">],</span> <span class="nl">minus:</span><span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">play</span><span class="o">]]</span>
+</span></span><span class="line"><span class="cl">        <span class="n">scopes</span><span class="o">.</span><span class="na">TEST</span> <span class="o">=</span> <span class="o">[</span><span class="nl">plus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playTest</span><span class="o">],</span> <span class="nl">minus:</span> <span class="o">[</span><span class="n">configurations</span><span class="o">.</span><span class="na">playRun</span><span class="o">]]</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 </div>
 
                 <br>
@@ -328,7 +335,7 @@ scaffolding.</p>
             <div class="disqus">
                 <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     
