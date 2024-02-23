@@ -51,7 +51,7 @@
 
     {{ $t := now }}
     <link rel="stylesheet" href="/css/reset.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
+    <link async rel="stylesheet" href="/css/pygments.css?t={{$t}}">
     <link rel="stylesheet" href="/css/main.css?t={{$t}}">
     {{range .Site.Params.extracssfiles}}
 	<link rel="stylesheet" href="{{.}}?t={{$t}}">

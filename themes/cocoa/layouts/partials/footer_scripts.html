@@ -1,13 +1,14 @@
 <!-- Google Analytics -->
 {{ template "_internal/google_analytics_async.html" . }}
 {{ if .Site.Params.highlightjs }}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js"></script>
+    <!--suppress JSUnresolvedLibraryURL -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.0.0/highlightjs-line-numbers.js"></script>
     {{ range .Site.Params.highlightjslanguages }}
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/{{.}}.min.js"></script>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/{{.}}.min.js"></script>
     {{ end }}
 
-    <script type="text/javascript">
+    <script defer type="text/javascript">
      hljs.initHighlightingOnLoad();
      if (window.outerWidth > 600){
 	 hljs.initLineNumbersOnLoad();
